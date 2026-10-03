@@ -1,0 +1,54 @@
+{
+  "id": "001-errores-anuncios",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "META ADS",
+      "titulo": "5 errores que hacen que tus anuncios <mark>NO vendan</mark>",
+      "subtitulo": "(el #3 lo comete casi todo el mundo)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Tus anuncios tienen likes… pero no clientes.",
+      "cuerpo": "No es mala suerte ni “el algoritmo”. Casi siempre es uno de estos 5 errores. Revisa cuántos estás cometiendo 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "titulo": "Usar el botón “Promocionar”",
+      "cuerpo": "Ese botón le pide a Meta likes y alcance, no clientes. Crea la campaña desde el <b>Administrador de anuncios</b> y elige un objetivo de mensajes, clientes potenciales o ventas."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "titulo": "Hablarle a todo el mundo",
+      "cuerpo": "Si tu anuncio es para todos, no es para nadie. Nombra a tu cliente en la primera línea: <b>“Dueño de barbería que quiere llenar la agenda…”</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "titulo": "Apagarlo a los 2 días",
+      "cuerpo": "Meta necesita tiempo para aprender a quién mostrarle tu anuncio. Dale <b>al menos 5 a 7 días</b> antes de decidir si funciona o no."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "titulo": "No tener una oferta clara",
+      "cuerpo": "“Conoce nuestros servicios” no vende. Di <b>qué gana la persona</b> y <b>qué tiene que hacer ahora</b>: escribir, reservar o comprar."
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "titulo": "Responder tarde",
+      "cuerpo": "Si te escriben y contestas 3 horas después, ese cliente ya le compró a otro. Apunta a responder en <b>menos de 5 minutos</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Quieres anuncios que traigan <mark>clientes</mark>, no solo likes?",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para revisarlo antes de tu próxima campaña 📌"
+    }
+  ],
+  "caption": "¿Cuántos de estos 5 errores estás cometiendo? 👀\n\nLa mayoría de los negocios no tiene un problema de producto: tiene anuncios mal configurados.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para tu próxima campaña.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

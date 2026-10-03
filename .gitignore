@@ -1,0 +1,8 @@
+.env
+node_modules/
+salida/
+logs/
+fotos/
+demos/
+*.bat
+*.vbs

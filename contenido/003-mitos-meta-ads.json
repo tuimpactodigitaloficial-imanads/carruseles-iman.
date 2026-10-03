@@ -1,0 +1,52 @@
+{
+  "id": "003-mitos-meta-ads",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "META ADS",
+      "titulo": "4 mitos de los anuncios que te hacen <mark>perder plata</mark>",
+      "subtitulo": "(¿cuántos te creíste?)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Lo que “todo el mundo sabe” sobre anuncios…",
+      "cuerpo": "…muchas veces está mal. Y te sale caro. Vamos uno por uno 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "MITO",
+      "titulo": "“Necesito mucho presupuesto”",
+      "cuerpo": "<b>Falso.</b> Puedes empezar con poco si el anuncio, la oferta y el objetivo están bien. El problema casi nunca es el monto."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "MITO",
+      "titulo": "“Mientras más segmente, mejor”",
+      "cuerpo": "<b>Falso.</b> Hoy Meta encuentra muy bien a tu cliente con públicos amplios. Segmentar de más suele <b>encarecer</b> los resultados."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "MITO",
+      "titulo": "“Tiene que verse profesional”",
+      "cuerpo": "<b>Falso.</b> Un video simple grabado con el celular, hablando directo a cámara, muchas veces <b>vende más</b> que un diseño perfecto."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "MITO",
+      "titulo": "“Si no vende en 2 días, no sirve”",
+      "cuerpo": "<b>Falso.</b> Los primeros días son de aprendizaje. Dale <b>al menos una semana</b> antes de decidir."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Deja los mitos y empieza a conseguir <mark>clientes</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "4 mitos de Meta Ads que te están costando plata 🚫\n\n¿Cuál de estos creías que era verdad? Cuéntame en los comentarios.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

@@ -1,0 +1,69 @@
+# Publica en Instagram el siguiente carrusel pendiente todos los días a las 20:00 de Chile.
+# GitHub solo entiende horario UTC y Chile cambia de horario en abril y septiembre, por eso corre
+# a las 23:00 y 00:00 UTC (más una de respaldo) y el programa decide: publica solo si en Chile
+# ya son las 20:00 y hoy todavía no se publicó.
+name: Carrusel diario
+
+on:
+  schedule:
+    - cron: "0 23 * * *"
+    - cron: "0 0 * * *"
+    - cron: "45 0 * * *"
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "diario = respeta la hora · ahora = publica ya · prueba = solo sube imágenes"
+        type: choice
+        options: [diario, ahora, prueba]
+        default: prueba
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-instagram
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Fuentes de emojis
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-color-emoji
+
+      - run: npm ci
+
+      - name: Publicar
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          ZONA_HORARIA: America/Santiago
+          HORA_PUBLICACION: "20:00"
+          CHROME_PATH: /usr/bin/google-chrome
+        run: |
+          case "${{ inputs.modo || 'diario' }}" in
+            prueba) node plantilla/publicar.mjs --prueba ;;
+            ahora)  node plantilla/publicar.mjs ;;
+            *)      node plantilla/publicar.mjs --diario ;;
+          esac
+
+      - name: Registrar lo publicado
+        run: |
+          if [ -n "$(git status --porcelain publicados.json)" ]; then
+            git config user.name "carrusel-bot"
+            git config user.email "carrusel-bot@users.noreply.github.com"
+            git add publicados.json
+            git commit -m "Publicado: $(date -u +%F)"
+            git push
+          fi

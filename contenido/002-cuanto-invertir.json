@@ -1,0 +1,59 @@
+{
+  "id": "002-cuanto-invertir",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "PRESUPUESTO",
+      "titulo": "¿Cuánto invertir en anuncios si <mark>recién empiezas?</mark>",
+      "subtitulo": "(la respuesta no es “lo más posible”)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "No hay un número mágico.",
+      "cuerpo": "Pero sí hay una forma de decidirlo sin tirar la plata. Son 5 pasos 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Calcula cuánto vale un cliente",
+      "cuerpo": "Mira cuánto ganas por venta. Ese número te dice <b>cuánto puedes pagar por conseguir un cliente</b> sin perder dinero."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Empieza con lo que puedes perder",
+      "cuerpo": "Elige un monto diario que no te quite el sueño si la primera prueba no funciona. <b>Empezar chico está bien.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Dale 7 días",
+      "cuerpo": "Meta necesita tiempo y datos para aprender. Si cambias todo cada día, <b>reinicias el aprendizaje</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Mide clientes, no likes",
+      "cuerpo": "Lo único que importa: <b>cuánto te cuesta cada mensaje, contacto o venta</b>. Los likes no pagan cuentas."
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "PASO",
+      "titulo": "Escala de a poco",
+      "cuerpo": "¿Funciona? Sube el presupuesto <b>alrededor de un 20%</b> cada pocos días. Si lo duplicas de golpe, puede desestabilizarse."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Invierte con un <mark>plan</mark>, no con miedo.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "¿Cuánto deberías invertir en anuncios? 💸\n\nNo es cuestión de gastar más: es saber cuánto vale un cliente para tu negocio.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

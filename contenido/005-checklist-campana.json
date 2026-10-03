@@ -1,0 +1,59 @@
+{
+  "id": "005-checklist-campana",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "CHECKLIST",
+      "titulo": "Revisa esto <mark>antes de lanzar</mark> tu campaña",
+      "subtitulo": "(te puede ahorrar mucha plata)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Muchas campañas fallan antes de empezar.",
+      "cuerpo": "No por el anuncio, sino por lo que no revisaron. Usa esta lista 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CHECK",
+      "titulo": "Objetivo correcto",
+      "cuerpo": "Si quieres clientes, elige <b>mensajes, clientes potenciales o ventas</b>. No “interacción” ni “alcance”."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CHECK",
+      "titulo": "Medición instalada",
+      "cuerpo": "Si vendes en tu web, ten el <b>píxel de Meta</b> configurado. Sin datos, Meta no sabe a quién buscar."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CHECK",
+      "titulo": "Al menos 3 anuncios",
+      "cuerpo": "Prueba <b>2 o 3 versiones</b> distintas. Deja que los resultados te digan cuál funciona, no tu gusto."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CHECK",
+      "titulo": "Oferta clara",
+      "cuerpo": "Alguien que no te conoce tiene que entender <b>qué vendes y por qué le conviene</b> en 3 segundos."
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "CHECK",
+      "titulo": "Alguien para responder",
+      "cuerpo": "Los mensajes van a llegar. Ten a alguien listo para <b>contestar rápido</b>, o perderás esos clientes."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Una buena campaña empieza <mark>antes</mark> de lanzarla.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "✅ Checklist antes de lanzar tu campaña de Meta Ads\n\nGuárdalo y revísalo cada vez que vayas a invertir en anuncios.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

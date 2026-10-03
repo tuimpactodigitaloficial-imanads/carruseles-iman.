@@ -1,0 +1,112 @@
+/* Identidad visual propuesta: IMAN ADS ACADEMY */
+:root {
+  --crema: #FFF4E2;
+  --blanco: #FFF4E2;
+  --negro: #121212;
+  --rojo: #FF4A1C;      /* color del imán: acento principal */
+  --gris: #5A5550;
+  --linea: rgba(18, 18, 18, .06);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #ddd; }
+
+.lamina {
+  width: 1080px; height: 1350px; position: relative; overflow: hidden;
+  background-color: var(--crema);
+  background-image:
+    linear-gradient(var(--linea) 2px, transparent 2px),
+    linear-gradient(90deg, var(--linea) 2px, transparent 2px);
+  background-size: 90px 90px;
+  color: var(--negro);
+  font-family: "Inter", sans-serif;
+  padding: 110px 96px;
+  display: flex; flex-direction: column;
+}
+.lamina.oscura { --linea: rgba(255, 244, 226, .05); background-color: var(--negro); color: var(--crema); }
+.lamina.oscura .iman { color: var(--rojo); }
+.lamina.oscura .iman rect { fill: var(--crema); }
+
+.contenido { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+
+h1, h2 { font-family: "Archivo", sans-serif; font-weight: 900; letter-spacing: -0.035em; line-height: .98; }
+mark { background: none; color: var(--rojo); }
+
+/* Portada */
+.etiqueta {
+  align-self: flex-start; background: var(--negro); color: var(--crema);
+  font: 800 30px "Archivo", sans-serif; letter-spacing: .12em;
+  padding: 14px 26px; border-radius: 100px; margin-bottom: 48px;
+}
+.portada-titulo { font-size: 128px; }
+.portada-titulo mark {
+  display: inline-block; color: var(--crema); background: var(--rojo);
+  padding: 0 18px 8px; transform: rotate(-2deg); border-radius: 10px; margin-top: 10px;
+}
+.sub { font-size: 40px; font-weight: 500; color: var(--gris); margin-top: 44px; }
+.desliza {
+  margin-top: 70px; align-self: flex-start;
+  font: 800 34px "Archivo", sans-serif; border: 4px solid var(--negro);
+  padding: 16px 34px; border-radius: 100px;
+}
+.desliza span { color: var(--rojo); }
+
+/* Texto / CTA */
+.grande { font-size: 104px; margin-bottom: 56px; }
+.cuerpo { font-size: 44px; line-height: 1.4; font-weight: 500; }
+.cuerpo b { font-weight: 700; background: linear-gradient(transparent 60%, rgba(255, 74, 28, .28) 60%); }
+.oscura .cuerpo b { color: var(--rojo); background: none; }
+
+/* Punto (error numerado) */
+.numero {
+  font: 900 300px "Archivo", sans-serif; line-height: .8; color: var(--rojo);
+  letter-spacing: -0.05em; margin-bottom: 20px;
+}
+.error { font: 800 30px "Archivo", sans-serif; letter-spacing: .3em; color: var(--gris); margin-bottom: 18px; }
+.t-punto h2 { font-size: 92px; }
+.linea { width: 120px; height: 10px; background: var(--negro); margin: 48px 0; border-radius: 10px; }
+
+/* CTA */
+.usuario {
+  align-self: flex-start; margin-top: 60px;
+  background: var(--rojo); color: var(--crema);
+  font: 800 44px "Archivo", sans-serif; padding: 18px 36px; border-radius: 100px;
+}
+.extra { margin-top: 40px; font-size: 34px; opacity: .7; }
+
+/* Pie */
+footer { display: flex; justify-content: space-between; align-items: center; font: 800 28px "Archivo", sans-serif; letter-spacing: .06em; }
+.marca { display: flex; align-items: center; gap: 16px; }
+.iman { width: 48px; height: 48px; color: var(--rojo); }
+.pag { opacity: .6; }
+.flecha { color: var(--rojo); opacity: 1; }
+
+/* Portada con foto: tarjeta inclinada abajo a la derecha */
+.portada-tarjeta .contenido { justify-content: flex-start; padding-top: 20px; }
+.portada-tarjeta .portada-titulo { font-size: 112px; max-width: 900px; }
+.foto-tarjeta {
+  position: absolute; right: 80px; bottom: 140px; width: 390px; height: 400px;
+  transform: rotate(4deg); border: 12px solid #fff; border-radius: 28px;
+  box-shadow: 0 30px 60px rgba(18, 18, 18, .25); background: #fff;
+}
+.foto-tarjeta img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; border-radius: 16px; display: block; }
+.globo {
+  position: absolute; left: -170px; bottom: 30px; transform: rotate(-6deg);
+  background: var(--negro); color: var(--crema); font: 800 34px "Archivo", sans-serif;
+  padding: 16px 28px; border-radius: 22px 22px 22px 4px; white-space: nowrap;
+}
+
+/* Portada con foto: oscura, foto arriba que se funde con el título */
+.portada-foto .foto-fondo {
+  position: absolute; top: 0; right: 0; width: 760px; height: 760px;
+  background-size: cover; background-position: 50% 20%;
+}
+.portada-foto .foto-fondo::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(to bottom, rgba(18,18,18,0) 45%, var(--negro) 100%),
+              linear-gradient(to right, var(--negro) 0%, rgba(18,18,18,0) 35%);
+}
+.portada-foto .contenido { position: relative; justify-content: flex-end; padding-bottom: 30px; }
+.portada-foto .portada-titulo { font-size: 100px; }
+.portada-foto .etiqueta { background: var(--rojo); }
+.portada-foto .sub { color: rgba(255, 244, 226, .7); margin-top: 28px; }
+.portada-foto footer { position: relative; }

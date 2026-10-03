@@ -1,0 +1,52 @@
+{
+  "id": "006-metricas",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "MÉTRICAS",
+      "titulo": "Las 4 métricas que <mark>sí importan</mark> en tus anuncios",
+      "subtitulo": "(y por qué los likes no están en la lista)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Deja de mirar los likes.",
+      "cuerpo": "Un anuncio con miles de “me gusta” puede no traerte ni un cliente. Mira estas 4 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "MÉTRICA",
+      "titulo": "CTR",
+      "cuerpo": "El porcentaje de personas que hace clic. Si es muy bajo, <b>tu gancho o tu imagen no llaman la atención</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "MÉTRICA",
+      "titulo": "Costo por resultado",
+      "cuerpo": "Cuánto pagas por cada mensaje, contacto o venta. <b>Es tu número principal.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "MÉTRICA",
+      "titulo": "Tasa de cierre",
+      "cuerpo": "De cada 10 personas que te escriben, ¿cuántas compran? Si son pocas, <b>el problema está en la venta</b>, no en el anuncio."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "MÉTRICA",
+      "titulo": "Costo por cliente",
+      "cuerpo": "Lo que gastaste dividido por los clientes que conseguiste. <b>Compáralo con lo que ganas por venta.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Mide lo que trae <mark>plata</mark>, no aplausos.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📊 Las 4 métricas que de verdad importan en Meta Ads\n\nLos likes se ven bien, pero no pagan las cuentas.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

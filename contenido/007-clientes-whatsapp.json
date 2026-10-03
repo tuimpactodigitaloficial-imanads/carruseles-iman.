@@ -1,0 +1,59 @@
+{
+  "id": "007-clientes-whatsapp",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "WHATSAPP",
+      "titulo": "Cómo conseguir clientes por <mark>WhatsApp</mark> con anuncios",
+      "subtitulo": "(paso a paso, sin enredos)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "WhatsApp es donde se cierran las ventas.",
+      "cuerpo": "Si tus anuncios llevan a la gente directo a tu chat, vendes más rápido. Así se hace 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Usa WhatsApp Business",
+      "cuerpo": "Ten tu número en <b>WhatsApp Business</b> y conéctalo a tu página de Facebook."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Elige el objetivo correcto",
+      "cuerpo": "En el Administrador de anuncios, crea una campaña que busque <b>mensajes</b> y elige WhatsApp como destino."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Anuncio con oferta",
+      "cuerpo": "Di qué ofreces y <b>por qué deberían escribirte hoy</b>: una consulta gratis, un precio especial, un cupo limitado."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Mensaje de bienvenida",
+      "cuerpo": "Configura un saludo con una pregunta, como <b>“¿Qué servicio te interesa?”</b>. Así la conversación arranca sola."
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "PASO",
+      "titulo": "Responde y haz seguimiento",
+      "cuerpo": "Contesta en minutos y, si no compran, <b>vuelve a escribirles</b> al día siguiente. Ahí se cierra la mayoría."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Convierte tu WhatsApp en una máquina de <mark>clientes</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📲 Cómo conseguir clientes por WhatsApp con anuncios\n\nEl paso que más se olvida es el 5. ¿Tú haces seguimiento?\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

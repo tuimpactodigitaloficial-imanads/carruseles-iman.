@@ -1,0 +1,59 @@
+{
+  "id": "004-anatomia-anuncio",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "ANUNCIOS",
+      "titulo": "Las 5 partes de un anuncio que <mark>sí vende</mark>",
+      "subtitulo": "(si le falta una, pierdes clientes)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Un anuncio no es una foto bonita con un precio.",
+      "cuerpo": "Es una mini conversación de venta. Y tiene 5 partes 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PARTE",
+      "titulo": "El gancho",
+      "cuerpo": "Lo primero que se ve o se escucha. Tiene <b>1 a 3 segundos</b> para que la persona deje de deslizar."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PARTE",
+      "titulo": "El problema",
+      "cuerpo": "Nombra el dolor de tu cliente con sus palabras: <b>“¿Publicas todos los días y no te escribe nadie?”</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PARTE",
+      "titulo": "La oferta",
+      "cuerpo": "Qué gana la persona contigo y por qué ahora. <b>Clara, concreta y fácil de entender.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PARTE",
+      "titulo": "La prueba",
+      "cuerpo": "Un resultado, una reseña, un antes y después. <b>Que otros digan que funciona</b> genera confianza."
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "PARTE",
+      "titulo": "La acción",
+      "cuerpo": "Di exactamente qué hacer: <b>“Escríbeme por WhatsApp”</b>, “Reserva aquí”. Si no lo pides, no pasa."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Tu anuncio tiene las <mark>5 partes</mark>?",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "La anatomía de un anuncio que vende 🧲\n\nRevisa tu último anuncio: ¿le faltaba alguna de estas partes?\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}
