@@ -1,11 +1,14 @@
-# Publica en Instagram el siguiente carrusel pendiente todos los días a las 20:00 de Chile.
+# Publica en Instagram dos carruseles al día: 13:00 y 20:00 de Chile.
 # GitHub solo entiende horario UTC y Chile cambia de horario en abril y septiembre, por eso corre
-# a las 23:00 y 00:00 UTC (más una de respaldo) y el programa decide: publica solo si en Chile
-# ya son las 20:00 y hoy todavía no se publicó.
+# en las dos horas UTC posibles de cada turno (más una de respaldo) y el programa decide:
+# publica solo si ya pasó un turno que todavía no tiene su publicación.
 name: Carrusel diario
 
 on:
   schedule:
+    - cron: "0 16 * * *"
+    - cron: "0 17 * * *"
+    - cron: "45 17 * * *"
     - cron: "0 23 * * *"
     - cron: "0 0 * * *"
     - cron: "45 0 * * *"
@@ -49,7 +52,7 @@ jobs:
           CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
           CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
           ZONA_HORARIA: America/Santiago
-          HORA_PUBLICACION: "20:00"
+          HORAS_PUBLICACION: "13:00,20:00"
           CHROME_PATH: /usr/bin/google-chrome
         run: |
           case "${{ inputs.modo || 'diario' }}" in

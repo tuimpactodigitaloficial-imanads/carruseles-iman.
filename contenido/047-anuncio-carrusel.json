@@ -1,0 +1,52 @@
+{
+  "id": "047-anuncio-carrusel",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "FORMATOS",
+      "titulo": "Cómo hacer un anuncio de carrusel que <mark>venda</mark>",
+      "subtitulo": "(como este que estás viendo)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El carrusel invita a deslizar.",
+      "cuerpo": "Y cada deslizada es más tiempo con tu marca. Así se arma 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "La primera tarjeta es el gancho",
+      "cuerpo": "Tiene que generar <b>curiosidad o identificarse con un problema</b>. Si no, nadie desliza."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Una idea por tarjeta",
+      "cuerpo": "No llenes cada una de texto. <b>Una idea clara por tarjeta.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Cuenta una historia",
+      "cuerpo": "Problema, solución, prueba, oferta. <b>Que cada tarjeta lleve a la siguiente.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Cierra con una acción",
+      "cuerpo": "La última tarjeta dice <b>qué hacer ahora</b>: escribir, comprar o reservar."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Si llegaste hasta aquí, <mark>funciona</mark> 😉",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🎠 Cómo hacer un anuncio de carrusel que venda\n\nLa prueba de que funciona: llegaste hasta el final.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

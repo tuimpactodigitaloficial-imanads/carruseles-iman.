@@ -1,0 +1,52 @@
+{
+  "id": "042-leads-no-contestan",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "LEADS",
+      "titulo": "“Dejan sus datos y <mark>no contestan</mark>”",
+      "subtitulo": "(4 razones y cómo arreglarlo)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Te llegan contactos, llamas y nadie responde.",
+      "cuerpo": "Casi siempre el problema está en una de estas 4 cosas 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "RAZÓN",
+      "titulo": "Llamas demasiado tarde",
+      "cuerpo": "Si pasan horas, ya se olvidaron de ti. <b>Contacta lo antes posible.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "RAZÓN",
+      "titulo": "Solo llamas",
+      "cuerpo": "Mucha gente no contesta números desconocidos. <b>Escribe también por WhatsApp.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "RAZÓN",
+      "titulo": "No saben quién eres",
+      "cuerpo": "Preséntate y recuerda el anuncio: <b>“Te escribo por la consulta que dejaste sobre…”</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "RAZÓN",
+      "titulo": "Te rindes muy rápido",
+      "cuerpo": "Muchas ventas se cierran después de <b>varios intentos de contacto</b>. Haz seguimiento."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "El contacto es solo el <mark>comienzo</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📵 Dejan sus datos y no contestan: qué hacer\n\nEl problema casi nunca es el anuncio.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

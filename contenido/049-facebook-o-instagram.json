@@ -1,0 +1,52 @@
+{
+  "id": "049-facebook-o-instagram",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "UBICACIONES",
+      "titulo": "¿Anunciar en Facebook o en Instagram? <mark>La respuesta</mark>",
+      "subtitulo": "(no es la que crees)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Muchos eligen una sola red “porque ahí está su público”.",
+      "cuerpo": "Pero con Meta Ads no siempre tienes que elegir 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CLAVE",
+      "titulo": "Es la misma herramienta",
+      "cuerpo": "Con el Administrador de anuncios puedes aparecer en <b>Facebook, Instagram, Messenger y más</b> desde una sola campaña."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CLAVE",
+      "titulo": "Ubicaciones automáticas",
+      "cuerpo": "Dejas que Meta <b>muestre tu anuncio donde rinde mejor</b>. Suele bajar el costo."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CLAVE",
+      "titulo": "Cuándo elegir a mano",
+      "cuerpo": "Si tu anuncio solo se ve bien en un formato, como historias, <b>puedes limitar las ubicaciones</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Revisa el desglose",
+      "cuerpo": "En los resultados puedes ver <b>dónde te fue mejor</b> y ajustar con datos, no con suposiciones."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Deja que los <mark>datos</mark> elijan por ti.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📲 ¿Anunciar en Facebook o en Instagram?\n\nCon Meta Ads puedes estar en los dos.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

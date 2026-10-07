@@ -1,0 +1,52 @@
+{
+  "id": "035-presupuesto-diario-total",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "PRESUPUESTO",
+      "titulo": "¿Presupuesto diario o total? <mark>Cuál elegir</mark>",
+      "subtitulo": "(la diferencia que pocos entienden)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Meta te pregunta cómo quieres gastar.",
+      "cuerpo": "Y la respuesta cambia cómo se reparte tu dinero 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "OPCIÓN",
+      "titulo": "Presupuesto diario",
+      "cuerpo": "Fijas cuánto gastar <b>por día</b>. Meta puede gastar un poco más algunos días y menos otros, pero promedia ese monto."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "OPCIÓN",
+      "titulo": "Presupuesto total",
+      "cuerpo": "Fijas cuánto gastar <b>en toda la campaña</b>, con fecha de inicio y fin. Meta lo reparte en ese periodo."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Cuándo usar el diario",
+      "cuerpo": "Para campañas <b>que corren siempre</b>, como captar clientes todo el mes."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Cuándo usar el total",
+      "cuerpo": "Para campañas <b>con fecha de término</b>: un evento, una promoción o el Black Friday."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Controla tu presupuesto o <mark>él te controla a ti</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "💰 ¿Presupuesto diario o total en Meta Ads?\n\nElegir bien te ayuda a no gastar de más.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "032-formatos-anuncio",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "FORMATOS",
+      "titulo": "Imagen, video o carrusel: <mark>¿cuál usar?</mark>",
+      "subtitulo": "(depende de lo que vendes)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "No hay un formato ganador para todos.",
+      "cuerpo": "Cada uno sirve para algo distinto. Así eliges 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "FORMATO",
+      "titulo": "Imagen",
+      "cuerpo": "Rápida de hacer y fácil de entender. <b>Ideal para ofertas simples</b> y productos que se explican solos."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "FORMATO",
+      "titulo": "Video",
+      "cuerpo": "Permite mostrar, explicar y generar confianza. <b>El mejor para servicios</b> y productos que hay que demostrar."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "FORMATO",
+      "titulo": "Carrusel",
+      "cuerpo": "Varias imágenes en un anuncio. <b>Perfecto para mostrar varios productos</b> o un paso a paso."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Mi consejo",
+      "cuerpo": "Prueba <b>al menos dos formatos</b> con el mismo mensaje y deja que los resultados decidan."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "El formato correcto hace que tu mensaje <mark>llegue</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🖼️ Imagen, video o carrusel: ¿cuál usar en tus anuncios?\n\n¿Cuál te ha funcionado mejor a ti?\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

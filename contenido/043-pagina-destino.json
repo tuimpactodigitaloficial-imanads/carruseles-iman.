@@ -1,0 +1,59 @@
+{
+  "id": "043-pagina-destino",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "WEB",
+      "titulo": "5 errores en tu página que <mark>desperdician</mark> tus anuncios",
+      "subtitulo": "(revísala hoy)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Pagas para que la gente llegue a tu web.",
+      "cuerpo": "Si la página no convence, ese dinero se pierde. Revisa estos puntos 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "ERROR",
+      "titulo": "Carga lenta",
+      "cuerpo": "Si tarda en abrir desde el celular, <b>la gente se va antes de verla</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "ERROR",
+      "titulo": "No coincide con el anuncio",
+      "cuerpo": "El anuncio promete algo y la página habla de otra cosa. <b>Genera desconfianza.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "ERROR",
+      "titulo": "No se ve bien en el celular",
+      "cuerpo": "La mayoría llega desde el teléfono. <b>Pruébala tú mismo en el tuyo.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "ERROR",
+      "titulo": "Demasiadas opciones",
+      "cuerpo": "Muchos botones confunden. <b>Una página, una acción principal.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "ERROR",
+      "titulo": "Sin pruebas de confianza",
+      "cuerpo": "Testimonios, reseñas, garantías. <b>Ayudan a decidir a quien no te conoce.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Tu anuncio trae la visita. Tu página <mark>cierra</mark> la venta.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🌐 5 errores en tu página que desperdician tus anuncios\n\nÁbrela ahora desde tu celular y revísala.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

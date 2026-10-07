@@ -18,6 +18,37 @@ const TEMAS = ["crema", "noche", "editorial"]; // también existen "tuit" y "nar
 const numero = parseInt(datos.id, 10) || 1;
 const tema = datos.tema || TEMAS[(numero - 1) % TEMAS.length];
 const avatar = pathToFileURL(join(RAIZ, "plantilla", "avatar.jpg")).href;
+// Portadas con imagen: se elige según la etiqueta del carrusel y, si no calza, se turna por número
+const VISUAL_POR_ETIQUETA = {
+  chat: ["WHATSAPP", "VENTAS", "LEADS", "COMUNIDAD", "SERVICIOS"],
+  metricas: ["NÚMEROS", "MÉTRICAS", "PRESUPUESTO", "OPTIMIZACIÓN", "ESCALAR", "TESTEO", "GLOSARIO", "MEDICIÓN", "PÍXEL", "META ADS"],
+};
+function visualDe(l) {
+  if (l.visual) return l.visual;
+  for (const [v, etiquetas] of Object.entries(VISUAL_POR_ETIQUETA)) if (etiquetas.includes(l.etiqueta)) return v;
+  return ["foto", "notificaciones", "texto"][numero % 3];
+}
+const img = (ruta) => pathToFileURL(join(RAIZ, "plantilla", ruta)).href;
+const VISUALES = {
+  chat: () => `<div class="visual v-chat"><div class="tel">
+      <div class="tel-cab"><span class="tel-av">C</span><div><b>Cliente nuevo</b><small>en línea</small></div></div>
+      <p class="burbuja entra">¡Hola! Vi tu anuncio 👋</p>
+      <p class="burbuja entra">¿Cuánto cuesta?</p>
+      <p class="burbuja sale">¡Hola! Claro, te cuento 😊</p>
+      <p class="burbuja entra">¡Me interesa! ¿Cuándo empezamos?</p></div></div>`,
+  metricas: () => `<div class="visual v-metricas"><div class="panel">
+      <div class="panel-cab"><b>Resultados de la campaña</b><span>Ejemplo</span></div>
+      <div class="fila"><span>Mensajes iniciados</span><b>127 <i class="sube">▲</i></b></div>
+      <div class="fila"><span>Costo por resultado</span><b>$1,84 <i class="baja">▼</i></b></div>
+      <div class="fila"><span>CTR</span><b>3,2%</b></div>
+      <div class="barras">${[30, 42, 38, 55, 61, 74, 90].map((h) => `<i style="height:${h}%"></i>`).join("")}</div></div></div>`,
+  notificaciones: () => `<div class="visual v-notis">
+      <div class="noti"><span class="app wa">✆</span><div><b>WhatsApp</b><p>Hola, vi tu anuncio y quiero más info</p></div><small>ahora</small></div>
+      <div class="noti"><span class="app ig">◎</span><div><b>Instagram</b><p>12 personas comentaron “CLIENTES”</p></div><small>2 min</small></div>
+      <div class="noti"><span class="app ok">✓</span><div><b>Ventas</b><p>¡Nueva venta confirmada! 🎉</p></div><small>5 min</small></div></div>`,
+  foto: () => `<div class="visual v-foto"><div class="foto-tarjeta"><img src="${img(`fotos/${(numero % 3) + 1}.jpg`)}"><span class="globo">Te lo explico 👇</span></div></div>`,
+};
+
 const cabeceraTuit = `<div class="tuit-cabecera"><img src="${avatar}"><div><b>Matias Rhayett <span class="verificado">✓</span></b><span>${datos.usuario}</span></div></div>`;
 
 const iman = `<svg viewBox="0 0 40 40" class="iman"><path d="M8 6h8v16a4 4 0 0 0 8 0V6h8v16a12 12 0 0 1-24 0z" fill="currentColor"/><rect x="8" y="6" width="8" height="6" fill="var(--blanco)"/><rect x="24" y="6" width="8" height="6" fill="var(--blanco)"/></svg>`;
@@ -41,6 +72,12 @@ function lamina(l, i) {
     return `<section class="lamina portada-tarjeta" id="l${i}">
       <div class="contenido"><div class="etiqueta">${l.etiqueta}</div><h1 class="portada-titulo">${l.titulo}</h1><p class="sub">${l.subtitulo}</p></div>
       <div class="foto-tarjeta"><img src="${src}"><span class="globo">${l.globo || "Te lo explico 👇"}</span></div>${pie(i)}</section>`;
+  } else if (l.tipo === "portada" && tema !== "tuit" && visualDe(l) !== "texto") {
+    return `<section class="lamina portada-visual t-portada" id="l${i}"><div class="contenido">
+      <div class="etiqueta">${l.etiqueta}</div>
+      <h1 class="portada-titulo">${l.titulo}</h1>
+      <p class="sub">${l.subtitulo}</p>
+      ${VISUALES[visualDe(l)]()}</div>${pie(i)}</section>`;
   } else if (l.tipo === "portada") {
     cuerpo = `
       <div class="etiqueta">${l.etiqueta}</div>

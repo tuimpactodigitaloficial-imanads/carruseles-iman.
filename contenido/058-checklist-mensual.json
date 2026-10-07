@@ -1,0 +1,59 @@
+{
+  "id": "058-checklist-mensual",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "CHECKLIST",
+      "titulo": "Revisa esto en tu cuenta de anuncios <mark>cada mes</mark>",
+      "subtitulo": "(15 minutos que valen oro)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Una vez al mes, haz una revisión completa.",
+      "cuerpo": "Así detectas problemas antes de que te cuesten caro 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CHECK",
+      "titulo": "Costo por cliente del mes",
+      "cuerpo": "Compáralo con el mes anterior. <b>¿Mejoró o empeoró?</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CHECK",
+      "titulo": "Anuncios ganadores",
+      "cuerpo": "Identifica los que mejor funcionaron <b>y crea nuevas versiones</b> de ellos."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CHECK",
+      "titulo": "Anuncios cansados",
+      "cuerpo": "Los que tienen frecuencia alta y resultados en baja. <b>Hora de reemplazarlos.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CHECK",
+      "titulo": "Accesos y pagos",
+      "cuerpo": "Revisa quién tiene acceso a tu cuenta y que <b>tu método de pago esté al día</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "CHECK",
+      "titulo": "Plan del próximo mes",
+      "cuerpo": "Fechas especiales, ofertas y presupuesto. <b>Que no te tome por sorpresa.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Una revisión al mes evita <mark>sorpresas</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "✅ Checklist mensual para tu cuenta de anuncios\n\nGuárdalo y úsalo el último día de cada mes.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

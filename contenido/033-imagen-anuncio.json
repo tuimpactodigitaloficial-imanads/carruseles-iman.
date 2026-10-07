@@ -1,0 +1,52 @@
+{
+  "id": "033-imagen-anuncio",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "CREATIVOS",
+      "titulo": "Cómo elegir la imagen de tu anuncio para que <mark>la miren</mark>",
+      "subtitulo": "(4 reglas simples)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La imagen es lo primero que se ve.",
+      "cuerpo": "Si no llama la atención, el texto no importa. Sigue estas reglas 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "REGLA",
+      "titulo": "Que se entienda en 1 segundo",
+      "cuerpo": "Una sola idea por imagen. <b>Si hay que pensarla, ya la pasaron.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "REGLA",
+      "titulo": "Caras que miran a cámara",
+      "cuerpo": "Las personas llaman la atención. <b>Una cara real genera más conexión</b> que un fondo vacío."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "REGLA",
+      "titulo": "Poco texto",
+      "cuerpo": "La imagen no es el lugar para explicar todo. <b>Una frase corta, como máximo.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "REGLA",
+      "titulo": "Contraste",
+      "cuerpo": "Colores que resalten en el feed. <b>Si se mezcla con todo, nadie la ve.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Una buena imagen <mark>frena</mark> el dedo.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📸 Cómo elegir la imagen de tu anuncio\n\n4 reglas para que tu anuncio no pase desapercibido.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

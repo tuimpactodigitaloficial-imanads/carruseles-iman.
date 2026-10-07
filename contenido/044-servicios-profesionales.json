@@ -1,0 +1,52 @@
+{
+  "id": "044-servicios-profesionales",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "SERVICIOS",
+      "titulo": "Anuncios para <mark>servicios profesionales</mark>",
+      "subtitulo": "(dentistas, abogados, contadores, coaches)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Vender un servicio no es como vender un producto.",
+      "cuerpo": "La gente necesita confiar en ti antes de contratarte. Haz esto 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "Muestra tu cara",
+      "cuerpo": "La gente contrata personas. <b>Un video tuyo explicando algo útil</b> genera confianza."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "Enseña antes de vender",
+      "cuerpo": "Responde una duda común en el anuncio. <b>Demuestras que sabes</b> sin decirlo."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Ofrece un primer paso fácil",
+      "cuerpo": "Una evaluación, una consulta inicial o un diagnóstico. <b>Algo que no requiera gran decisión.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Usa testimonios",
+      "cuerpo": "Casos reales de clientes, <b>respetando su privacidad</b>. Es la prueba más fuerte."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "En servicios, se vende <mark>confianza</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "👩‍⚕️ Anuncios para servicios profesionales\n\nEtiqueta a un profesional que necesite ver esto.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

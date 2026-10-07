@@ -1,0 +1,52 @@
+{
+  "id": "054-senales-agencia",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "AGENCIAS",
+      "titulo": "4 señales de que tus anuncios <mark>no están bien gestionados</mark>",
+      "subtitulo": "(revísalo con tu agencia)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Pagas a alguien por tus anuncios.",
+      "cuerpo": "¿Pero cómo sabes si está haciendo un buen trabajo? Fíjate en esto 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "SEÑAL",
+      "titulo": "No te muestra números",
+      "cuerpo": "Si te habla de “alcance” y “me gusta”, pero <b>nunca de clientes o costos</b>, ojo."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "SEÑAL",
+      "titulo": "Nunca cambia nada",
+      "cuerpo": "Los mismos anuncios por meses. <b>Una buena gestión prueba y mejora constantemente.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "SEÑAL",
+      "titulo": "No tienes acceso a tu cuenta",
+      "cuerpo": "Tú debes poder <b>ver tu cuenta publicitaria</b> cuando quieras."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "SEÑAL",
+      "titulo": "No sabe nada de tu negocio",
+      "cuerpo": "Si no conoce a tu cliente ni tu oferta, <b>difícilmente puede venderla</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Tu dinero merece <mark>resultados</mark> claros.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🚩 4 señales de que tus anuncios no están bien gestionados\n\n¿Te identificas con alguna?\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

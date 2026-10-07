@@ -1,0 +1,60 @@
+{
+  "id": "052-errores-black-friday",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "BLACK FRIDAY",
+      "titulo": "5 errores que arruinan tu <mark>Black Friday</mark>",
+      "subtitulo": "(evítalos esta semana)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Es la semana más competida del año.",
+      "cuerpo": "Todos quieren vender. Estos errores te dejan atrás 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "ERROR",
+      "titulo": "Lanzar los anuncios el mismo día",
+      "cuerpo": "Necesitan tiempo de revisión y aprendizaje. <b>Prográmalos antes.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "ERROR",
+      "titulo": "Descuentos falsos",
+      "cuerpo": "Subir el precio para después “bajarlo” <b>se nota y destruye la confianza</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "ERROR",
+      "titulo": "Hablarle solo a gente nueva",
+      "cuerpo": "Tus seguidores y clientes <b>son los que más rápido compran</b>. No los olvides."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "ERROR",
+      "titulo": "Una oferta confusa",
+      "cuerpo": "Si hay que leer letra chica, se van. <b>Una oferta, simple y clara.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "ERROR",
+      "titulo": "No tener cómo atender",
+      "cuerpo": "Los mensajes se multiplican. <b>Ten todo listo para responder rápido.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Que esta semana sea tu <mark>mejor</mark> semana del año.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🖤 5 errores que arruinan tu Black Friday\n\nEsta semana es clave. ¿Ya tienes todo listo?\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital",
+  "fecha": "2026-11-23"
+}

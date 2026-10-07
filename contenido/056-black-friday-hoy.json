@@ -1,0 +1,46 @@
+{
+  "id": "056-black-friday-hoy",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "BLACK FRIDAY",
+      "titulo": "Hoy es Black Friday: <mark>3 cosas</mark> que hacer ahora",
+      "subtitulo": "(para no dejar ventas en la mesa)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Hoy se juega todo.",
+      "cuerpo": "Si ya tienes tus anuncios corriendo, enfócate en esto 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "AHORA",
+      "titulo": "Responde todo rápido",
+      "cuerpo": "Hoy la gente compara y decide en minutos. <b>Quien responde primero, vende.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "AHORA",
+      "titulo": "Recuérdale a tu público",
+      "cuerpo": "Historias, publicaciones, mensajes a tus contactos. <b>Que nadie se olvide de tu oferta.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "AHORA",
+      "titulo": "Revisa tus números durante el día",
+      "cuerpo": "Si un anuncio funciona mucho mejor que otro, <b>apóyalo</b>. Si uno no funciona, ajústalo."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Que hoy sea un día <mark>récord</mark> 🖤",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🖤 Hoy es Black Friday: 3 cosas que hacer ahora\n\n¡Éxito con tus ventas de hoy!\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital",
+  "fecha": "2026-11-27"
+}

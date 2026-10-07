@@ -1,7 +1,7 @@
 // Publica en Instagram el siguiente carrusel pendiente de contenido/.
 // Uso: node plantilla/publicar.mjs            -> publica el siguiente
 //      node plantilla/publicar.mjs --prueba   -> renderiza y sube a Cloudinary, sin publicar
-//      node plantilla/publicar.mjs --diario   -> solo publica si en Chile ya son las 20:00 y hoy no se publicó
+//      node plantilla/publicar.mjs --diario   -> solo publica si ya pasó un horario de HORAS_PUBLICACION sin su publicación
 //                                               (para GitHub Actions, cuyo horario es UTC y cambia con el horario de verano)
 import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
@@ -67,27 +67,31 @@ async function renovarToken() {
 
 const publicados = existsSync(REGISTRO) ? JSON.parse(readFileSync(REGISTRO, "utf8")) : [];
 
+const partes = (fecha) => Object.fromEntries(new Intl.DateTimeFormat("en-CA", { timeZone: ZONA, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", hourCycle: "h23" })
+  .formatToParts(fecha).map((p) => [p.type, p.value]));
+const diaDe = (fecha) => { const d = partes(fecha); return `${d.year}-${d.month}-${d.day}`; };
+const ahora = partes(new Date());
+const hoy = diaDe(new Date());
+
 if (DIARIO) {
-  const partes = (fecha) => Object.fromEntries(new Intl.DateTimeFormat("en-CA", { timeZone: ZONA, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", hourCycle: "h23" })
-    .formatToParts(fecha).map((p) => [p.type, p.value]));
-  const ahora = partes(new Date());
-  const hoy = `${ahora.year}-${ahora.month}-${ahora.day}`;
-  const horaPublicacion = Number((env.HORA_PUBLICACION || "20:00").split(":")[0]);
-  if (Number(ahora.hour) < horaPublicacion) {
-    log(`Todavía no son las ${horaPublicacion}:00 en ${ZONA} (son las ${ahora.hour}). No se publica.`);
-    process.exit(0);
-  }
-  if (publicados.some((p) => { const d = partes(new Date(p.fecha)); return `${d.year}-${d.month}-${d.day}` === hoy; })) {
-    log(`Ya se publicó hoy (${hoy}). No se publica de nuevo.`);
+  // HORAS_PUBLICACION="13:00,20:00": a cada hora que ya pasó le corresponde una publicación del día
+  const horas = (env.HORAS_PUBLICACION || env.HORA_PUBLICACION || "20:00").split(",").map((h) => Number(h.trim().split(":")[0]));
+  const turnos = horas.filter((h) => Number(ahora.hour) >= h).length;
+  const hechasHoy = publicados.filter((p) => diaDe(new Date(p.fecha)) === hoy).length;
+  if (hechasHoy >= turnos) {
+    log(`Son las ${ahora.hour} h en ${ZONA}: van ${hechasHoy} publicación(es) hoy de ${turnos} que corresponden. No se publica.`);
     process.exit(0);
   }
 }
-const pendiente = readdirSync(join(RAIZ, "contenido"))
-  .filter((f) => f.endsWith(".json"))
+
+// Los carruseles con "fecha" (ej. Black Friday) salen ese día y no antes; el resto, en orden de número
+const candidatos = readdirSync(join(RAIZ, "contenido"))
+  .filter((f) => f.endsWith(".json") && !publicados.some((p) => p.archivo === f))
   .sort()
-  .find((f) => !publicados.some((p) => p.archivo === f));
+  .map((f) => ({ archivo: f, fecha: JSON.parse(readFileSync(join(RAIZ, "contenido", f), "utf8")).fecha }));
+const pendiente = (candidatos.find((c) => c.fecha && c.fecha <= hoy) || candidatos.find((c) => !c.fecha))?.archivo;
 if (!pendiente) {
-  log("No hay carruseles pendientes en contenido/");
+  log("No hay carruseles pendientes para hoy en contenido/");
   process.exit(1);
 }
 

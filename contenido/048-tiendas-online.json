@@ -1,0 +1,52 @@
+{
+  "id": "048-tiendas-online",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "E-COMMERCE",
+      "titulo": "4 tipos de anuncios que toda <mark>tienda online</mark> debería tener",
+      "subtitulo": "(para vender todos los días)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Una tienda online necesita más que un solo anuncio.",
+      "cuerpo": "Necesita anuncios para cada momento del cliente 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIPO",
+      "titulo": "Para gente nueva",
+      "cuerpo": "Muestra tu producto estrella y por qué es distinto. <b>El objetivo es que te conozcan.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIPO",
+      "titulo": "Para quien visitó y no compró",
+      "cuerpo": "Recuérdale lo que vio, con <b>una reseña o un incentivo</b> para terminar la compra."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIPO",
+      "titulo": "Para quien ya compró",
+      "cuerpo": "Productos complementarios o una recompra. <b>Vender a un cliente actual es más fácil.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIPO",
+      "titulo": "De catálogo",
+      "cuerpo": "Meta muestra automáticamente <b>los productos que cada persona miró</b>. Muy efectivo para tiendas con muchos productos."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Un anuncio para cada <mark>momento</mark> del cliente.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🛒 4 tipos de anuncios para tu tienda online\n\n¿Cuál de estos te falta?\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

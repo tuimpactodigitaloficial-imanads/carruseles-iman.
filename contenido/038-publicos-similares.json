@@ -1,0 +1,52 @@
+{
+  "id": "038-publicos-similares",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "PÚBLICOS",
+      "titulo": "Públicos similares: encuentra gente <mark>como tus clientes</mark>",
+      "subtitulo": "(explicado simple)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Tus mejores clientes tienen algo en común.",
+      "cuerpo": "Meta puede buscar a otras personas parecidas a ellos. Así funciona 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CLAVE",
+      "titulo": "Qué es",
+      "cuerpo": "Le das a Meta una lista de base, como tus clientes o quienes te escribieron, y <b>busca gente con características parecidas</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CLAVE",
+      "titulo": "Qué base usar",
+      "cuerpo": "Mientras mejor sea la base, mejor el resultado. <b>Tus compradores valen más que tus seguidores.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CLAVE",
+      "titulo": "Tamaño del público",
+      "cuerpo": "Un público más pequeño se parece más a tu base. <b>Uno más grande llega a más gente</b>, pero menos parecida."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Cuándo usarlo",
+      "cuerpo": "Cuando ya tienes <b>clientes o contactos suficientes</b> para que Meta tenga de dónde aprender."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Tus clientes te muestran a quién <mark>buscar</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "👥 Públicos similares explicados simple\n\nEncuentra gente parecida a tus mejores clientes.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

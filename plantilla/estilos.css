@@ -181,3 +181,79 @@ footer { display: flex; justify-content: space-between; align-items: center; fon
 .tema-tuit .lamina.oscura { background: var(--negro); }
 .tema-naranja .cuerpo b { background: none; text-decoration: underline 5px var(--crema); text-underline-offset: 8px; }
 .tema-naranja .lamina.oscura .cuerpo b { text-decoration: none; color: var(--rojo); }
+
+
+/* ============ PORTADAS CON IMAGEN (maquetas dibujadas con CSS) ============ */
+.portada-visual .contenido { justify-content: flex-start; padding-top: 10px; }
+.portada-visual .portada-titulo { font-size: 104px; }
+.portada-visual .sub { font-size: 36px; margin-top: 28px; }
+.visual { flex: 1; min-height: 430px; position: relative; margin-top: 30px; }
+.visual > * { font-family: "Inter", sans-serif; }
+
+/* Chat de WhatsApp en un celular */
+.v-chat .tel {
+  position: absolute; right: 0; bottom: -20px; width: 520px; padding: 0 0 28px;
+  background: #EFE7DD; border: 14px solid #121212; border-radius: 56px; transform: rotate(4deg);
+  box-shadow: 0 30px 60px rgba(18, 18, 18, .3); overflow: hidden;
+}
+.tel-cab { display: flex; align-items: center; gap: 18px; background: #075E54; color: #fff; padding: 26px 28px; margin-bottom: 20px; }
+.tel-cab b { display: block; font-size: 30px; }
+.tel-cab small { font-size: 22px; opacity: .8; }
+.tel-av { width: 58px; height: 58px; border-radius: 50%; background: #FF4A1C; display: grid; place-items: center; font: 800 28px "Archivo"; }
+.burbuja { margin: 10px 24px; padding: 16px 22px; border-radius: 22px; font-size: 28px; width: fit-content; max-width: 80%; color: #121212; box-shadow: 0 2px 2px rgba(0, 0, 0, .08); }
+.burbuja.entra { background: #fff; border-top-left-radius: 6px; }
+.burbuja.sale { background: #D9FDD3; margin-left: auto; border-top-right-radius: 6px; }
+
+/* Panel de resultados tipo Administrador de anuncios */
+.v-metricas .panel {
+  position: absolute; right: 0; bottom: -10px; width: 640px; background: #fff; color: #121212;
+  border-radius: 32px; padding: 34px 38px; transform: rotate(-3deg); box-shadow: 0 30px 60px rgba(18, 18, 18, .25);
+}
+.panel-cab { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; font-size: 30px; }
+.panel-cab span { font-size: 20px; text-transform: uppercase; letter-spacing: .1em; color: #8A8A8A; border: 2px solid #DDD; border-radius: 20px; padding: 4px 14px; }
+.fila { display: flex; justify-content: space-between; padding: 14px 0; border-bottom: 2px solid #F0F0F0; font-size: 28px; color: #555; }
+.fila b { color: #121212; font-size: 32px; }
+.sube, .baja { color: #1E9E5A; font-style: normal; }
+.barras { display: flex; align-items: flex-end; gap: 14px; height: 120px; margin-top: 24px; }
+.barras i { flex: 1; background: #FF4A1C; border-radius: 8px 8px 0 0; opacity: .85; }
+
+/* Notificaciones del celular */
+.v-notis { display: flex; flex-direction: column; justify-content: flex-end; gap: 18px; padding-bottom: 10px; }
+.noti {
+  display: flex; align-items: center; gap: 22px; background: rgba(255, 255, 255, .92); color: #121212;
+  border-radius: 30px; padding: 22px 28px; box-shadow: 0 16px 40px rgba(18, 18, 18, .15); font-size: 27px;
+}
+.noti:nth-child(2) { margin-left: 50px; }
+.noti:nth-child(3) { margin-left: 100px; }
+.noti div { flex: 1; }
+.noti b { font-size: 26px; }
+.noti p { margin-top: 4px; color: #333; }
+.noti small { color: #8A8A8A; font-size: 22px; align-self: flex-start; }
+.app { width: 64px; height: 64px; border-radius: 16px; display: grid; place-items: center; color: #fff; font-size: 34px; flex: none; }
+.app.wa { background: #25D366; }
+.app.ig { background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF); }
+.app.ok { background: #FF4A1C; }
+
+/* Tu foto en tarjeta (reutiliza .foto-tarjeta) */
+.v-foto .foto-tarjeta { right: 40px; bottom: 0; }
+
+/* Ajustes por diseño */
+.tema-noche .noti { background: rgba(255, 244, 226, .95); }
+.tema-editorial .portada-visual .portada-titulo { font-size: 112px; }
+/* Ajuste de tamaño: maquetas más grandes y sin pisar el pie */
+.visual { margin-bottom: 36px; }
+.v-chat .tel { bottom: 0; width: 600px; transform: rotate(4deg) scale(1.08); transform-origin: bottom right; }
+.burbuja { font-size: 31px; }
+.v-metricas .panel { bottom: 0; width: 760px; transform: rotate(-3deg) scale(1.05); transform-origin: bottom right; }
+.panel-cab { font-size: 34px; } .fila { font-size: 31px; } .fila b { font-size: 36px; } .barras { height: 150px; }
+.v-notis { padding-bottom: 0; gap: 22px; }
+.noti { font-size: 30px; padding: 26px 32px; } .noti b { font-size: 29px; }
+.v-foto .foto-tarjeta { bottom: 10px; width: 440px; height: 460px; }
+/* Las maquetas ocupan su propio espacio (no flotan encima del título): si no caben, el título se achica solo */
+.visual { flex: none; min-height: 0; display: flex; justify-content: flex-end; align-items: flex-end; margin-top: 34px; }
+.v-chat .tel, .v-metricas .panel, .v-foto .foto-tarjeta { position: relative; right: auto; bottom: auto; }
+.v-chat .tel { width: 600px; transform: rotate(3deg); margin-right: 10px; }
+.v-metricas .panel { width: 760px; transform: rotate(-2deg); }
+.v-foto .foto-tarjeta { width: 440px; height: 460px; margin-right: 40px; }
+.v-notis { display: flex; flex-direction: column; align-items: stretch; }
+.portada-visual .contenido { justify-content: space-between; }

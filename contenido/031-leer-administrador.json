@@ -1,0 +1,52 @@
+{
+  "id": "031-leer-administrador",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "META ADS",
+      "titulo": "Revisa tus anuncios en <mark>5 minutos</mark> al día",
+      "subtitulo": "(lo único que tienes que mirar)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "No necesitas pasar horas en el Administrador.",
+      "cuerpo": "Con revisar estas 4 cosas cada día, sabes si todo va bien 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "REVISA",
+      "titulo": "Cuánto gastaste",
+      "cuerpo": "Que el gasto vaya <b>según lo que planeaste</b>. Ni mucho más ni mucho menos."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "REVISA",
+      "titulo": "Cuántos resultados tuviste",
+      "cuerpo": "Mensajes, contactos o ventas. <b>Lo que realmente buscas.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "REVISA",
+      "titulo": "Cuánto te costó cada uno",
+      "cuerpo": "Compáralo con días anteriores. <b>Si sube mucho, algo cambió.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "REVISA",
+      "titulo": "La frecuencia",
+      "cuerpo": "Cuántas veces vio tu anuncio la misma persona. <b>Si sube demasiado, prepara un anuncio nuevo.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "5 minutos al día te ahorran <mark>mucha plata</mark> al mes.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "⏱️ Revisa tus anuncios en 5 minutos al día\n\nNo necesitas ser experto: solo mirar los números correctos.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

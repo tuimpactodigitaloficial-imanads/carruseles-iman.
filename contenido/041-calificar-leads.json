@@ -1,0 +1,52 @@
+{
+  "id": "041-calificar-leads",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "LEADS",
+      "titulo": "Cómo saber qué contactos <mark>sí van a comprar</mark>",
+      "subtitulo": "(antes de perder horas)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "No todos los que dejan sus datos son clientes.",
+      "cuerpo": "Si atiendes a todos igual, pierdes tiempo con quien no compra. Fíltralos así 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "Agrega preguntas al formulario",
+      "cuerpo": "Por ejemplo: <b>“¿Cuándo necesitas el servicio?”</b>. Quien responde “ya” va primero."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "Pregunta por el presupuesto",
+      "cuerpo": "Con opciones de rangos. <b>Así sabes si tu oferta le calza</b> antes de llamar."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Elige el formulario con más intención",
+      "cuerpo": "Meta permite formularios que piden <b>revisar y confirmar los datos</b>. Llegan menos, pero de mejor calidad."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Contacta rápido",
+      "cuerpo": "Un contacto llamado en los primeros minutos <b>tiene mucha más probabilidad</b> de responder."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Menos contactos, pero <mark>mejores</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📋 Cómo saber qué contactos sí van a comprar\n\nCalificar tus leads te ahorra horas cada semana.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

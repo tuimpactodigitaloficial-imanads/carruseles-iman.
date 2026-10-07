@@ -1,0 +1,52 @@
+{
+  "id": "039-mensaje-bienvenida",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "WHATSAPP",
+      "titulo": "El mensaje de bienvenida que <mark>no espanta</mark> clientes",
+      "subtitulo": "(con ejemplo para copiar)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El primer mensaje decide si la conversación sigue.",
+      "cuerpo": "Un saludo frío o un catálogo enorme hace que se vayan. Hazlo así 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Saluda y presenta",
+      "cuerpo": "<b>“¡Hola! Soy Matías de IMAN 👋”</b>. Que sepan que hay una persona del otro lado."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Agradece el contacto",
+      "cuerpo": "<b>“Gracias por escribirnos.”</b> Simple y cercano."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Haz una pregunta",
+      "cuerpo": "<b>“¿Qué te gustaría lograr con tu negocio?”</b> Así la persona responde y la conversación avanza."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "No mandes todo de una",
+      "cuerpo": "Nada de PDF gigantes ni listas de precios de entrada. <b>Primero entiende qué necesita.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "El primer mensaje abre o cierra la <mark>venta</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "👋 El mensaje de bienvenida que no espanta clientes\n\nConfigúralo en WhatsApp Business en 2 minutos.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

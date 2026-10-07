@@ -1,0 +1,52 @@
+{
+  "id": "046-errores-escritura-anuncio",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "COPY",
+      "titulo": "4 errores en el texto de tu anuncio que <mark>te restan ventas</mark>",
+      "subtitulo": "(muy comunes)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Un pequeño error en el texto cambia todo.",
+      "cuerpo": "Revisa si estás cometiendo alguno de estos 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "ERROR",
+      "titulo": "Hablar de ti, no del cliente",
+      "cuerpo": "“Somos líderes, tenemos 10 años…”. <b>Al cliente le importa qué gana él.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "ERROR",
+      "titulo": "Texto eterno sin respiro",
+      "cuerpo": "Un bloque gigante no se lee. <b>Usa frases cortas y espacios.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "ERROR",
+      "titulo": "Palabras técnicas",
+      "cuerpo": "Si tu cliente no las usa, <b>no las uses tú</b>. Habla como habla él."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "ERROR",
+      "titulo": "No decir qué hacer",
+      "cuerpo": "Sin una acción clara, la gente no actúa. <b>Termina siempre con una instrucción.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Escribe para tu cliente, no para <mark>impresionar</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "✍️ 4 errores en el texto de tu anuncio\n\n¿Cuál cometías? Sé honesto en los comentarios 😅\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}
