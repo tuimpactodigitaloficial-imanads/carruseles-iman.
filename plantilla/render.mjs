@@ -25,8 +25,21 @@ const VISUAL_POR_ETIQUETA = {
 function visualDe(l) {
   if (l.visual) return l.visual;
   for (const [v, etiquetas] of Object.entries(VISUAL_POR_ETIQUETA)) if (etiquetas.includes(l.etiqueta)) return v;
-  return ["comentarios", "notificaciones", "texto"][numero % 3];
+  return ["comentarios", "notificaciones", "checklist"][numero % 3];
 }
+const plano = (html) => html.replace(/<[^>]+>/g, "");
+const puntos = datos.laminas.filter((l) => l.tipo === "punto");
+// Estructura de portada y formato de láminas interiores: se turnan por número (distinto ciclo que el color),
+// así las combinaciones tardan en repetirse. El JSON puede fijarlas con "portada" y "interior".
+const ESTRUCTURAS = ["imagen", "numero", "lista", "bloque", "centro"];
+const INTERIORES = ["clasico", "tarjeta", "marca"];
+const portadaDe = (l) => {
+  let e = l.portada || datos.portada || ESTRUCTURAS[numero % ESTRUCTURAS.length];
+  if (e === "numero" && !/^\d+/.test(plano(l.titulo))) e = "lista";
+  if (e === "lista" && puntos.length < 3) e = "bloque";
+  return e;
+};
+const interior = datos.interior || INTERIORES[Math.floor((numero - 1) / 3) % INTERIORES.length]; // ciclo distinto al del color
 const img = (ruta) => pathToFileURL(join(RAIZ, "plantilla", ruta)).href;
 const VISUALES = {
   chat: () => `<div class="visual v-chat"><div class="tel">
@@ -41,10 +54,11 @@ const VISUALES = {
       <div class="fila"><span>Costo por resultado</span><b>$1,84 <i class="baja">▼</i></b></div>
       <div class="fila"><span>CTR</span><b>3,2%</b></div>
       <div class="barras">${[30, 42, 38, 55, 61, 74, 90].map((h) => `<i style="height:${h}%"></i>`).join("")}</div></div></div>`,
-  notificaciones: () => `<div class="visual v-notis">
-      <div class="noti"><span class="app wa">✆</span><div><b>WhatsApp</b><p>Hola, vi tu anuncio y quiero más info</p></div><small>ahora</small></div>
-      <div class="noti"><span class="app ig">◎</span><div><b>Instagram</b><p>12 personas comentaron “CLIENTES”</p></div><small>2 min</small></div>
-      <div class="noti"><span class="app ok">✓</span><div><b>Ventas</b><p>¡Nueva venta confirmada! 🎉</p></div><small>5 min</small></div></div>`,
+  notificaciones: () => `<div class="visual v-notis">${puntos.slice(0, 3).map((p, k) =>
+      `<div class="noti"><span class="app ${["ok", "ig", "wa"][k]}">${p.numero}</span><div><b>${p.etiqueta || "Punto"} ${p.numero}</b><p>${plano(p.titulo)}</p></div><small>${["ahora", "1 min", "3 min"][k]}</small></div>`).join("")}</div>`,
+  checklist: () => `<div class="visual v-check"><div class="lista-check">
+      <div class="check-cab">Antes de tu próxima campaña</div>
+      ${puntos.slice(0, 4).map((p, k) => `<div class="check ${k < 2 ? "hecho" : ""}"><span>${k < 2 ? "✓" : ""}</span>${plano(p.titulo)}</div>`).join("")}</div></div>`,
   comentarios: () => `<div class="visual v-comentarios"><div class="post">
       <div class="post-cab"><span class="post-logo">${iman}</span><b>${datos.usuario.replace("@", "")}</b><small>· Comentarios</small></div>
       ${[["camila.estudio", "CLIENTES 🙌"], ["barberia_elcorte", "CLIENTES"], ["dra.paz.dental", "¡Justo lo que necesitaba! CLIENTES"], ["tienda.nativa", "CLIENTES 🔥"]]
@@ -75,6 +89,30 @@ function lamina(l, i) {
     return `<section class="lamina portada-tarjeta" id="l${i}">
       <div class="contenido"><div class="etiqueta">${l.etiqueta}</div><h1 class="portada-titulo">${l.titulo}</h1><p class="sub">${l.subtitulo}</p></div>
       <div class="foto-tarjeta"><img src="${src}"><span class="globo">${l.globo || "Te lo explico 👇"}</span></div>${pie(i)}</section>`;
+  } else if (l.tipo === "portada" && tema !== "tuit" && portadaDe(l) === "numero") {
+    const n = plano(l.titulo).match(/^\d+/)[0];
+    return `<section class="lamina portada-numero t-portada" id="l${i}"><div class="contenido">
+      <div class="etiqueta">${l.etiqueta}</div>
+      <div class="gran-numero">${n}</div>
+      <h1 class="portada-titulo">${l.titulo.replace(/^\s*\d+\s*/, "")}</h1>
+      <p class="sub">${l.subtitulo}</p></div>${pie(i)}</section>`;
+  } else if (l.tipo === "portada" && tema !== "tuit" && portadaDe(l) === "lista") {
+    return `<section class="lamina portada-lista t-portada" id="l${i}"><div class="contenido">
+      <div class="etiqueta">${l.etiqueta}</div>
+      <h1 class="portada-titulo">${l.titulo}</h1>
+      <ol class="indice">${puntos.slice(0, 5).map((p, k) => `<li class="${k >= 3 ? "borroso" : ""}"><b>${p.numero}</b>${plano(p.titulo)}</li>`).join("")}</ol>
+      <div class="desliza">Desliza para verlos todos <span>→</span></div></div>${pie(i)}</section>`;
+  } else if (l.tipo === "portada" && tema !== "tuit" && portadaDe(l) === "bloque") {
+    return `<section class="lamina portada-bloque t-portada" id="l${i}">
+      <div class="bloque"><div class="etiqueta">${l.etiqueta}</div><h1 class="portada-titulo">${l.titulo}</h1></div>
+      <div class="contenido"><p class="sub">${l.subtitulo}</p><div class="flecha-grande">→</div></div>${pie(i)}</section>`;
+  } else if (l.tipo === "portada" && tema !== "tuit" && portadaDe(l) === "centro") {
+    return `<section class="lamina portada-centro t-portada" id="l${i}"><div class="contenido">
+      <div class="comillas">“</div>
+      <div class="etiqueta">${l.etiqueta}</div>
+      <h1 class="portada-titulo">${l.titulo}</h1>
+      <p class="sub">${l.subtitulo}</p>
+      <div class="desliza">Desliza <span>→</span></div></div>${pie(i)}</section>`;
   } else if (l.tipo === "portada" && tema !== "tuit" && visualDe(l) !== "texto") {
     return `<section class="lamina portada-visual t-portada" id="l${i}"><div class="contenido">
       <div class="etiqueta">${l.etiqueta}</div>
@@ -90,8 +128,9 @@ function lamina(l, i) {
   } else if (l.tipo === "texto") {
     cuerpo = `<h2 class="grande">${l.titulo}</h2><p class="cuerpo">${l.cuerpo}</p>`;
   } else if (l.tipo === "punto") {
+    const de = puntos.length ? ` <small>/ ${String(puntos.length).padStart(2, "0")}</small>` : "";
     cuerpo = `
-      <div class="numero">${l.numero}</div>
+      <div class="numero">${l.numero}${interior === "tarjeta" ? de : ""}</div>
       <div class="error">${l.etiqueta || "ERROR"}</div>
       <h2>${l.titulo}</h2>
       <div class="linea"></div>
@@ -104,6 +143,8 @@ function lamina(l, i) {
       <p class="extra">${l.extra}</p>`;
   }
   if (tema === "tuit" && l.tipo !== "cta") cuerpo = cabeceraTuit() + cuerpo;
+  if (interior === "tarjeta" && (l.tipo === "punto" || l.tipo === "texto")) cuerpo = `<div class="tarjeta">${cuerpo}</div>`;
+  if (interior === "marca" && l.tipo === "punto") cuerpo = `<div class="marca-agua">${l.numero}</div>` + cuerpo;
   return `<section class="${clase} t-${l.tipo}" id="l${i}"><div class="contenido">${cuerpo}</div>${pie(i)}</section>`;
 }
 
@@ -111,7 +152,7 @@ const html = `<!doctype html><html lang="es"><head><meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${pathToFileURL(join(RAIZ, "plantilla", "estilos.css")).href}">
-</head><body class="tema-${tema}">${datos.laminas.map(lamina).join("")}</body></html>`;
+</head><body class="tema-${tema} interior-${interior}">${datos.laminas.map(lamina).join("")}</body></html>`;
 
 const salida = join(RAIZ, "salida", datos.id);
 mkdirSync(salida, { recursive: true });
@@ -143,4 +184,4 @@ for (let i = 0; i < total; i++) {
   await el.screenshot({ path: join(salida, `lamina-${String(i + 1).padStart(2, "0")}.png`) });
 }
 await nav.close();
-console.log(`OK: ${total} láminas (diseño ${tema}) en ${salida}`);
+console.log(`OK: ${total} láminas (diseño ${tema}, portada ${portadaDe(datos.laminas[0])}, interior ${interior}) en ${salida}`);

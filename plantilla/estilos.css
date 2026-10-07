@@ -276,3 +276,82 @@ footer { display: flex; justify-content: space-between; align-items: center; fon
 .tuit-logo { width: 110px; height: 110px; border-radius: 50%; background: #121212; display: grid; place-items: center; flex: none; }
 .tuit-logo .iman { width: 64px; height: 64px; }
 .tuit-logo .iman rect { fill: #121212; }
+
+
+/* ================== VARIEDAD DE ESTRUCTURAS ================== */
+.lamina { --tarjeta: #FFFFFF; --bloque: var(--rojo); --bloque-texto: var(--crema); }
+.tema-noche .lamina { --tarjeta: #1F1F1F; }
+.tema-editorial .lamina { --bloque: var(--negro); --bloque-texto: #F4EFE6; }
+
+/* Portada NÚMERO: un número gigante como protagonista */
+.portada-numero .contenido { justify-content: flex-end; }
+.portada-numero .etiqueta { position: absolute; top: 110px; }
+.gran-numero { font: 900 560px/0.78 "Archivo", sans-serif; letter-spacing: -0.06em; color: var(--rojo); margin: 0 0 40px -12px; }
+.tema-noche .gran-numero { color: transparent; -webkit-text-stroke: 8px var(--rojo); }
+.tema-editorial .gran-numero { font: italic 400 600px/0.8 "DM Serif Display", serif; }
+.portada-numero .portada-titulo { font-size: 92px; }
+
+/* Portada LISTA: adelanta los puntos del carrusel */
+.portada-lista .contenido { justify-content: center; }
+.portada-lista .portada-titulo { font-size: 88px; margin-bottom: 40px; }
+.indice { list-style: none; display: flex; flex-direction: column; gap: 14px; margin-bottom: 40px; }
+.indice li { display: flex; align-items: baseline; gap: 22px; font: 600 38px "Inter", sans-serif; padding: 16px 0; border-bottom: 2px solid var(--linea-lista, rgba(18, 18, 18, .12)); }
+.tema-noche .indice li { --linea-lista: rgba(255, 244, 226, .15); }
+.indice b { font: 900 34px "Archivo", sans-serif; color: var(--rojo); min-width: 54px; }
+.indice li.borroso { filter: blur(7px); opacity: .55; }
+.portada-lista .desliza { font-size: 30px; }
+
+/* Portada BLOQUE: mitad superior de color sólido */
+.portada-bloque { padding: 0; }
+.portada-bloque .bloque { background: var(--bloque); color: var(--bloque-texto); padding: 110px 96px 80px; min-height: 760px; display: flex; flex-direction: column; justify-content: flex-end; }
+.portada-bloque .bloque .etiqueta { background: var(--bloque-texto); color: var(--bloque); margin-bottom: 40px; }
+.portada-bloque .portada-titulo { font-size: 116px; }
+.portada-bloque .portada-titulo mark { background: none; color: var(--negro); padding: 0; transform: none; display: inline; }
+.tema-editorial .portada-bloque .portada-titulo mark { color: var(--rojo); }
+.portada-bloque .contenido { padding: 50px 96px 0; flex-direction: row; justify-content: space-between; align-items: center; }
+.portada-bloque .sub { margin: 0; max-width: 640px; font-size: 40px; }
+.flecha-grande { width: 170px; height: 170px; border-radius: 50%; background: var(--negro); color: var(--crema); display: grid; place-items: center; font: 800 90px "Archivo", sans-serif; flex: none; }
+.tema-noche .flecha-grande { background: var(--rojo); }
+.portada-bloque footer { padding: 0 96px 110px; }
+
+/* Portada CENTRO: todo centrado, con comillas gigantes de fondo */
+.portada-centro .contenido { align-items: center; text-align: center; justify-content: center; position: relative; }
+.portada-centro .etiqueta { align-self: center; }
+.portada-centro .desliza { align-self: center; }
+.portada-centro .portada-titulo { font-size: 112px; }
+.comillas { position: absolute; top: -40px; left: 50%; transform: translateX(-50%); font: 900 700px/1 "DM Serif Display", serif; color: var(--rojo); opacity: .12; pointer-events: none; }
+
+/* Maqueta: checklist con los puntos del carrusel */
+.v-check .lista-check { width: 720px; background: var(--tarjeta); color: inherit; border-radius: 32px; padding: 34px 40px; transform: rotate(-2deg); box-shadow: 0 30px 60px rgba(18, 18, 18, .2); }
+.tema-crema .v-check .lista-check, .tema-editorial .v-check .lista-check { color: var(--negro); }
+.check-cab { font: 800 26px "Archivo", sans-serif; letter-spacing: .12em; text-transform: uppercase; opacity: .55; margin-bottom: 14px; }
+.check { display: flex; align-items: center; gap: 20px; font: 600 32px "Inter", sans-serif; padding: 14px 0; }
+.check span { width: 46px; height: 46px; border-radius: 12px; border: 3px solid currentColor; display: grid; place-items: center; flex: none; font-size: 28px; opacity: .5; }
+.check.hecho span { background: var(--rojo); border-color: var(--rojo); color: #fff; opacity: 1; }
+.check.hecho { text-decoration: line-through; text-decoration-color: var(--rojo); text-decoration-thickness: 3px; opacity: .7; }
+.v-notis .app { font: 900 26px "Archivo", sans-serif; }
+
+/* Interior TARJETA: el contenido va en una tarjeta, el número como “01 / 05” */
+.interior-tarjeta .t-punto .contenido, .interior-tarjeta .t-texto .contenido { justify-content: center; }
+.tarjeta { background: var(--tarjeta); border-radius: 40px; padding: 70px 64px; box-shadow: 0 30px 70px rgba(18, 18, 18, .12); }
+.tema-noche .tarjeta { box-shadow: none; border: 2px solid rgba(255, 244, 226, .08); }
+.interior-tarjeta .numero { font: 900 64px "Archivo", sans-serif; color: var(--rojo); -webkit-text-stroke: 0; margin-bottom: 18px; }
+.interior-tarjeta .numero small { font-size: 40px; opacity: .4; }
+.tema-editorial.interior-tarjeta .numero { font: italic 400 72px "DM Serif Display", serif; }
+.interior-tarjeta .t-punto h2 { font-size: 80px; }
+.interior-tarjeta .linea { margin: 36px 0; }
+.interior-tarjeta .grande { font-size: 88px; }
+
+/* Interior MARCA DE AGUA: número enorme y tenue de fondo, texto abajo */
+.interior-marca .t-punto .contenido { justify-content: flex-end; position: relative; }
+.marca-agua { position: absolute; top: -60px; right: -40px; font: 900 760px/0.8 "Archivo", sans-serif; letter-spacing: -0.06em; color: var(--rojo); opacity: .14; pointer-events: none; }
+.tema-editorial .marca-agua { font: italic 400 820px/0.8 "DM Serif Display", serif; }
+.interior-marca .t-punto .numero { display: none; }
+.interior-marca .t-punto h2 { font-size: 96px; }
+.interior-marca .t-texto .grande { font-size: 110px; }
+/* Ajustes: aire sobre el pie y tarjetas más grandes */
+.portada-numero .contenido, .interior-marca .t-punto .contenido { padding-bottom: 50px; }
+.tarjeta { padding: 80px 70px; min-height: 62%; display: flex; flex-direction: column; justify-content: center; }
+.interior-tarjeta .t-punto h2 { font-size: 92px; }
+.interior-tarjeta .cuerpo { font-size: 48px; }
+.comillas { opacity: .08; top: -80px; }
