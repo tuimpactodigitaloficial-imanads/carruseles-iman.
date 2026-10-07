@@ -14,7 +14,7 @@ const datos = JSON.parse(readFileSync(join(RAIZ, archivo), "utf8"));
 const total = datos.laminas.length;
 
 // El diseño se turna solo según el número del carrusel (001, 002…), salvo que el JSON pida un "tema"
-const TEMAS = ["crema", "editorial"]; // también existen "noche", "tuit" y "naranja" (se pueden pedir con "tema" en el JSON)
+const TEMAS = ["crema", "noche", "editorial"]; // también existen "tuit" y "naranja" (se pueden pedir con "tema" en el JSON)
 const numero = parseInt(datos.id, 10) || 1;
 const tema = datos.tema || TEMAS[(numero - 1) % TEMAS.length];
 const avatar = pathToFileURL(join(RAIZ, "plantilla", "avatar.jpg")).href;
