@@ -13,6 +13,13 @@ if (!archivo) throw new Error("Falta el JSON del carrusel");
 const datos = JSON.parse(readFileSync(join(RAIZ, archivo), "utf8"));
 const total = datos.laminas.length;
 
+// El diseño se turna solo según el número del carrusel (001, 002…), salvo que el JSON pida un "tema"
+const TEMAS = ["crema", "noche", "tuit", "naranja", "editorial"];
+const numero = parseInt(datos.id, 10) || 1;
+const tema = datos.tema || TEMAS[(numero - 1) % TEMAS.length];
+const avatar = pathToFileURL(join(RAIZ, "plantilla", "avatar.jpg")).href;
+const cabeceraTuit = `<div class="tuit-cabecera"><img src="${avatar}"><div><b>Matias Rhayett <span class="verificado">✓</span></b><span>${datos.usuario}</span></div></div>`;
+
 const iman = `<svg viewBox="0 0 40 40" class="iman"><path d="M8 6h8v16a4 4 0 0 0 8 0V6h8v16a12 12 0 0 1-24 0z" fill="currentColor"/><rect x="8" y="6" width="8" height="6" fill="var(--blanco)"/><rect x="24" y="6" width="8" height="6" fill="var(--blanco)"/></svg>`;
 
 const pie = (i, oscuro) => `
@@ -56,14 +63,15 @@ function lamina(l, i) {
       <div class="usuario">${datos.usuario}</div>
       <p class="extra">${l.extra}</p>`;
   }
+  if (tema === "tuit" && l.tipo !== "cta") cuerpo = cabeceraTuit + cuerpo;
   return `<section class="${clase} t-${l.tipo}" id="l${i}"><div class="contenido">${cuerpo}</div>${pie(i)}</section>`;
 }
 
 const html = `<!doctype html><html lang="es"><head><meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${pathToFileURL(join(RAIZ, "plantilla", "estilos.css")).href}">
-</head><body>${datos.laminas.map(lamina).join("")}</body></html>`;
+</head><body class="tema-${tema}">${datos.laminas.map(lamina).join("")}</body></html>`;
 
 const salida = join(RAIZ, "salida", datos.id);
 mkdirSync(salida, { recursive: true });
@@ -95,4 +103,4 @@ for (let i = 0; i < total; i++) {
   await el.screenshot({ path: join(salida, `lamina-${String(i + 1).padStart(2, "0")}.png`) });
 }
 await nav.close();
-console.log(`OK: ${total} láminas en ${salida}`);
+console.log(`OK: ${total} láminas (diseño ${tema}) en ${salida}`);

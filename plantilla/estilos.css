@@ -110,3 +110,74 @@ footer { display: flex; justify-content: space-between; align-items: center; fon
 .portada-foto .etiqueta { background: var(--rojo); }
 .portada-foto .sub { color: rgba(255, 244, 226, .7); margin-top: 28px; }
 .portada-foto footer { position: relative; }
+
+/* ============ DISEÑOS QUE SE TURNAN (clase en <body>) ============ */
+
+/* 2 · NOCHE: fondo negro, acento naranja; el cierre va en naranja */
+.tema-noche .lamina { background-color: var(--negro); color: var(--crema); --linea: rgba(255, 244, 226, .05); }
+.tema-noche .iman rect { fill: var(--negro); }
+.tema-noche .etiqueta { background: var(--rojo); }
+.tema-noche .desliza { border-color: var(--crema); }
+.tema-noche .sub, .tema-noche .error { color: rgba(255, 244, 226, .6); }
+.tema-noche .linea { background: var(--rojo); }
+.tema-noche .cuerpo b { color: var(--rojo); background: none; }
+.tema-noche .numero { color: transparent; -webkit-text-stroke: 4px var(--rojo); }
+.tema-noche .lamina.oscura { background-color: var(--rojo); color: var(--negro); --linea: rgba(18, 18, 18, .08); }
+.tema-noche .lamina.oscura mark, .tema-noche .lamina.oscura .cuerpo b { color: var(--crema); }
+.tema-noche .lamina.oscura .usuario { background: var(--negro); }
+.tema-noche .lamina.oscura .iman { color: var(--negro); }
+.tema-noche .lamina.oscura .iman rect { fill: var(--rojo); }
+
+/* 3 · TUIT: como una publicación de X/Twitter, letra normal y cabecera con foto */
+.tema-tuit .lamina { background: #FFFFFF; background-image: none; }
+.tema-tuit .contenido { justify-content: center; }
+.tuit-cabecera { display: flex; align-items: center; gap: 24px; margin-bottom: 48px; font: 400 34px "Inter", sans-serif; }
+.tuit-cabecera img { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; }
+.tuit-cabecera div { display: flex; flex-direction: column; line-height: 1.3; }
+.tuit-cabecera b { font-weight: 700; color: var(--negro); }
+.tuit-cabecera span { color: #6B6B6B; }
+.tuit-cabecera .verificado { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: #1D9BF0; color: #fff; font-size: 20px; vertical-align: 4px; }
+.tema-tuit h1, .tema-tuit h2 { font-family: "Inter", sans-serif; font-weight: 700; letter-spacing: -0.025em; line-height: 1.15; }
+.tema-tuit .portada-titulo { font-size: 92px; }
+.tema-tuit .portada-titulo mark { background: none; color: var(--rojo); padding: 0; transform: none; display: inline; }
+.tema-tuit .etiqueta { display: none; }
+.tema-tuit .desliza { border: 0; padding: 0; color: #1D9BF0; font: 600 36px "Inter", sans-serif; }
+.tema-tuit .numero { font: 700 44px "Inter", sans-serif; color: var(--rojo); letter-spacing: 0; margin-bottom: 4px; }
+.tema-tuit .numero::after { content: "/"; }
+.tema-tuit .error { display: none; }
+.tema-tuit .t-punto h2 { font-size: 76px; }
+.tema-tuit .grande { font-size: 84px; }
+.tema-tuit .linea { height: 2px; width: 100%; background: #E6E6E6; margin: 36px 0; }
+.tema-tuit .cuerpo { font-weight: 400; }
+
+/* 4 · NARANJA: fondo naranja, texto negro, resaltados en negro */
+.tema-naranja .lamina { background-color: var(--rojo); color: var(--negro); --linea: rgba(18, 18, 18, .08); }
+.tema-naranja .iman { color: var(--negro); }
+.tema-naranja .iman rect { fill: var(--rojo); }
+.tema-naranja .portada-titulo mark { background: var(--negro); color: var(--crema); }
+.tema-naranja mark { color: var(--crema); }
+.tema-naranja .sub, .tema-naranja .error { color: rgba(18, 18, 18, .7); }
+.tema-naranja .numero { color: var(--crema); }
+.tema-naranja .cuerpo b { background: linear-gradient(transparent 60%, rgba(255, 244, 226, .55) 60%); }
+.tema-naranja .flecha, .tema-naranja .desliza span { color: var(--crema); }
+.tema-naranja .lamina.oscura .iman { color: var(--rojo); }
+.tema-naranja .lamina.oscura .iman rect { fill: var(--negro); }
+.tema-naranja .lamina.oscura mark { color: var(--rojo); }
+.tema-naranja .lamina.oscura { background-color: var(--negro); color: var(--crema); }
+
+/* 5 · EDITORIAL: tipo revista, letra con serifa, sin cuadrícula */
+.tema-editorial .lamina { background: #F4EFE6; background-image: none; }
+.tema-editorial h1, .tema-editorial h2 { font-family: "DM Serif Display", serif; font-weight: 400; letter-spacing: -0.015em; line-height: 1.02; }
+.tema-editorial .portada-titulo { font-size: 124px; }
+.tema-editorial .portada-titulo mark { background: none; color: var(--rojo); font-style: italic; padding: 0; transform: none; display: inline; }
+.tema-editorial mark { font-style: italic; }
+.tema-editorial .etiqueta { background: none; color: var(--negro); border-top: 3px solid var(--negro); border-radius: 0; padding: 14px 0 0; letter-spacing: .25em; }
+.tema-editorial .desliza { border-width: 2px; font-family: "Inter", sans-serif; font-weight: 600; }
+.tema-editorial .numero { font: italic 400 240px "DM Serif Display", serif; letter-spacing: -0.02em; }
+.tema-editorial .linea { height: 2px; width: 100%; background: var(--negro); margin: 40px 0; }
+.tema-editorial .cuerpo b { background: none; font-style: italic; color: var(--rojo); }
+.tema-editorial .lamina.oscura { background: var(--negro); }
+.tema-editorial .lamina.oscura .etiqueta { color: var(--crema); }
+.tema-tuit .lamina.oscura { background: var(--negro); }
+.tema-naranja .cuerpo b { background: none; text-decoration: underline 5px var(--crema); text-underline-offset: 8px; }
+.tema-naranja .lamina.oscura .cuerpo b { text-decoration: none; color: var(--rojo); }
