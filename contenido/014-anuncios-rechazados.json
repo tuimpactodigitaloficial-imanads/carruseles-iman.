@@ -1,0 +1,57 @@
+{
+  "id": "014-anuncios-rechazados",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "POLÍTICAS",
+      "titulo": "Por qué Meta <mark>rechaza</mark> tus anuncios",
+      "subtitulo": "(y cómo evitarlo)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Un anuncio rechazado es tiempo perdido.",
+      "cuerpo": "Y si pasa muchas veces, tu cuenta puede quedar restringida. Estos son los motivos más comunes 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "MOTIVO",
+      "titulo": "Hablarle a la persona de sus características",
+      "cuerpo": "<b>“¿Tienes deudas?”</b> o <b>“¿Sufres de ansiedad?”</b> insinúan algo personal. Meta no lo permite."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "MOTIVO",
+      "titulo": "Prometer resultados irreales",
+      "cuerpo": "“Gana $10.000 en una semana” o “baja 10 kilos en 5 días”. <b>Las promesas exageradas se rechazan.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "MOTIVO",
+      "titulo": "Antes y después engañosos",
+      "cuerpo": "Sobre todo en salud y estética. <b>Muestra resultados reales</b> y no exageres."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "MOTIVO",
+      "titulo": "La página de destino no coincide",
+      "cuerpo": "Si el anuncio dice una cosa y la web otra, <b>Meta lo ve como engaño</b>."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Te lo rechazaron por error?",
+      "cuerpo": "Puedes pedir una <b>revisión</b> desde el Administrador de anuncios. A veces se aprueba sin cambiar nada."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Anuncios claros y honestos <mark>duran más</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🚫 Por qué Meta rechaza tus anuncios\n\nLa mayoría de los rechazos se evitan cambiando unas pocas palabras.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

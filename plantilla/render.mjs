@@ -79,6 +79,17 @@ const pag = await nav.newPage();
 await pag.setViewport({ width: 1080, height: 1350, deviceScaleFactor: 1 });
 await pag.goto(pathToFileURL(htmlPath).href, { waitUntil: "networkidle0" });
 await pag.evaluate(() => document.fonts.ready);
+// Si un título largo no cabe, achica de a poco la letra de títulos y cuerpo (hasta un 65%)
+const desbordes = await pag.evaluate(() =>
+  [...document.querySelectorAll(".lamina")].map((s, i) => {
+    const textos = [...s.querySelectorAll("h1, h2, .cuerpo, .sub")];
+    const base = textos.map((t) => parseFloat(getComputedStyle(t).fontSize));
+    for (let f = 0.95; s.scrollHeight > s.clientHeight + 2 && f >= 0.65; f -= 0.05) {
+      textos.forEach((t, k) => (t.style.fontSize = `${base[k] * f}px`));
+    }
+    return s.scrollHeight > s.clientHeight + 2 ? i + 1 : 0;
+  }).filter(Boolean));
+if (desbordes.length) console.warn(`AVISO: el texto no cabe en la(s) lámina(s) ${desbordes.join(", ")} de ${datos.id}`);
 for (let i = 0; i < total; i++) {
   const el = await pag.$(`#l${i}`);
   await el.screenshot({ path: join(salida, `lamina-${String(i + 1).padStart(2, "0")}.png`) });

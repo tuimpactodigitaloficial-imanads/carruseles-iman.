@@ -1,0 +1,52 @@
+{
+  "id": "011-preguntan-precio",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "VENTAS",
+      "titulo": "“¿Precio?” …y <mark>desaparecen</mark>",
+      "subtitulo": "(qué hacer para que no se te escapen)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Te pasa todos los días.",
+      "cuerpo": "Alguien ve tu anuncio, pregunta el precio, se lo dices y nunca más responde. Así lo evitas 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "No respondas solo con un número",
+      "cuerpo": "Un precio sin contexto parece caro. <b>Primero entiende qué necesita</b> la persona."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "Haz una pregunta de vuelta",
+      "cuerpo": "<b>“¡Claro! ¿Para qué lo necesitas?”</b> Así abres una conversación en vez de cerrarla."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Da el valor antes del precio",
+      "cuerpo": "Explica qué incluye y qué resultado obtiene. <b>Después</b> dices cuánto cuesta."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Haz seguimiento",
+      "cuerpo": "Si no responde, escríbele al día siguiente. <b>Mucha gente compra en el segundo mensaje.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "El anuncio trae la conversación. <mark>Tú</mark> cierras la venta.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "💬 Te preguntan el precio y desaparecen. ¿Qué hacer?\n\nEl problema casi nunca es el precio: es cómo lo das.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

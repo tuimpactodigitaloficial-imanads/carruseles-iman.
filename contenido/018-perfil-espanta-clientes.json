@@ -1,0 +1,59 @@
+{
+  "id": "018-perfil-espanta-clientes",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "PERFIL",
+      "titulo": "5 errores en tu perfil que <mark>espantan</mark> a los clientes de tu anuncio",
+      "subtitulo": "(revísalo hoy)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Muchos ven tu anuncio y entran a tu perfil.",
+      "cuerpo": "Si lo que encuentran no convence, se van. Revisa estos 5 puntos 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "ERROR",
+      "titulo": "Una bio confusa",
+      "cuerpo": "En una línea: <b>qué haces, para quién y qué consigue</b> la persona contigo."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "ERROR",
+      "titulo": "Sin enlace ni contacto",
+      "cuerpo": "Si no saben cómo escribirte o comprar, <b>no lo van a buscar</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "ERROR",
+      "titulo": "Destacadas vacías",
+      "cuerpo": "Usa las historias destacadas para <b>testimonios, precios y preguntas frecuentes</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "ERROR",
+      "titulo": "Última publicación de hace meses",
+      "cuerpo": "Un perfil abandonado <b>genera desconfianza</b>. Publica seguido, aunque sea simple."
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "ERROR",
+      "titulo": "No se ve quién está detrás",
+      "cuerpo": "La gente le compra a personas. <b>Muestra tu cara</b> y tu forma de trabajar."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Tu perfil es la <mark>segunda parte</mark> de tu anuncio.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "👀 5 errores en tu perfil que espantan clientes\n\nTu anuncio puede ser perfecto y perder ventas por tu perfil.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

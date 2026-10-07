@@ -1,0 +1,59 @@
+{
+  "id": "008-anuncio-quemado",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "META ADS",
+      "titulo": "5 señales de que tu anuncio <mark>se quemó</mark>",
+      "subtitulo": "(y cuándo cambiarlo antes de perder plata)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Ningún anuncio funciona para siempre.",
+      "cuerpo": "La gente se cansa de ver lo mismo. Estas señales te avisan que llegó la hora de cambiar 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "SEÑAL",
+      "titulo": "La frecuencia sube",
+      "cuerpo": "Si la misma persona ya vio tu anuncio <b>4 o 5 veces</b> en pocos días, empieza a ignorarlo."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "SEÑAL",
+      "titulo": "Cae el CTR",
+      "cuerpo": "Cada vez menos gente hace clic. Es la señal más clara de que <b>tu gancho ya no sorprende</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "SEÑAL",
+      "titulo": "Sube el costo por resultado",
+      "cuerpo": "Pagas más por el mismo mensaje o la misma venta. <b>Meta te está cobrando el cansancio.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "SEÑAL",
+      "titulo": "Aparecen comentarios negativos",
+      "cuerpo": "“Otra vez este anuncio”. Cuando la gente lo dice en voz alta, <b>ya estás tarde</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "SEÑAL",
+      "titulo": "Llegan contactos de menor calidad",
+      "cuerpo": "Te escriben, pero no compran. Tu anuncio quedó mostrándose a <b>gente que no es tu cliente</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Ten siempre un anuncio <mark>nuevo</mark> listo para reemplazarlo.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🔥 5 señales de que tu anuncio se quemó\n\nNo esperes a que deje de vender: ten el reemplazo listo antes.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

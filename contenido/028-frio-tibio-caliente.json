@@ -1,0 +1,50 @@
+{
+  "id": "028-frio-tibio-caliente",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "EMBUDO",
+      "titulo": "Público frío, tibio y caliente: <mark>a quién le hablas</mark>",
+      "subtitulo": "(el error de mostrarle lo mismo a todos)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "No todos están listos para comprar.",
+      "cuerpo": "Cada persona está en una etapa distinta. Y cada etapa necesita un anuncio distinto 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "ETAPA",
+      "titulo": "Frío",
+      "cuerpo": "No te conoce. <b>Muéstrale contenido que enseñe o entretenga</b>, no una venta directa."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "ETAPA",
+      "titulo": "Tibio",
+      "cuerpo": "Ya vio tu contenido o te sigue. <b>Muéstrale testimonios y cómo trabajas.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "ETAPA",
+      "titulo": "Caliente",
+      "cuerpo": "Te escribió, visitó tu web o casi compra. <b>Es el momento de la oferta.</b>"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El error más común",
+      "cuerpo": "Pedirle la venta a alguien que <b>no te conoce</b>. Es como pedir matrimonio en la primera cita."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "El mensaje correcto, a la persona <mark>correcta</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🌡️ Público frío, tibio y caliente\n\n¿Le estás hablando igual a todos? Ahí se pierden muchas ventas.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

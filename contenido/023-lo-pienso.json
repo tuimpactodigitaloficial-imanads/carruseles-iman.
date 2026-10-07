@@ -1,0 +1,52 @@
+{
+  "id": "023-lo-pienso",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "VENTAS",
+      "titulo": "“Lo pienso y te aviso”: <mark>4 respuestas</mark> que funcionan",
+      "subtitulo": "(sin presionar a nadie)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "“Lo pienso” casi nunca significa “lo pienso”.",
+      "cuerpo": "Suele esconder una duda que no se dijo. Así la descubres 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "RESPUESTA",
+      "titulo": "Pregunta qué falta",
+      "cuerpo": "<b>“¡Claro! ¿Hay algo que no te quedó claro?”</b> Muchas veces aparece la verdadera duda."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "RESPUESTA",
+      "titulo": "Aclara el precio",
+      "cuerpo": "<b>“¿Es por el presupuesto?”</b> Si es eso, puedes ofrecer otra opción o una forma de pago."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "RESPUESTA",
+      "titulo": "Muestra una prueba",
+      "cuerpo": "Envía un <b>testimonio de alguien con el mismo problema</b>. Reduce el miedo a equivocarse."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "RESPUESTA",
+      "titulo": "Acuerda un siguiente paso",
+      "cuerpo": "<b>“¿Te escribo el jueves para resolver lo que te falte?”</b> Así no queda en el aire."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Una duda resuelta es una <mark>venta</mark> cerrada.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🤔 “Lo pienso y te aviso”: 4 respuestas que funcionan\n\n¿Cuál usas tú? Cuéntamelo en los comentarios.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "010-texto-anuncio",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "COPY",
+      "titulo": "Cómo escribir el texto de tu anuncio en <mark>4 pasos</mark>",
+      "subtitulo": "(aunque no seas escritor)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "No necesitas ser creativo.",
+      "cuerpo": "Necesitas una estructura. Esta funciona para casi cualquier negocio 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Empieza por el problema",
+      "cuerpo": "La primera línea es lo único que se ve sin tocar “más”. <b>Úsala para el dolor de tu cliente.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Muestra la solución",
+      "cuerpo": "Explica en una o dos frases <b>cómo lo resuelves tú</b>. Simple, sin tecnicismos."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Da una prueba",
+      "cuerpo": "Un resultado, un número o una reseña real. <b>Que no dependa solo de tu palabra.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Pide la acción",
+      "cuerpo": "Termina diciendo qué hacer: <b>“Escríbeme ‘INFO’ por WhatsApp”</b>. Una sola acción, clara."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Un buen texto <mark>vende</mark> mientras duermes.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "✍️ Cómo escribir el texto de tu anuncio en 4 pasos\n\nProblema, solución, prueba y acción. Guárdalo como plantilla.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

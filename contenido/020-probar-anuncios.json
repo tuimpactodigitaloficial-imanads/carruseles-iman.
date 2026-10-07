@@ -1,0 +1,52 @@
+{
+  "id": "020-probar-anuncios",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "TESTEO",
+      "titulo": "Cómo probar anuncios <mark>sin perder plata</mark>",
+      "subtitulo": "(la forma simple de hacer pruebas A/B)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "No adivines qué anuncio funciona.",
+      "cuerpo": "Pruébalo. Pero hazlo bien, o los resultados te van a engañar 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "REGLA",
+      "titulo": "Cambia una sola cosa",
+      "cuerpo": "Si cambias imagen, texto y público a la vez, <b>no sabrás qué funcionó</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "REGLA",
+      "titulo": "Mismo presupuesto",
+      "cuerpo": "Para comparar de forma justa, <b>cada versión debe tener la misma inversión</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "REGLA",
+      "titulo": "Espera a tener datos",
+      "cuerpo": "No decidas el primer día. <b>Dale tiempo</b> para que cada versión tenga suficientes resultados."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "REGLA",
+      "titulo": "Quédate con el ganador",
+      "cuerpo": "Apaga el perdedor y <b>prueba una nueva versión</b> contra el ganador. Repite siempre."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Los mejores anunciantes no adivinan: <mark>prueban</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🧪 Cómo probar anuncios sin perder plata\n\nUna prueba bien hecha te ahorra meses de adivinar.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

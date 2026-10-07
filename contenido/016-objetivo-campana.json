@@ -1,0 +1,59 @@
+{
+  "id": "016-objetivo-campana",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "META ADS",
+      "titulo": "¿Qué objetivo de campaña <mark>elegir?</mark>",
+      "subtitulo": "(el error que te hace gastar de más)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El objetivo le dice a Meta qué buscar.",
+      "cuerpo": "Si eliges mal, Meta te trae exactamente lo que pediste… pero no lo que necesitas 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "OBJETIVO",
+      "titulo": "Reconocimiento",
+      "cuerpo": "Mostrar tu marca a mucha gente. Sirve para que te conozcan, <b>no para vender ya</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "OBJETIVO",
+      "titulo": "Tráfico",
+      "cuerpo": "Llevar gente a tu web. Ojo: <b>Meta busca clics, no compradores</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "OBJETIVO",
+      "titulo": "Interacción",
+      "cuerpo": "Incluye las campañas de <b>mensajes por WhatsApp o Instagram</b>. Ideal si vendes conversando."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "OBJETIVO",
+      "titulo": "Clientes potenciales",
+      "cuerpo": "Conseguir datos con un formulario. <b>Muy útil para servicios</b> que necesitan cotizar."
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "OBJETIVO",
+      "titulo": "Ventas",
+      "cuerpo": "Si tienes tienda online y el píxel instalado, <b>Meta busca a quien tiene más probabilidad de comprar</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Elige el objetivo según lo que <mark>realmente</mark> quieres.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🎯 ¿Qué objetivo de campaña elegir en Meta Ads?\n\nEl objetivo correcto puede cambiar por completo tus resultados.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

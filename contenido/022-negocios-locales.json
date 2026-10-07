@@ -1,0 +1,59 @@
+{
+  "id": "022-negocios-locales",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "LOCAL",
+      "titulo": "Anuncios para <mark>negocios locales</mark> que sí traen clientes",
+      "subtitulo": "(restaurantes, peluquerías, tiendas)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Tu cliente está a pocas cuadras.",
+      "cuerpo": "No tiene sentido mostrar tu anuncio a todo el país. Haz esto 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "Limita la ubicación",
+      "cuerpo": "Muestra tu anuncio solo a gente <b>cerca de tu negocio</b>, en el radio desde donde realmente te visitan."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "Muestra el lugar",
+      "cuerpo": "Tu local, tu equipo, tus productos reales. <b>La gente quiere saber a dónde va.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Usa WhatsApp",
+      "cuerpo": "Para reservas y consultas, <b>un mensaje es más fácil</b> que llenar un formulario."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Aprovecha tus reseñas",
+      "cuerpo": "Muestra opiniones reales de clientes de la zona. <b>Generan confianza inmediata.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "TIP",
+      "titulo": "Haz una oferta para nuevos",
+      "cuerpo": "Un descuento o un regalo en la primera visita <b>les da el empujón para conocerte</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Los anuncios también llenan <mark>locales</mark>, no solo tiendas online.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📍 Anuncios para negocios locales que sí traen clientes\n\nEtiqueta a un negocio de tu barrio que necesite ver esto.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

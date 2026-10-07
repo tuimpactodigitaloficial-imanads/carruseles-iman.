@@ -1,0 +1,52 @@
+{
+  "id": "013-remarketing",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "REMARKETING",
+      "titulo": "Remarketing: vuelve a encontrar a quien <mark>casi te compra</mark>",
+      "subtitulo": "(explicado simple)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La mayoría no compra la primera vez.",
+      "cuerpo": "El remarketing es mostrarle un anuncio especial a quien ya te conoce. Así se hace 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PÚBLICO",
+      "titulo": "Quiénes vieron tus videos",
+      "cuerpo": "Meta te deja crear un público con quienes vieron <b>gran parte de tus videos</b>. Ya mostraron interés."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PÚBLICO",
+      "titulo": "Quiénes interactuaron con tu perfil",
+      "cuerpo": "Gente que visitó tu Instagram, te escribió o guardó una publicación. <b>Ya te conocen.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PÚBLICO",
+      "titulo": "Quiénes visitaron tu web",
+      "cuerpo": "Con el píxel instalado, puedes mostrarles un anuncio a quienes <b>entraron y no compraron</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CLAVE",
+      "titulo": "Qué mostrarles",
+      "cuerpo": "No repitas el mismo anuncio. Muestra <b>testimonios, respuestas a dudas o una oferta</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Quien ya te conoce es tu cliente <mark>más barato</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🔁 Remarketing explicado simple\n\nVuelve a encontrar a la gente que casi te compra.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

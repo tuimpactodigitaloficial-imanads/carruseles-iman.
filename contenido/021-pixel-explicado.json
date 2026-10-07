@@ -1,0 +1,57 @@
+{
+  "id": "021-pixel-explicado",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "PÍXEL",
+      "titulo": "El píxel de Meta <mark>explicado simple</mark>",
+      "subtitulo": "(y por qué tu web lo necesita)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Si vendes en tu web, esto te importa.",
+      "cuerpo": "Sin el píxel, Meta trabaja a ciegas. Te explico qué es 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CLAVE",
+      "titulo": "Qué es",
+      "cuerpo": "Un pequeño código en tu web que <b>le avisa a Meta qué hace la gente</b>: si visita, agrega al carrito o compra."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CLAVE",
+      "titulo": "Para qué sirve",
+      "cuerpo": "Con esa información, Meta <b>aprende a mostrar tu anuncio a quien tiene más probabilidad de comprar</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CLAVE",
+      "titulo": "Te permite medir",
+      "cuerpo": "Sabes <b>cuántas ventas vinieron de tus anuncios</b>, no solo cuántos clics."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CLAVE",
+      "titulo": "Te permite hacer remarketing",
+      "cuerpo": "Puedes mostrar anuncios a quienes <b>visitaron tu web y no compraron</b>."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Y la API de conversiones?",
+      "cuerpo": "Es un complemento del píxel que envía los datos desde tu servidor. <b>Ayuda a medir mejor</b> cuando el navegador bloquea información."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Sin datos, Meta <mark>no sabe</mark> a quién buscar.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🧩 El píxel de Meta explicado simple\n\nSi vendes online y no lo tienes instalado, estás perdiendo información clave.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}
