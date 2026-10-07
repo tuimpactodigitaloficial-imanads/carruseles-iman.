@@ -17,7 +17,6 @@ const total = datos.laminas.length;
 const TEMAS = ["crema", "noche", "editorial"]; // también existen "tuit" y "naranja" (se pueden pedir con "tema" en el JSON)
 const numero = parseInt(datos.id, 10) || 1;
 const tema = datos.tema || TEMAS[(numero - 1) % TEMAS.length];
-const avatar = pathToFileURL(join(RAIZ, "plantilla", "avatar.jpg")).href;
 // Portadas con imagen: se elige según la etiqueta del carrusel y, si no calza, se turna por número
 const VISUAL_POR_ETIQUETA = {
   chat: ["WHATSAPP", "VENTAS", "LEADS", "COMUNIDAD", "SERVICIOS"],
@@ -26,7 +25,7 @@ const VISUAL_POR_ETIQUETA = {
 function visualDe(l) {
   if (l.visual) return l.visual;
   for (const [v, etiquetas] of Object.entries(VISUAL_POR_ETIQUETA)) if (etiquetas.includes(l.etiqueta)) return v;
-  return ["foto", "notificaciones", "texto"][numero % 3];
+  return ["comentarios", "notificaciones", "texto"][numero % 3];
 }
 const img = (ruta) => pathToFileURL(join(RAIZ, "plantilla", ruta)).href;
 const VISUALES = {
@@ -46,10 +45,14 @@ const VISUALES = {
       <div class="noti"><span class="app wa">✆</span><div><b>WhatsApp</b><p>Hola, vi tu anuncio y quiero más info</p></div><small>ahora</small></div>
       <div class="noti"><span class="app ig">◎</span><div><b>Instagram</b><p>12 personas comentaron “CLIENTES”</p></div><small>2 min</small></div>
       <div class="noti"><span class="app ok">✓</span><div><b>Ventas</b><p>¡Nueva venta confirmada! 🎉</p></div><small>5 min</small></div></div>`,
-  foto: () => `<div class="visual v-foto"><div class="foto-tarjeta"><img src="${img(`fotos/${(numero % 3) + 1}.jpg`)}"><span class="globo">Te lo explico 👇</span></div></div>`,
+  comentarios: () => `<div class="visual v-comentarios"><div class="post">
+      <div class="post-cab"><span class="post-logo">${iman}</span><b>${datos.usuario.replace("@", "")}</b><small>· Comentarios</small></div>
+      ${[["camila.estudio", "CLIENTES 🙌"], ["barberia_elcorte", "CLIENTES"], ["dra.paz.dental", "¡Justo lo que necesitaba! CLIENTES"], ["tienda.nativa", "CLIENTES 🔥"]]
+        .map(([u, t], k) => `<div class="com"><span class="com-av" style="background:${["#FF4A1C", "#121212", "#F2A541", "#5A5550"][k]}">${u[0].toUpperCase()}</span><p><b>${u}</b> ${t}</p><i>♡</i></div>`).join("")}
+    </div></div>`,
 };
 
-const cabeceraTuit = `<div class="tuit-cabecera"><img src="${avatar}"><div><b>Matias Rhayett <span class="verificado">✓</span></b><span>${datos.usuario}</span></div></div>`;
+const cabeceraTuit = () => `<div class="tuit-cabecera"><span class="tuit-logo">${iman}</span><div><b>IMAN ADS ACADEMY <span class="verificado">✓</span></b><span>${datos.usuario}</span></div></div>`;
 
 const iman = `<svg viewBox="0 0 40 40" class="iman"><path d="M8 6h8v16a4 4 0 0 0 8 0V6h8v16a12 12 0 0 1-24 0z" fill="currentColor"/><rect x="8" y="6" width="8" height="6" fill="var(--blanco)"/><rect x="24" y="6" width="8" height="6" fill="var(--blanco)"/></svg>`;
 
@@ -100,7 +103,7 @@ function lamina(l, i) {
       <div class="usuario">${datos.usuario}</div>
       <p class="extra">${l.extra}</p>`;
   }
-  if (tema === "tuit" && l.tipo !== "cta") cuerpo = cabeceraTuit + cuerpo;
+  if (tema === "tuit" && l.tipo !== "cta") cuerpo = cabeceraTuit() + cuerpo;
   return `<section class="${clase} t-${l.tipo}" id="l${i}"><div class="contenido">${cuerpo}</div>${pie(i)}</section>`;
 }
 
