@@ -1,0 +1,52 @@
+{
+  "id": "103-ia-anuncios",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "IA",
+      "titulo": "Cómo usar la IA para crear anuncios <mark>sin que suenen a robot</mark>",
+      "subtitulo": "(bien usada, ahorra horas)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La IA es una gran ayudante.",
+      "cuerpo": "Pero si copias y pegas, tus anuncios suenan iguales a todos. Úsala así 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "Dale contexto",
+      "cuerpo": "Tu producto, tu cliente y tu tono. <b>Sin contexto, responde genérico.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "Pide muchas opciones",
+      "cuerpo": "10 ganchos, 5 textos. <b>Elige lo mejor y mézclalo.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Edita con tu voz",
+      "cuerpo": "Cambia palabras por <b>las que usarías tú</b> o tu cliente."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Verifica todo",
+      "cuerpo": "La IA a veces inventa datos. <b>Revisa cifras y promesas</b> antes de publicar."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "La IA te ayuda. <mark>Tú</mark> decides.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🤖 Cómo usar la IA para crear anuncios\n\nBien usada, te ahorra horas.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

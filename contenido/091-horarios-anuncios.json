@@ -1,0 +1,52 @@
+{
+  "id": "091-horarios-anuncios",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "OPTIMIZACIÓN",
+      "titulo": "¿Mostrar tus anuncios solo en <mark>ciertos horarios</mark>?",
+      "subtitulo": "(lo que conviene saber)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Muchos creen que hay que elegir horarios.",
+      "cuerpo": "La mayoría de las veces conviene dejar que Meta decida. Te explico 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CLAVE",
+      "titulo": "Meta ya busca el mejor momento",
+      "cuerpo": "Muestra tu anuncio <b>cuando cree que la persona va a responder</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CLAVE",
+      "titulo": "Programar horarios tiene requisitos",
+      "cuerpo": "Solo puedes elegir horarios si usas <b>presupuesto total</b> de campaña."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CLAVE",
+      "titulo": "Cuándo sí sirve",
+      "cuerpo": "Si solo atiendes en horario laboral y <b>necesitas responder al instante</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CLAVE",
+      "titulo": "Revisa tus datos",
+      "cuerpo": "Mira en qué momentos <b>te escriben y te compran más</b> antes de restringir."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Deja que los <mark>datos</mark> decidan el horario.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🕐 ¿Mostrar tus anuncios solo en ciertos horarios?\n\nLo que conviene saber antes de programarlos.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "102-analizar-competencia",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "COMPETENCIA",
+      "titulo": "Qué mirar en los anuncios de tu <mark>competencia</mark>",
+      "subtitulo": "(para superarlos)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Ver anuncios ajenos sirve si sabes qué buscar.",
+      "cuerpo": "Fíjate en estos 4 puntos 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "MIRA",
+      "titulo": "Su gancho",
+      "cuerpo": "¿Cómo empiezan? <b>¿Qué problema mencionan primero?</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "MIRA",
+      "titulo": "Su oferta",
+      "cuerpo": "¿Qué prometen y a qué precio? <b>¿Qué puedes ofrecer tú que sea mejor?</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "MIRA",
+      "titulo": "Su formato",
+      "cuerpo": "Video, imagen o carrusel. <b>¿Qué usan más los que llevan tiempo?</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "MIRA",
+      "titulo": "Lo que no dicen",
+      "cuerpo": "Las dudas que no responden <b>son tu oportunidad</b> de diferenciarte."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "No copies a tu competencia: <mark>supérala</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🕵️ Qué mirar en los anuncios de tu competencia\n\nCuatro cosas para encontrar tu ventaja.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

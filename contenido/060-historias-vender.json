@@ -1,0 +1,52 @@
+{
+  "id": "060-historias-vender",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "HISTORIAS",
+      "titulo": "Cómo usar tus historias para <mark>vender más</mark>",
+      "subtitulo": "(sin parecer vendedor)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Las historias son tu vitrina diaria.",
+      "cuerpo": "Quien ve tus historias ya te sigue: es tu público más tibio. Úsalas así 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "Muestra el detrás de escena",
+      "cuerpo": "Cómo trabajas, tu día, tu equipo. <b>Genera cercanía y confianza.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "Usa encuestas y preguntas",
+      "cuerpo": "Las respuestas te dicen <b>qué le interesa a tu público</b> y abren conversaciones."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Comparte resultados de clientes",
+      "cuerpo": "Capturas, mensajes y reseñas. <b>La prueba social convence.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Haz una oferta clara de vez en cuando",
+      "cuerpo": "Con un enlace o un “escríbeme”. <b>Si nunca ofreces, nadie compra.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Tus historias pueden ser tu <mark>mejor vendedor</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📲 Cómo usar tus historias para vender más\n\n¿Cuántas historias subes al día?\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

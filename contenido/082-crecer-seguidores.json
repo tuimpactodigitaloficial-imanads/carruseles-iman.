@@ -1,0 +1,52 @@
+{
+  "id": "082-crecer-seguidores",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "CRECIMIENTO",
+      "titulo": "¿Pagar anuncios para <mark>ganar seguidores</mark>? Cuándo sí",
+      "subtitulo": "(y cuándo es plata perdida)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Más seguidores no siempre significa más ventas.",
+      "cuerpo": "Pero hay casos donde sí conviene. Te explico 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CLAVE",
+      "titulo": "Cuándo no conviene",
+      "cuerpo": "Si tu objetivo es vender ya, <b>paga por mensajes o ventas</b>, no por seguidores."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CLAVE",
+      "titulo": "Cuándo sí",
+      "cuerpo": "Si vendes con contenido (cursos, servicios, marca personal), <b>una audiencia propia vale mucho</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CLAVE",
+      "titulo": "Promociona tu mejor contenido",
+      "cuerpo": "Un reel que ya funcionó gratis <b>es el mejor candidato</b> para atraer seguidores."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CLAVE",
+      "titulo": "Mide la calidad",
+      "cuerpo": "¿Esos seguidores interactúan y escriben? <b>Si no, no sirven.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Seguidores que <mark>compran</mark>, no solo que suman.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📈 ¿Pagar anuncios para ganar seguidores?\n\nCuándo sí y cuándo es plata perdida.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "081-comenta-palabra",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "AUTOMATIZACIÓN",
+      "titulo": "Por qué funciona el “comenta <mark>CLIENTES</mark> y te lo envío”",
+      "subtitulo": "(y cómo usarlo tú)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Seguro lo has visto en muchas cuentas.",
+      "cuerpo": "No es casualidad: esta estrategia tiene varias ventajas 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CLAVE",
+      "titulo": "Más comentarios, más alcance",
+      "cuerpo": "Instagram muestra más las publicaciones <b>con más interacción</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CLAVE",
+      "titulo": "Abre una conversación",
+      "cuerpo": "Al enviar el recurso por mensaje, <b>quedas en contacto directo</b> con esa persona."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CLAVE",
+      "titulo": "Filtra a los interesados",
+      "cuerpo": "Quien comenta <b>levanta la mano</b>: está interesado en tu tema."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CLAVE",
+      "titulo": "Se puede automatizar",
+      "cuerpo": "Herramientas como <b>ManyChat</b> envían el mensaje solas apenas alguien comenta."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Quieres probarlo? Comenta <mark>CLIENTES</mark> 😉",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🤖 Por qué funciona el “comenta y te lo envío”\n\nLa estrategia detrás de esta publicación.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

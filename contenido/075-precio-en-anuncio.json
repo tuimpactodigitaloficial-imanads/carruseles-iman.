@@ -1,0 +1,52 @@
+{
+  "id": "075-precio-en-anuncio",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "OFERTA",
+      "titulo": "¿Poner el precio en el anuncio? <mark>Depende</mark>",
+      "subtitulo": "(te explico cuándo sí)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Es una de las dudas más comunes.",
+      "cuerpo": "No hay una sola respuesta, pero sí una forma de decidir 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CLAVE",
+      "titulo": "Sí, si tu precio es atractivo",
+      "cuerpo": "Si es una ventaja frente a tu competencia, <b>muéstralo sin miedo</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CLAVE",
+      "titulo": "Sí, si quieres filtrar",
+      "cuerpo": "Mostrar el precio <b>espanta a quien no puede pagarlo</b> y ahorra tiempo."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CLAVE",
+      "titulo": "No, si necesitas explicar el valor",
+      "cuerpo": "Servicios caros o personalizados <b>necesitan contexto antes del precio</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CLAVE",
+      "titulo": "Prueba las dos versiones",
+      "cuerpo": "Un anuncio con precio y otro sin precio. <b>Que los resultados decidan.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "El precio también <mark>comunica</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "💲 ¿Poner el precio en el anuncio?\n\n¿Tú lo muestras o no? Te leo.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

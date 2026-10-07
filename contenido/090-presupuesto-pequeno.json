@@ -1,0 +1,52 @@
+{
+  "id": "090-presupuesto-pequeno",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "PRESUPUESTO",
+      "titulo": "Cómo aprovechar un <mark>presupuesto pequeño</mark>",
+      "subtitulo": "(sin desperdiciarlo)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Con poco presupuesto, cada peso cuenta.",
+      "cuerpo": "Estos errores hacen que un presupuesto chico no rinda 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "No lo dividas en muchas campañas",
+      "cuerpo": "Con poco dinero, <b>concéntralo en una sola campaña</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "No apuntes a todo el país",
+      "cuerpo": "Si vendes local, <b>limita la ubicación</b>. No pagues por gente que no te puede comprar."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Usa tu mejor contenido",
+      "cuerpo": "Prueba primero <b>lo que ya funcionó gratis</b> en tu perfil."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Apunta a mensajes",
+      "cuerpo": "Con poco presupuesto, <b>una conversación directa</b> es la forma más rápida de vender."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Poco presupuesto, bien usado, <mark>sí funciona</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "💸 Cómo aprovechar un presupuesto pequeño\n\nNo necesitas mucho dinero para empezar.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "094-nombrar-campanas",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "ORDEN",
+      "titulo": "Cómo nombrar tus campañas para <mark>no perderte</mark>",
+      "subtitulo": "(un sistema simple)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "“Campaña nueva 3 (copia)” no le sirve a nadie.",
+      "cuerpo": "Con un sistema de nombres, encuentras todo en segundos 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Campaña: objetivo y oferta",
+      "cuerpo": "Ejemplo: <b>“Mensajes · Clase de prueba”</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Conjunto: público y ubicación",
+      "cuerpo": "Ejemplo: <b>“Amplio · Santiago · 25-45”</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Anuncio: formato y ángulo",
+      "cuerpo": "Ejemplo: <b>“Video · Testimonio Camila”</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Agrega la fecha",
+      "cuerpo": "Al inicio o al final: <b>“2026-11”</b>. Así sabes qué es nuevo y qué es viejo."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Orden hoy, <mark>claridad</mark> mañana.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🗂️ Cómo nombrar tus campañas para no perderte\n\nUn sistema simple que te va a ahorrar tiempo.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

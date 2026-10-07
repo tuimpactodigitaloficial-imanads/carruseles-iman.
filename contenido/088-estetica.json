@@ -1,0 +1,52 @@
+{
+  "id": "088-estetica",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "RUBROS",
+      "titulo": "Anuncios para <mark>centros de estética</mark>",
+      "subtitulo": "(sin que Meta te los rechace)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La estética vende muy bien en redes.",
+      "cuerpo": "Pero es de los rubros con reglas más estrictas. Hazlo así 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "Evita hacer sentir mal",
+      "cuerpo": "Nada de “¿Odias tus arrugas?”. <b>Habla del beneficio, no del defecto.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "Cuidado con el antes y después",
+      "cuerpo": "Muchos se rechazan. <b>Muestra el proceso, el lugar y la experiencia.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Genera confianza",
+      "cuerpo": "Tus certificaciones, tu equipo y tu local. <b>La gente quiere sentirse segura.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Ofrece una evaluación",
+      "cuerpo": "Gratis o a bajo costo. <b>Es el primer paso más fácil</b> para un cliente nuevo."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Vende <mark>bienestar</mark>, no inseguridad.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "💆 Anuncios para centros de estética\n\nCómo anunciar sin que Meta te rechace.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

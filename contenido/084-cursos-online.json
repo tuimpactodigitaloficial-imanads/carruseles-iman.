@@ -1,0 +1,52 @@
+{
+  "id": "084-cursos-online",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "RUBROS",
+      "titulo": "Anuncios para vender <mark>cursos online</mark>",
+      "subtitulo": "(lo que sí funciona)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Vender un curso es vender una transformación.",
+      "cuerpo": "Nadie compra “12 módulos”. Compran un resultado 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "Vende el resultado",
+      "cuerpo": "No el temario: <b>lo que la persona logra</b> al terminar."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "Enseña algo gratis primero",
+      "cuerpo": "Una clase, una guía o un webinar. <b>Demuestra que sabes enseñar.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Usa testimonios de alumnos",
+      "cuerpo": "Lo que lograron ellos <b>es la mejor prueba</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Responde las objeciones",
+      "cuerpo": "“No tengo tiempo”, “¿Sirve para mí?”. <b>Respóndelas en tus anuncios.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Vende la <mark>transformación</mark>, no el temario.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🎓 Anuncios para vender cursos online\n\nLo que sí funciona para infoproductos.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

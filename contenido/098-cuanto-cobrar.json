@@ -1,0 +1,52 @@
+{
+  "id": "098-cuanto-cobrar",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "FREELANCERS",
+      "titulo": "¿Cuánto cobrar por gestionar anuncios? <mark>3 formas</mark>",
+      "subtitulo": "(con sus pros y contras)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Es la pregunta que más me hacen.",
+      "cuerpo": "No hay un precio único, pero sí formas de cobrar 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "FORMA",
+      "titulo": "Tarifa fija mensual",
+      "cuerpo": "Simple y predecible para los dos. <b>La más común para empezar.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "FORMA",
+      "titulo": "Porcentaje de la inversión",
+      "cuerpo": "Crece cuando el cliente invierte más. <b>Útil en cuentas grandes.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "FORMA",
+      "titulo": "Fijo más comisión por resultados",
+      "cuerpo": "Alinea tus intereses con los del cliente. <b>Exige medir muy bien.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "FORMA",
+      "titulo": "Cómo poner tu precio",
+      "cuerpo": "Considera tu tiempo, tu experiencia y <b>el valor que generas</b>, no solo lo que cobra otro."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Cobra por el <mark>valor</mark> que generas.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "💼 ¿Cuánto cobrar por gestionar anuncios?\n\n3 formas de cobrar, con sus pros y contras.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

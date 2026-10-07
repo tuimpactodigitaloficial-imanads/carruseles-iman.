@@ -1,0 +1,52 @@
+{
+  "id": "089-tiendas-ropa",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "RUBROS",
+      "titulo": "Anuncios para <mark>tiendas de ropa</mark> que venden",
+      "subtitulo": "(no solo likes)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "En moda, la gente quiere verse con la prenda puesta.",
+      "cuerpo": "Haz que se imaginen usándola 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "Muestra la ropa en personas",
+      "cuerpo": "Diferentes cuerpos y estilos. <b>Que el cliente se vea reflejado.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "Arma outfits completos",
+      "cuerpo": "No vendas una prenda: <b>vende un look</b>. Sube el valor de cada compra."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Usa anuncios de catálogo",
+      "cuerpo": "Meta muestra a cada persona <b>las prendas que ya miró</b> en tu tienda."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Facilita las tallas",
+      "cuerpo": "Una guía clara de tallas <b>reduce dudas y devoluciones</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Que se vean <mark>usándola</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "👕 Anuncios para tiendas de ropa\n\nComparte con alguien que tiene una tienda de ropa.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

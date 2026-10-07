@@ -1,0 +1,59 @@
+{
+  "id": "095-reporte-semanal",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "MÉTRICAS",
+      "titulo": "El reporte semanal de anuncios <mark>más simple</mark>",
+      "subtitulo": "(5 números y listo)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "No necesitas un informe de 20 páginas.",
+      "cuerpo": "Con estos 5 números cada semana sabes cómo vas 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "DATO",
+      "titulo": "Inversión",
+      "cuerpo": "Cuánto gastaste en la semana."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "DATO",
+      "titulo": "Resultados",
+      "cuerpo": "Mensajes, contactos o ventas que <b>generaron tus anuncios</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "DATO",
+      "titulo": "Costo por resultado",
+      "cuerpo": "Inversión dividida por resultados. <b>Tu número principal.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "DATO",
+      "titulo": "Ventas cerradas",
+      "cuerpo": "Cuántos de esos resultados <b>terminaron comprando</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "DATO",
+      "titulo": "Retorno",
+      "cuerpo": "Lo que vendiste comparado con lo que invertiste. <b>¿Ganaste o perdiste?</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Lo que se mide, se <mark>mejora</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📝 El reporte semanal de anuncios más simple\n\n5 números para saber cómo vas cada semana.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "064-cuenta-restringida",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "CUENTA",
+      "titulo": "¿Te restringieron la cuenta publicitaria? <mark>Qué hacer</mark>",
+      "subtitulo": "(sin entrar en pánico)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Es más común de lo que crees.",
+      "cuerpo": "Una restricción no siempre es definitiva. Estos son los pasos 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Revisa “Calidad de la cuenta”",
+      "cuerpo": "En Meta Business Suite verás <b>qué se restringió y por qué</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Lee el motivo con calma",
+      "cuerpo": "Puede ser un anuncio rechazado, un pago o un tema de seguridad. <b>Cada caso tiene su solución.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Solicita una revisión",
+      "cuerpo": "Si crees que es un error, <b>pide la revisión desde esa misma sección</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Prevén para el futuro",
+      "cuerpo": "Cuida tus textos, tus métodos de pago y <b>activa la verificación en dos pasos</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Calma, datos y <mark>orden</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "⚠️ ¿Te restringieron la cuenta publicitaria?\n\nQué hacer paso a paso, sin entrar en pánico.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

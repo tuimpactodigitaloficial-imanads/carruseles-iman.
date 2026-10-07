@@ -1,0 +1,52 @@
+{
+  "id": "079-garantias",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "OFERTA",
+      "titulo": "Garantías que <mark>quitan el miedo</mark> a comprar",
+      "subtitulo": "(y aumentan tus ventas)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Mucha gente no compra por miedo a equivocarse.",
+      "cuerpo": "Una buena garantía elimina ese miedo 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIPO",
+      "titulo": "Garantía de devolución",
+      "cuerpo": "“Si no te sirve, te devolvemos tu dinero”. <b>La más poderosa.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIPO",
+      "titulo": "Garantía de resultado",
+      "cuerpo": "“Si no logras X, seguimos trabajando sin costo”. <b>Ideal para servicios.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIPO",
+      "titulo": "Garantía de satisfacción",
+      "cuerpo": "“Si no te gusta, lo cambiamos”. <b>Simple y clara.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIPO",
+      "titulo": "Ponle condiciones justas",
+      "cuerpo": "Plazos y requisitos claros. <b>Protege tu negocio sin espantar al cliente.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Quita el riesgo y quedará la <mark>decisión</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🛡️ Garantías que quitan el miedo a comprar\n\n¿Tu negocio ofrece alguna garantía?\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

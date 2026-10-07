@@ -1,0 +1,59 @@
+{
+  "id": "114-lecciones",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "RESUMEN",
+      "titulo": "5 lecciones de Meta Ads que <mark>cambian todo</mark>",
+      "subtitulo": "(si solo recuerdas algo, que sea esto)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Después de muchas campañas, esto es lo que más importa.",
+      "cuerpo": "Guárdalo y vuelve a leerlo cuando dudes 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "LECCIÓN",
+      "titulo": "El anuncio decide casi todo",
+      "cuerpo": "<b>Un buen gancho y una buena oferta</b> valen más que cualquier ajuste."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "LECCIÓN",
+      "titulo": "Mide en clientes, no en likes",
+      "cuerpo": "Tu número es <b>cuánto te cuesta un cliente</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "LECCIÓN",
+      "titulo": "Paciencia con método",
+      "cuerpo": "Dale tiempo a Meta y <b>decide con datos</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "LECCIÓN",
+      "titulo": "Responder rápido vende",
+      "cuerpo": "El anuncio trae la conversación. <b>Tú cierras la venta.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "LECCIÓN",
+      "titulo": "Prueba siempre",
+      "cuerpo": "El anuncio de hoy se va a cansar. <b>Ten el siguiente listo.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Ahora te toca a ti <mark>aplicarlas</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🧲 5 lecciones de Meta Ads que cambian todo\n\nSi solo recuerdas algo de este perfil, que sea esto.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

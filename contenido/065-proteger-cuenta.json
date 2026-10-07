@@ -1,0 +1,52 @@
+{
+  "id": "065-proteger-cuenta",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "SEGURIDAD",
+      "titulo": "4 cosas para <mark>proteger</mark> tu cuenta de anuncios",
+      "subtitulo": "(antes de que sea tarde)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Perder tu cuenta es perder tu fuente de clientes.",
+      "cuerpo": "Hackeos y accesos indebidos pasan todos los días. Protégete 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "Verificación en dos pasos",
+      "cuerpo": "Actívala en Facebook e Instagram. <b>Es la protección más importante.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "Revisa quién tiene acceso",
+      "cuerpo": "Elimina a quien ya no trabaja contigo. <b>Menos accesos, menos riesgo.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Cuidado con los mensajes falsos",
+      "cuerpo": "Meta no te pide tu contraseña por mensaje. <b>Desconfía de los “avisos urgentes”.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Ten más de un administrador",
+      "cuerpo": "Una persona de confianza extra. <b>Si pierdes el acceso, no pierdes todo.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Tu cuenta es un <mark>activo</mark>. Cuídala.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🔐 4 cosas para proteger tu cuenta de anuncios\n\nHazlo hoy, toma menos de 10 minutos.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

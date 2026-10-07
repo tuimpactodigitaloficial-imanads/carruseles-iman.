@@ -1,0 +1,52 @@
+{
+  "id": "066-portfolio-comercial",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "META",
+      "titulo": "El portfolio comercial de Meta <mark>explicado simple</mark>",
+      "subtitulo": "(antes Business Manager)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Si tienes un negocio, deberías tenerlo.",
+      "cuerpo": "Es el lugar donde se ordena todo lo de tu empresa en Meta 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CLAVE",
+      "titulo": "Qué es",
+      "cuerpo": "Un espacio que agrupa <b>tus páginas, cuentas de Instagram, cuentas publicitarias y personas</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CLAVE",
+      "titulo": "Separa lo personal de lo empresarial",
+      "cuerpo": "Tus anuncios no dependen de tu perfil personal. <b>Más orden y más seguridad.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CLAVE",
+      "titulo": "Permite dar accesos sin contraseñas",
+      "cuerpo": "Puedes sumar a tu equipo o agencia <b>con permisos específicos</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CLAVE",
+      "titulo": "Se crea gratis",
+      "cuerpo": "Desde business.facebook.com. <b>Toma pocos minutos.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Ordena tu negocio en <mark>Meta</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🏢 El portfolio comercial de Meta explicado simple\n\nAntes se llamaba Business Manager.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "096-brief-cliente",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "FREELANCERS",
+      "titulo": "8 preguntas antes de crear anuncios <mark>para un cliente</mark>",
+      "subtitulo": "(el brief que te salva)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Muchos anuncios fallan por falta de información.",
+      "cuerpo": "Antes de empezar, pregúntale esto a tu cliente 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PREGUNTA",
+      "titulo": "¿Qué vendes y qué es lo más rentable?",
+      "cuerpo": "Para saber <b>qué conviene promocionar</b> primero."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PREGUNTA",
+      "titulo": "¿Quién es tu mejor cliente?",
+      "cuerpo": "Edad, zona, problema que tiene. <b>Para hablarle a él.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PREGUNTA",
+      "titulo": "¿Por qué te eligen a ti?",
+      "cuerpo": "Tu diferencia frente a la competencia. <b>Es el centro del mensaje.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PREGUNTA",
+      "titulo": "¿Cuánto puedes pagar por un cliente?",
+      "cuerpo": "Con eso defines <b>si una campaña es rentable</b> o no."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Y cuatro más",
+      "cuerpo": "¿Qué anuncios hiciste antes y cómo te fue? ¿Quién responde los mensajes? ¿Qué fechas importan? <b>¿Cómo vamos a medir el éxito?</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Un buen brief es la mitad del <mark>resultado</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📋 Preguntas antes de crear anuncios para un cliente\n\nSi gestionas anuncios para otros, guarda esto.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

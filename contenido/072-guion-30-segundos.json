@@ -1,0 +1,52 @@
+{
+  "id": "072-guion-30-segundos",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "VIDEO",
+      "titulo": "El guion de video de <mark>30 segundos</mark> que vende",
+      "subtitulo": "(cópialo)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "No improvises tu próximo video.",
+      "cuerpo": "Usa esta estructura de 4 partes, probada por miles de anunciantes 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PARTE",
+      "titulo": "Atención (0 a 3 segundos)",
+      "cuerpo": "Un gancho que nombre el problema: <b>“¿Pagaste anuncios y no te escribió nadie?”</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PARTE",
+      "titulo": "Interés (3 a 12 segundos)",
+      "cuerpo": "Explica por qué pasa. <b>Que la persona se sienta entendida.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PARTE",
+      "titulo": "Deseo (12 a 24 segundos)",
+      "cuerpo": "Muestra la solución y <b>qué cambia cuando la aplica</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PARTE",
+      "titulo": "Acción (24 a 30 segundos)",
+      "cuerpo": "Una sola instrucción: <b>“Escríbeme ‘INFO’ y te explico.”</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Un buen guion vale más que una buena <mark>cámara</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🎥 El guion de video de 30 segundos que vende\n\nAtención, interés, deseo y acción. Guárdalo.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

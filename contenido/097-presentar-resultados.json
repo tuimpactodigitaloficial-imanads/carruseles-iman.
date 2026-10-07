@@ -1,0 +1,52 @@
+{
+  "id": "097-presentar-resultados",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "FREELANCERS",
+      "titulo": "Cómo presentar resultados a tu cliente <mark>sin perderlo</mark>",
+      "subtitulo": "(incluso cuando no fueron buenos)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Tu cliente no quiere ver capturas del Administrador.",
+      "cuerpo": "Quiere saber si su inversión valió la pena. Muéstralo así 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Empieza por lo que le importa",
+      "cuerpo": "Clientes, ventas o mensajes. <b>No por el CPM.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Compara con el periodo anterior",
+      "cuerpo": "¿Mejoró o empeoró? <b>El contexto lo es todo.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Explica qué aprendiste",
+      "cuerpo": "Qué funcionó y qué no. <b>Demuestra que hay un método.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Propón el siguiente paso",
+      "cuerpo": "Termina siempre con <b>un plan concreto</b> para el próximo mes."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Comunicar bien también es parte del <mark>trabajo</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📊 Cómo presentar resultados a tu cliente\n\nIncluso cuando los resultados no fueron buenos.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

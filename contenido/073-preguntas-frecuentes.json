@@ -1,0 +1,52 @@
+{
+  "id": "073-preguntas-frecuentes",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "IDEAS",
+      "titulo": "Convierte las preguntas de tus clientes en <mark>anuncios</mark>",
+      "subtitulo": "(la mina de oro que ignoras)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Tus clientes te dicen qué anuncios hacer.",
+      "cuerpo": "Cada pregunta repetida es una duda que frena la compra. Úsalas así 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Anota las preguntas",
+      "cuerpo": "Durante una semana, <b>guarda cada pregunta</b> que te hagan por mensaje."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Elige las que más se repiten",
+      "cuerpo": "Esas son <b>las dudas que más frenan</b> a tus clientes."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Responde una por anuncio",
+      "cuerpo": "Un video corto: <b>“Me preguntan mucho si… La respuesta es…”</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Muéstralo a quien ya te conoce",
+      "cuerpo": "Ideal para <b>público tibio</b> que está a punto de decidir."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Responder dudas también es <mark>vender</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "❓ Convierte las preguntas de tus clientes en anuncios\n\nLa mina de oro que casi todos ignoran.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

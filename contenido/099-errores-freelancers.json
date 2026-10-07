@@ -1,0 +1,59 @@
+{
+  "id": "099-errores-freelancers",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "FREELANCERS",
+      "titulo": "5 errores de quienes gestionan <mark>anuncios</mark>",
+      "subtitulo": "(y les cuestan clientes)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Saber hacer anuncios no basta.",
+      "cuerpo": "Muchos pierden clientes por estos errores 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "ERROR",
+      "titulo": "Prometer resultados",
+      "cuerpo": "Nadie puede garantizar ventas. <b>Promete método, no milagros.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "ERROR",
+      "titulo": "No conocer el negocio",
+      "cuerpo": "Sin entender al cliente final, <b>los anuncios no conectan</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "ERROR",
+      "titulo": "Desaparecer",
+      "cuerpo": "Clientes sin noticias <b>son clientes que se van</b>. Comunica seguido."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "ERROR",
+      "titulo": "Cobrar muy barato",
+      "cuerpo": "Atraes clientes difíciles y <b>no puedes dedicarles el tiempo</b> que necesitan."
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "ERROR",
+      "titulo": "No documentar resultados",
+      "cuerpo": "Sin casos de éxito, <b>cada venta nueva cuesta el doble</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Los resultados se logran con <mark>método</mark> y comunicación.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🚫 5 errores de quienes gestionan anuncios\n\n¿Cuál cometiste? Yo varios 😅\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

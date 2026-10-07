@@ -1,0 +1,52 @@
+{
+  "id": "107-hola-info",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "VENTAS",
+      "titulo": "Cuando te escriben solo “Hola, info”: <mark>qué responder</mark>",
+      "subtitulo": "(para que la conversación siga)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "“Hola, info” es el mensaje más común.",
+      "cuerpo": "Y la respuesta que des decide si esa persona compra 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Saluda y agradece",
+      "cuerpo": "<b>“¡Hola! Gracias por escribir 😊”</b>. Calidez primero."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Haz una pregunta concreta",
+      "cuerpo": "<b>“¿Qué te gustaría saber, precios, horarios o cómo funciona?”</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Da una opción fácil",
+      "cuerpo": "Si no responde, <b>envía la información principal en 3 líneas</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Haz seguimiento al día siguiente",
+      "cuerpo": "<b>“¿Pudiste ver la info? ¿Te ayudo con algo?”</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Cada “hola, info” es una <mark>venta posible</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "👋 Qué responder cuando te escriben “Hola, info”\n\nGuárdalo para tu próxima conversación.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

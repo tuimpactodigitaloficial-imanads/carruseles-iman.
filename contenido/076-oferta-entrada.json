@@ -1,0 +1,52 @@
+{
+  "id": "076-oferta-entrada",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "OFERTA",
+      "titulo": "La oferta de entrada: cómo conseguir <mark>clientes nuevos</mark> más fácil",
+      "subtitulo": "(y venderles más después)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Es difícil que alguien te compre lo más caro de una.",
+      "cuerpo": "Primero necesita probarte. Para eso sirve una oferta de entrada 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CLAVE",
+      "titulo": "Qué es",
+      "cuerpo": "Un producto o servicio <b>pequeño, simple y accesible</b> para que te conozcan."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CLAVE",
+      "titulo": "Ejemplos",
+      "cuerpo": "Una primera sesión, un diagnóstico, un producto de prueba o <b>un pack de inicio</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CLAVE",
+      "titulo": "No la regales",
+      "cuerpo": "Que tenga un precio. <b>Quien paga, aunque sea poco, se compromete más.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CLAVE",
+      "titulo": "Ten el siguiente paso listo",
+      "cuerpo": "Después de la oferta de entrada, <b>ofrece tu producto principal</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Primero que te <mark>prueben</mark>. Después, que se queden.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🚪 La oferta de entrada para conseguir clientes nuevos\n\nLa forma más fácil de que alguien te compre por primera vez.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

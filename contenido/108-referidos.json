@@ -1,0 +1,52 @@
+{
+  "id": "108-referidos",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "CLIENTES",
+      "titulo": "Cómo conseguir clientes <mark>por recomendación</mark>",
+      "subtitulo": "(los más fáciles de cerrar)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Un cliente recomendado ya llega confiando en ti.",
+      "cuerpo": "Pero las recomendaciones no siempre llegan solas. Pídelas así 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Pide en el mejor momento",
+      "cuerpo": "Justo después de un buen resultado, <b>cuando el cliente está feliz</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Hazlo fácil",
+      "cuerpo": "<b>“¿Conoces a alguien a quien le pueda ayudar esto?”</b>. Una pregunta simple."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Da un incentivo",
+      "cuerpo": "Un descuento o un regalo <b>para quien recomienda y para quien llega</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Agradece siempre",
+      "cuerpo": "Aunque no compre. <b>Quien recomienda una vez, recomienda otra.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Tus clientes felices son tu mejor <mark>equipo de ventas</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🤝 Cómo conseguir clientes por recomendación\n\nLos clientes más fáciles de cerrar.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

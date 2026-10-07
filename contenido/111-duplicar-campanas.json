@@ -1,0 +1,52 @@
+{
+  "id": "111-duplicar-campanas",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "ESCALAR",
+      "titulo": "¿Duplicar una campaña que funciona? <mark>Cuándo sí</mark>",
+      "subtitulo": "(y cuándo no)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Duplicar parece la forma fácil de crecer.",
+      "cuerpo": "Pero no siempre da los mismos resultados 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CLAVE",
+      "titulo": "Sirve para probar algo nuevo",
+      "cuerpo": "Un público u objetivo distinto, <b>sin tocar la campaña original</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CLAVE",
+      "titulo": "No es una copia exacta",
+      "cuerpo": "La campaña duplicada <b>empieza a aprender de cero</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CLAVE",
+      "titulo": "No dupliques para competir contigo mismo",
+      "cuerpo": "Dos campañas iguales al mismo público <b>pueden encarecerse entre sí</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CLAVE",
+      "titulo": "Para crecer, prefiere subir el presupuesto",
+      "cuerpo": "De a poco, <b>en la campaña que ya funciona</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Crece con <mark>estrategia</mark>, no con copias.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📑 ¿Duplicar una campaña que funciona?\n\nCuándo sí y cuándo no.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "112-diagnostico-calidad",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "MÉTRICAS",
+      "titulo": "¿Tu anuncio es bueno o malo? Lo que dice <mark>Meta</mark>",
+      "subtitulo": "(los diagnósticos de relevancia)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Meta compara tu anuncio con otros parecidos.",
+      "cuerpo": "Y te da pistas de qué mejorar. Así se leen 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "DIAGNÓSTICO",
+      "titulo": "Calidad",
+      "cuerpo": "Cómo ve la gente tu anuncio frente a otros. <b>Si está bajo, mejora la imagen o el mensaje.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "DIAGNÓSTICO",
+      "titulo": "Interacción",
+      "cuerpo": "Cuánta gente interactúa con él. <b>Si está bajo, revisa tu gancho.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "DIAGNÓSTICO",
+      "titulo": "Conversión",
+      "cuerpo": "Qué tan probable es que la gente haga lo que buscas. <b>Si está bajo, revisa tu oferta o tu página.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "DIAGNÓSTICO",
+      "titulo": "Úsalos como pista",
+      "cuerpo": "No son una nota final: <b>te dicen dónde mirar primero</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Meta te da pistas: <mark>úsalas</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🩺 ¿Tu anuncio es bueno o malo? Lo que dice Meta\n\nLos diagnósticos de relevancia explicados simple.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

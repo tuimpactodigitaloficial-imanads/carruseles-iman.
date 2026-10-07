@@ -1,0 +1,52 @@
+{
+  "id": "067-dar-acceso",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "SEGURIDAD",
+      "titulo": "Cómo dar acceso a tu cuenta <mark>sin dar tu contraseña</mark>",
+      "subtitulo": "(nunca la compartas)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Nunca le des tu contraseña a nadie.",
+      "cuerpo": "Ni a tu agencia ni a tu sobrino. Meta tiene una forma segura de hacerlo 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Usa tu portfolio comercial",
+      "cuerpo": "Desde la configuración del negocio puedes <b>agregar personas o socios</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Da solo los permisos necesarios",
+      "cuerpo": "Si solo hará anuncios, <b>no necesita control total</b> de tu negocio."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Comparte el activo exacto",
+      "cuerpo": "La cuenta publicitaria, la página o el Instagram. <b>Solo lo que va a usar.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Quita el acceso cuando termine",
+      "cuerpo": "Si deja de trabajar contigo, <b>elimínalo ese mismo día</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Accesos sí, contraseñas <mark>nunca</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🔑 Cómo dar acceso a tu cuenta sin dar tu contraseña\n\nCompártelo con alguien que todavía comparte sus claves 👀\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

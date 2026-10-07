@@ -1,0 +1,52 @@
+{
+  "id": "087-gimnasios",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "RUBROS",
+      "titulo": "Anuncios para <mark>gimnasios y estudios</mark>",
+      "subtitulo": "(más alumnos todo el año)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El fitness tiene temporadas: enero, antes del verano, septiembre.",
+      "cuerpo": "Pero puedes llenar cupos todo el año 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "Muestra el ambiente",
+      "cuerpo": "Las clases, la comunidad, la energía. <b>La gente busca dónde sentirse bien.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "Ofrece una clase de prueba",
+      "cuerpo": "Es la mejor oferta de entrada: <b>vienen, prueban y se quedan</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Usa testimonios reales",
+      "cuerpo": "Alumnos contando su experiencia. <b>Cuida las reglas de Meta</b> con fotos de cuerpos."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Aprovecha las temporadas",
+      "cuerpo": "Aumenta el presupuesto <b>cuando la gente más busca</b> empezar."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Llena tus clases los <mark>12 meses</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🏋️ Anuncios para gimnasios y estudios\n\nComparte con tu gimnasio o profe favorito.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

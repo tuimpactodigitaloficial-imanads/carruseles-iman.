@@ -1,0 +1,45 @@
+{
+  "id": "104-prompts-anuncios",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "IA",
+      "titulo": "3 prompts para escribir anuncios <mark>con IA</mark>",
+      "subtitulo": "(cópialos y adáptalos)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Un buen prompt cambia la respuesta por completo.",
+      "cuerpo": "Cambia lo que está entre corchetes por tu información 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PROMPT",
+      "titulo": "Para ganchos",
+      "cuerpo": "<b>“Dame 10 ganchos para un anuncio de [producto] dirigido a [cliente] que sufre [problema].”</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PROMPT",
+      "titulo": "Para el texto",
+      "cuerpo": "<b>“Escribe un anuncio corto con la estructura problema, solución, prueba y acción para [producto].”</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PROMPT",
+      "titulo": "Para objeciones",
+      "cuerpo": "<b>“¿Cuáles son las 5 dudas más comunes de [cliente] antes de comprar [producto] y cómo responderlas?”</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Mejores preguntas, mejores <mark>respuestas</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "✨ 3 prompts para escribir anuncios con IA\n\nCópialos, cambia los corchetes y pruébalos.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

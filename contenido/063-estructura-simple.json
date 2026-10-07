@@ -1,0 +1,52 @@
+{
+  "id": "063-estructura-simple",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "ESTRUCTURA",
+      "titulo": "La estructura de campaña más simple para <mark>empezar</mark>",
+      "subtitulo": "(si recién comienzas, haz esto)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Muchos se complican con decenas de campañas.",
+      "cuerpo": "Para empezar, menos es más. Esta estructura funciona 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Una campaña",
+      "cuerpo": "Con <b>un objetivo claro</b>: mensajes, clientes potenciales o ventas."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Un conjunto de anuncios",
+      "cuerpo": "Con tu ubicación, tu presupuesto y <b>un público amplio</b> para que Meta aprenda."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Tres a cinco anuncios",
+      "cuerpo": "Distintos entre sí, <b>para descubrir cuál funciona mejor</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Una semana sin tocar",
+      "cuerpo": "Deja que junte datos. <b>Después decides con números.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Simple, ordenado y <mark>medible</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🏗️ La estructura de campaña más simple para empezar\n\nSi recién comienzas con Meta Ads, guarda esto.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

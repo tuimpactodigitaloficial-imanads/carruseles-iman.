@@ -1,0 +1,52 @@
+{
+  "id": "080-vender-por-dm",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "VENTAS",
+      "titulo": "Cómo vender por mensaje directo <mark>sin presionar</mark>",
+      "subtitulo": "(paso a paso)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Vender por DM no es mandar un catálogo.",
+      "cuerpo": "Es tener una buena conversación. Así se hace 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Responde rápido y con nombre",
+      "cuerpo": "<b>“¡Hola, Camila! Gracias por escribir.”</b> Cercano desde el inicio."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Pregunta antes de ofrecer",
+      "cuerpo": "<b>“¿Qué estás buscando?”</b> Entiende la necesidad primero."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Recomienda una sola opción",
+      "cuerpo": "La que mejor calza con lo que te contó. <b>Muchas opciones confunden.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Pide el siguiente paso",
+      "cuerpo": "<b>“¿Te lo reservo?”</b> o <b>“¿Te mando el link de pago?”</b> Sin rodeos."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Conversar bien es <mark>vender</mark> bien.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "💬 Cómo vender por mensaje directo sin presionar\n\nGuárdalo y úsalo en tu próxima conversación.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

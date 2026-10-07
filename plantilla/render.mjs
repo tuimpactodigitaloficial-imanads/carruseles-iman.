@@ -19,8 +19,8 @@ const numero = parseInt(datos.id, 10) || 1;
 const tema = datos.tema || TEMAS[(numero - 1) % TEMAS.length];
 // Portadas con imagen: se elige según la etiqueta del carrusel y, si no calza, se turna por número
 const VISUAL_POR_ETIQUETA = {
-  chat: ["WHATSAPP", "VENTAS", "LEADS", "COMUNIDAD", "SERVICIOS"],
-  metricas: ["NÚMEROS", "MÉTRICAS", "PRESUPUESTO", "OPTIMIZACIÓN", "ESCALAR", "TESTEO", "GLOSARIO", "MEDICIÓN", "PÍXEL", "META ADS"],
+  chat: ["WHATSAPP", "VENTAS", "LEADS", "COMUNIDAD", "SERVICIOS", "AUTOMATIZACIÓN", "CLIENTES"],
+  metricas: ["NÚMEROS", "MÉTRICAS", "PRESUPUESTO", "OPTIMIZACIÓN", "ESCALAR", "TESTEO", "GLOSARIO", "MEDICIÓN", "PÍXEL", "META ADS", "DIAGNÓSTICO"],
 };
 function visualDe(l) {
   if (l.visual) return l.visual;

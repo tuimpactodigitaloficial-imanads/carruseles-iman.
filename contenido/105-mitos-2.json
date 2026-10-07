@@ -1,0 +1,52 @@
+{
+  "id": "105-mitos-2",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "MITOS",
+      "titulo": "4 mitos más sobre los anuncios que <mark>te frenan</mark>",
+      "subtitulo": "(parte 2)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Algunas creencias te impiden empezar.",
+      "cuerpo": "Vamos a desarmarlas una por una 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "MITO",
+      "titulo": "“Es solo para empresas grandes”",
+      "cuerpo": "<b>Falso.</b> Negocios pequeños consiguen clientes con presupuestos chicos."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "MITO",
+      "titulo": "“Instagram ya no funciona”",
+      "cuerpo": "<b>Falso.</b> Cambió, pero sigue siendo donde está tu cliente."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "MITO",
+      "titulo": "“Con un buen anuncio basta”",
+      "cuerpo": "<b>Falso.</b> También importan la oferta, la atención y el seguimiento."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "MITO",
+      "titulo": "“Hay que saber de tecnología”",
+      "cuerpo": "<b>Falso.</b> Con una guía simple, cualquiera puede empezar."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Lo único que te frena es <mark>no empezar</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🚫 4 mitos más sobre los anuncios\n\n¿Cuál de estos te frenaba a ti?\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}

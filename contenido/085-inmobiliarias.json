@@ -1,0 +1,52 @@
+{
+  "id": "085-inmobiliarias",
+  "usuario": "@matirhayett",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "RUBROS",
+      "titulo": "Anuncios para <mark>inmobiliarias</mark> que traen interesados reales",
+      "subtitulo": "(no curiosos)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "En inmobiliaria, un buen contacto vale mucho.",
+      "cuerpo": "Y un curioso te hace perder horas. Así filtras 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TIP",
+      "titulo": "Muestra la propiedad en video",
+      "cuerpo": "Un recorrido corto <b>vale más que diez fotos</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TIP",
+      "titulo": "Da la información clave",
+      "cuerpo": "Ubicación, metros y precio aproximado. <b>Filtra a quien no le calza.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TIP",
+      "titulo": "Usa formularios con preguntas",
+      "cuerpo": "“¿Cuándo piensas comprar?”, “¿Cómo financiarías?”. <b>Detectas a los serios.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TIP",
+      "titulo": "Responde en minutos",
+      "cuerpo": "Un interesado que espera <b>sigue buscando otras opciones</b>."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Menos curiosos, más <mark>compradores</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🏠 Anuncios para inmobiliarias\n\nCómo atraer interesados reales y no solo curiosos.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#metaads #facebookads #instagramads #marketingdigital #emprendedores #publicidaddigital"
+}
