@@ -18,5 +18,15 @@
     "archivo": "004-anatomia-anuncio.json",
     "id": "18149105368493168",
     "fecha": "2026-10-07T01:54:45.419Z"
+  },
+  {
+    "archivo": "005-checklist-campana.json",
+    "id": "18066527366797837",
+    "fecha": "2026-10-07T19:15:59.070Z"
+  },
+  {
+    "archivo": "006-metricas.json",
+    "id": "18114393187832687",
+    "fecha": "2026-10-08T01:46:02.868Z"
   }
 ]
