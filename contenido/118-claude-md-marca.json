@@ -1,0 +1,54 @@
+{
+  "id": "118-claude-md-marca",
+  "usuario": "@matirhayett",
+  "fecha": "2026-11-17",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "CLAUDE CODE",
+      "titulo": "Enséñale a la IA cómo <mark>habla tu marca</mark>",
+      "subtitulo": "(una vez, y para siempre)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Tu contenido con IA suena genérico?",
+      "cuerpo": "Es porque la IA no conoce tu marca. Claude Code tiene una forma simple de solucionarlo 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Crea un archivo de instrucciones",
+      "cuerpo": "Claude Code lee un archivo llamado <b>CLAUDE.md</b> cada vez que trabaja en tu proyecto."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Describe a tu cliente",
+      "cuerpo": "Quién es, qué problema tiene y <b>qué palabras usa</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Define tu tono",
+      "cuerpo": "Cercano, directo, técnico. <b>Con ejemplos de frases que sí y que no.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Agrega tus reglas",
+      "cuerpo": "Colores, palabras prohibidas, tu llamado a la acción. <b>Lo respeta en todo lo que crea.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Una IA que conoce tu marca escribe <mark>como tú</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "📘 Enséñale a la IA cómo habla tu marca\n\nEl archivo que cambia todo lo que la IA escribe por ti.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#claudecode #inteligenciaartificial #metaads #marketingdigital #emprendedores #automatizacion",
+  "tema": "editorial"
+}

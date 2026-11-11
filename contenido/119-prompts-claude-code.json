@@ -1,0 +1,47 @@
+{
+  "id": "119-prompts-claude-code",
+  "usuario": "@matirhayett",
+  "fecha": "2026-11-19",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "PROMPTS",
+      "titulo": "3 pedidos que le hago a Claude Code <mark>todas las semanas</mark>.",
+      "subtitulo": "Cópialos y adáptalos:"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "No necesitas prompts complicados.",
+      "cuerpo": "Necesitas pedir cosas concretas, con contexto. Estos son los míos 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PEDIDO",
+      "titulo": "Para ideas de contenido",
+      "cuerpo": "<b>“Revisa mis últimas publicaciones y propón 10 temas nuevos que mi cliente ideal guardaría.”</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PEDIDO",
+      "titulo": "Para anuncios",
+      "cuerpo": "<b>“Escribe 5 versiones de este anuncio con ganchos distintos: dolor, curiosidad, número, contradicción y pregunta.”</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PEDIDO",
+      "titulo": "Para métricas",
+      "cuerpo": "<b>“Lee este reporte de Meta Ads y dime qué anuncio apagar, cuál escalar y por qué.”</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Pide concreto, recibe <mark>concreto</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "💬 3 pedidos que le hago a Claude Code todas las semanas\n\nCópialos, cambia los detalles y pruébalos.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#claudecode #inteligenciaartificial #metaads #marketingdigital #emprendedores #automatizacion",
+  "tema": "tuit"
+}

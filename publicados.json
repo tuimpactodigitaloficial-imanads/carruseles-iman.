@@ -28,5 +28,240 @@
     "archivo": "006-metricas.json",
     "id": "18114393187832687",
     "fecha": "2026-10-08T01:46:02.868Z"
+  },
+  {
+    "archivo": "007-clientes-whatsapp.json",
+    "id": "18019429535731668",
+    "fecha": "2026-10-08T16:00:50.172Z"
+  },
+  {
+    "archivo": "008-anuncio-quemado.json",
+    "id": "17871341265646253",
+    "fecha": "2026-10-09T19:06:07.724Z"
+  },
+  {
+    "archivo": "009-formulas-gancho.json",
+    "id": "17982665588898559",
+    "fecha": "2026-10-11T01:29:33.005Z"
+  },
+  {
+    "archivo": "010-texto-anuncio.json",
+    "id": "17918601354452146",
+    "fecha": "2026-10-12T01:23:27.629Z"
+  },
+  {
+    "archivo": "011-preguntan-precio.json",
+    "id": "18425767282144780",
+    "fecha": "2026-10-12T17:20:41.329Z"
+  },
+  {
+    "archivo": "012-grabar-con-celular.json",
+    "id": "18097972538649207",
+    "fecha": "2026-10-12T23:01:03.633Z"
+  },
+  {
+    "archivo": "013-remarketing.json",
+    "id": "18061170179556123",
+    "fecha": "2026-10-13T19:02:45.173Z"
+  },
+  {
+    "archivo": "014-anuncios-rechazados.json",
+    "id": "18051435968604731",
+    "fecha": "2026-10-13T23:01:03.420Z"
+  },
+  {
+    "archivo": "015-calcular-ganancia.json",
+    "id": "18462920794190217",
+    "fecha": "2026-10-14T17:13:38.933Z"
+  },
+  {
+    "archivo": "016-objetivo-campana.json",
+    "id": "18073932173725182",
+    "fecha": "2026-10-15T02:22:32.461Z"
+  },
+  {
+    "archivo": "017-oferta-irresistible.json",
+    "id": "17907465888575726",
+    "fecha": "2026-10-15T23:13:29.837Z"
+  },
+  {
+    "archivo": "018-perfil-espanta-clientes.json",
+    "id": "18089900894247994",
+    "fecha": "2026-10-17T02:06:50.445Z"
+  },
+  {
+    "archivo": "019-primer-cliente-freelancer.json",
+    "id": "18079732682404621",
+    "fecha": "2026-10-18T16:00:55.222Z"
+  },
+  {
+    "archivo": "020-probar-anuncios.json",
+    "id": "18187802152424402",
+    "fecha": "2026-10-19T01:17:15.115Z"
+  },
+  {
+    "archivo": "021-pixel-explicado.json",
+    "id": "18054408305801895",
+    "fecha": "2026-10-19T19:15:35.682Z"
+  },
+  {
+    "archivo": "022-negocios-locales.json",
+    "id": "18113991202862023",
+    "fecha": "2026-10-20T02:52:04.281Z"
+  },
+  {
+    "archivo": "023-lo-pienso.json",
+    "id": "18108553718213298",
+    "fecha": "2026-10-20T18:00:09.138Z"
+  },
+  {
+    "archivo": "024-testimonios.json",
+    "id": "17920695930244145",
+    "fecha": "2026-10-21T01:33:17.716Z"
+  },
+  {
+    "archivo": "025-ideas-anuncios.json",
+    "id": "17989099194063280",
+    "fecha": "2026-10-21T18:26:55.004Z"
+  },
+  {
+    "archivo": "026-organico-vs-anuncios.json",
+    "id": "18489372439108212",
+    "fecha": "2026-10-22T18:03:18.100Z"
+  },
+  {
+    "archivo": "027-comentarios-negativos.json",
+    "id": "18189438910416578",
+    "fecha": "2026-10-22T23:47:32.279Z"
+  },
+  {
+    "archivo": "028-frio-tibio-caliente.json",
+    "id": "18131450263802735",
+    "fecha": "2026-10-24T00:15:30.176Z"
+  },
+  {
+    "archivo": "029-errores-escalar.json",
+    "id": "17911532562307001",
+    "fecha": "2026-10-24T16:01:00.247Z"
+  },
+  {
+    "archivo": "030-glosario-metricas.json",
+    "id": "18132623788751812",
+    "fecha": "2026-10-25T01:01:05.634Z"
+  },
+  {
+    "archivo": "031-leer-administrador.json",
+    "id": "18635980273051444",
+    "fecha": "2026-10-26T16:01:04.654Z"
+  },
+  {
+    "archivo": "032-formatos-anuncio.json",
+    "id": "17888194005686650",
+    "fecha": "2026-10-26T23:00:54.297Z"
+  },
+  {
+    "archivo": "033-imagen-anuncio.json",
+    "id": "17955930342039236",
+    "fecha": "2026-10-27T19:13:16.959Z"
+  },
+  {
+    "archivo": "034-ugc.json",
+    "id": "18077684546456168",
+    "fecha": "2026-10-28T01:17:42.595Z"
+  },
+  {
+    "archivo": "035-presupuesto-diario-total.json",
+    "id": "18141315637646313",
+    "fecha": "2026-10-28T18:50:23.515Z"
+  },
+  {
+    "archivo": "036-cuando-apagar.json",
+    "id": "18144323887609324",
+    "fecha": "2026-10-30T16:00:53.211Z"
+  },
+  {
+    "archivo": "037-advantage-audiencia.json",
+    "id": "18391620631226079",
+    "fecha": "2026-10-31T02:21:43.402Z"
+  },
+  {
+    "archivo": "038-publicos-similares.json",
+    "id": "18159775981512473",
+    "fecha": "2026-10-31T17:03:39.830Z"
+  },
+  {
+    "archivo": "039-mensaje-bienvenida.json",
+    "id": "18117056774115778",
+    "fecha": "2026-10-31T23:01:01.964Z"
+  },
+  {
+    "archivo": "040-respuestas-rapidas.json",
+    "id": "18125218324897697",
+    "fecha": "2026-11-01T18:21:59.105Z"
+  },
+  {
+    "archivo": "041-calificar-leads.json",
+    "id": "18081623165383034",
+    "fecha": "2026-11-02T01:02:10.555Z"
+  },
+  {
+    "archivo": "042-leads-no-contestan.json",
+    "id": "18127245763860274",
+    "fecha": "2026-11-02T19:18:56.976Z"
+  },
+  {
+    "archivo": "043-pagina-destino.json",
+    "id": "17977872435170113",
+    "fecha": "2026-11-02T23:40:19.142Z"
+  },
+  {
+    "archivo": "044-servicios-profesionales.json",
+    "id": "17906901660351013",
+    "fecha": "2026-11-03T19:42:08.174Z"
+  },
+  {
+    "archivo": "046-errores-escritura-anuncio.json",
+    "id": "17917302924273671",
+    "fecha": "2026-11-04T01:41:34.725Z"
+  },
+  {
+    "archivo": "047-anuncio-carrusel.json",
+    "id": "18129538295304001",
+    "fecha": "2026-11-04T19:34:49.294Z"
+  },
+  {
+    "archivo": "048-tiendas-online.json",
+    "id": "18054634949816047",
+    "fecha": "2026-11-05T23:19:51.265Z"
+  },
+  {
+    "archivo": "049-facebook-o-instagram.json",
+    "id": "18069662480782593",
+    "fecha": "2026-11-06T19:27:14.096Z"
+  },
+  {
+    "archivo": "050-medir-sin-pixel.json",
+    "id": "17900394987398546",
+    "fecha": "2026-11-08T17:07:15.942Z"
+  },
+  {
+    "archivo": "051-caso-de-exito.json",
+    "id": "18601240189069261",
+    "fecha": "2026-11-09T02:08:50.371Z"
+  },
+  {
+    "archivo": "053-contratar-gestor.json",
+    "id": "18135493186815326",
+    "fecha": "2026-11-09T16:00:48.719Z"
+  },
+  {
+    "archivo": "054-senales-agencia.json",
+    "id": "18132679342809061",
+    "fecha": "2026-11-10T17:55:54.162Z"
+  },
+  {
+    "archivo": "055-intereses.json",
+    "id": "17950022064074117",
+    "fecha": "2026-11-10T23:01:01.548Z"
   }
 ]

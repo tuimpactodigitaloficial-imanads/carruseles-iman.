@@ -355,3 +355,69 @@ footer { display: flex; justify-content: space-between; align-items: center; fon
 .interior-tarjeta .t-punto h2 { font-size: 92px; }
 .interior-tarjeta .cuerpo { font-size: 48px; }
 .comillas { opacity: .08; top: -80px; }
+
+
+/* ================== FORMATOS DE REFERENTES ================== */
+
+/* NOTA: lista escrita a mano sobre papel (estilo notas de Greg Isenberg / portadas de texto de nicofastt) */
+.tema-nota .lamina {
+  background-color: #FBF6EA; color: #1B1B1B;
+  background-image: repeating-linear-gradient(transparent 0 78px, rgba(29, 78, 216, .13) 78px 80px);
+  background-size: auto; --linea: transparent;
+}
+.tema-nota .lamina::before { content: ""; position: absolute; top: 0; bottom: 0; left: 70px; width: 3px; background: rgba(255, 74, 28, .35); }
+.tema-nota h1, .tema-nota h2, .tema-nota .numero, .tema-nota .cuerpo, .tema-nota .sub { font-family: "Caveat", cursive; letter-spacing: 0; }
+.tema-nota h1, .tema-nota h2 { font-weight: 700; line-height: 1.05; }
+.tema-nota .portada-titulo { font-size: 150px; }
+.tema-nota .portada-titulo mark, .tema-nota mark { background: none; color: var(--rojo); padding: 0; transform: none; display: inline;
+  text-decoration: underline wavy 5px var(--rojo); text-underline-offset: 14px; }
+.tema-nota .etiqueta { background: none; color: var(--rojo); font: 700 48px "Caveat", cursive; letter-spacing: 0; padding: 0; transform: rotate(-3deg); }
+.tema-nota .etiqueta::before { content: "✎ "; }
+.tema-nota .sub { font-size: 54px; color: #444; }
+.tema-nota .desliza { border: 0; padding: 0; font: 700 54px "Caveat", cursive; color: var(--rojo); }
+.tema-nota .numero { font-size: 150px; font-weight: 700; color: var(--rojo); }
+.tema-nota .numero::after { content: ")"; }
+.tema-nota .error { display: none; }
+.tema-nota .t-punto h2 { font-size: 120px; }
+.tema-nota .grande { font-size: 130px; }
+.tema-nota .cuerpo { font-size: 64px; line-height: 1.25; font-weight: 500; }
+.tema-nota .cuerpo b { background: linear-gradient(transparent 55%, rgba(255, 214, 0, .55) 55%); font-weight: 700; }
+.tema-nota .linea { height: 4px; width: 160px; background: var(--rojo); border-radius: 4px; transform: rotate(-2deg); }
+.tema-nota .tarjeta { background: transparent; box-shadow: none; padding: 0; }
+.tema-nota .marca-agua { font-family: "Caveat", cursive; }
+.tema-nota .lamina.oscura { background-color: var(--negro); background-image: none; color: var(--crema); }
+.tema-nota .lamina.oscura::before { display: none; }
+.tema-nota .iman rect { fill: #FBF6EA; }
+
+/* TUIT: ahora entra en la rotación; la portada se ve como un tuit viral grande */
+.tema-tuit .portada-titulo { font-size: 100px; }
+.tema-tuit .t-portada .sub { font-size: 40px; }
+
+/* Portada DIAGRAMA: flujo de cajas con flechas (estilo Vilma Núñez) */
+.portada-diagrama .portada-titulo { font-size: 92px; margin-bottom: 40px; }
+.flujo { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.caja { width: 100%; border: 4px solid currentColor; border-radius: 22px; padding: 22px 30px; text-align: center;
+  font: 800 40px "Archivo", sans-serif; letter-spacing: -0.01em; background: var(--tarjeta); }
+.caja:nth-child(1) { background: var(--rojo); color: var(--crema); border-color: var(--rojo); }
+.tema-editorial .caja { font-family: "DM Serif Display", serif; font-weight: 400; }
+.baja-flecha { font: 900 54px "Archivo", sans-serif; color: var(--rojo); line-height: 1; }
+
+/* Portada NOTICIA: cinta roja de “última hora” y titular condensado (estilo janbasx) */
+.portada-noticia { padding-top: 0; }
+.cinta { margin: 0 -96px 70px; background: #E11D2A; color: #fff; font: 800 30px "Archivo", sans-serif; letter-spacing: .14em;
+  padding: 26px 96px; display: flex; align-items: center; gap: 18px; }
+.punto-vivo { width: 22px; height: 22px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 8px rgba(255, 255, 255, .3); }
+.portada-noticia .contenido { justify-content: center; }
+.portada-noticia .portada-titulo { font: 400 150px/0.95 "Anton", sans-serif; text-transform: uppercase; letter-spacing: 0; }
+.portada-noticia .portada-titulo mark { background: #E11D2A; color: #fff; padding: 0 14px; transform: none; display: inline; }
+.tema-editorial .portada-noticia .portada-titulo { font-family: "Anton", sans-serif; }
+.portada-noticia .portada-titulo { line-height: 1.02; }
+.portada-noticia .portada-titulo mark { background: none; color: #E11D2A; padding: 0; }
+.tema-noche .portada-noticia .portada-titulo mark { color: #FF3B47; }
+.cinta { white-space: nowrap; }
+.tema-nota .portada-titulo { font-size: 170px; }
+.tema-nota .t-portada .sub { font-size: 60px; }
+/* En tuit y nota no va el número gigante de fondo: se muestra el número normal */
+.tema-tuit .marca-agua, .tema-nota .marca-agua { display: none; }
+.tema-tuit.interior-marca .t-punto .numero, .tema-nota.interior-marca .t-punto .numero { display: block; }
+.tema-tuit.interior-marca .t-punto .contenido, .tema-nota.interior-marca .t-punto .contenido { justify-content: center; }

@@ -14,7 +14,7 @@ const datos = JSON.parse(readFileSync(join(RAIZ, archivo), "utf8"));
 const total = datos.laminas.length;
 
 // El diseño se turna solo según el número del carrusel (001, 002…), salvo que el JSON pida un "tema"
-const TEMAS = ["crema", "noche", "editorial"]; // también existen "tuit" y "naranja" (se pueden pedir con "tema" en el JSON)
+const TEMAS = ["crema", "noche", "editorial", "tuit", "nota"]; // también existen "tuit" y "naranja" (se pueden pedir con "tema" en el JSON)
 const numero = parseInt(datos.id, 10) || 1;
 const tema = datos.tema || TEMAS[(numero - 1) % TEMAS.length];
 // Portadas con imagen: se elige según la etiqueta del carrusel y, si no calza, se turna por número
@@ -31,12 +31,12 @@ const plano = (html) => html.replace(/<[^>]+>/g, "");
 const puntos = datos.laminas.filter((l) => l.tipo === "punto");
 // Estructura de portada y formato de láminas interiores: se turnan por número (distinto ciclo que el color),
 // así las combinaciones tardan en repetirse. El JSON puede fijarlas con "portada" y "interior".
-const ESTRUCTURAS = ["imagen", "numero", "lista", "bloque", "centro"];
+const ESTRUCTURAS = ["imagen", "numero", "lista", "bloque", "centro", "diagrama", "noticia"];
 const INTERIORES = ["clasico", "tarjeta", "marca"];
 const portadaDe = (l) => {
   let e = l.portada || datos.portada || ESTRUCTURAS[numero % ESTRUCTURAS.length];
   if (e === "numero" && !/^\d+/.test(plano(l.titulo))) e = "lista";
-  if (e === "lista" && puntos.length < 3) e = "bloque";
+  if ((e === "lista" || e === "diagrama") && puntos.length < 3) e = "bloque";
   return e;
 };
 const interior = datos.interior || INTERIORES[Math.floor((numero - 1) / 3) % INTERIORES.length]; // ciclo distinto al del color
@@ -89,31 +89,42 @@ function lamina(l, i) {
     return `<section class="lamina portada-tarjeta" id="l${i}">
       <div class="contenido"><div class="etiqueta">${l.etiqueta}</div><h1 class="portada-titulo">${l.titulo}</h1><p class="sub">${l.subtitulo}</p></div>
       <div class="foto-tarjeta"><img src="${src}"><span class="globo">${l.globo || "Te lo explico 👇"}</span></div>${pie(i)}</section>`;
-  } else if (l.tipo === "portada" && tema !== "tuit" && portadaDe(l) === "numero") {
+  } else if (l.tipo === "portada" && !["tuit", "nota"].includes(tema) && portadaDe(l) === "numero") {
     const n = plano(l.titulo).match(/^\d+/)[0];
     return `<section class="lamina portada-numero t-portada" id="l${i}"><div class="contenido">
       <div class="etiqueta">${l.etiqueta}</div>
       <div class="gran-numero">${n}</div>
       <h1 class="portada-titulo">${l.titulo.replace(/^\s*\d+\s*/, "")}</h1>
       <p class="sub">${l.subtitulo}</p></div>${pie(i)}</section>`;
-  } else if (l.tipo === "portada" && tema !== "tuit" && portadaDe(l) === "lista") {
+  } else if (l.tipo === "portada" && !["tuit", "nota"].includes(tema) && portadaDe(l) === "lista") {
     return `<section class="lamina portada-lista t-portada" id="l${i}"><div class="contenido">
       <div class="etiqueta">${l.etiqueta}</div>
       <h1 class="portada-titulo">${l.titulo}</h1>
       <ol class="indice">${puntos.slice(0, 5).map((p, k) => `<li class="${k >= 3 ? "borroso" : ""}"><b>${p.numero}</b>${plano(p.titulo)}</li>`).join("")}</ol>
       <div class="desliza">Desliza para verlos todos <span>→</span></div></div>${pie(i)}</section>`;
-  } else if (l.tipo === "portada" && tema !== "tuit" && portadaDe(l) === "bloque") {
+  } else if (l.tipo === "portada" && !["tuit", "nota"].includes(tema) && portadaDe(l) === "bloque") {
     return `<section class="lamina portada-bloque t-portada" id="l${i}">
       <div class="bloque"><div class="etiqueta">${l.etiqueta}</div><h1 class="portada-titulo">${l.titulo}</h1></div>
       <div class="contenido"><p class="sub">${l.subtitulo}</p><div class="flecha-grande">→</div></div>${pie(i)}</section>`;
-  } else if (l.tipo === "portada" && tema !== "tuit" && portadaDe(l) === "centro") {
+  } else if (l.tipo === "portada" && !["tuit", "nota"].includes(tema) && portadaDe(l) === "diagrama") {
+    return `<section class="lamina portada-diagrama t-portada" id="l${i}"><div class="contenido">
+      <div class="etiqueta">${l.etiqueta}</div>
+      <h1 class="portada-titulo">${l.titulo}</h1>
+      <div class="flujo">${puntos.slice(0, 3).map((p) => `<div class="caja">${plano(p.titulo)}</div>`).join('<div class="baja-flecha">↓</div>')}</div>
+      </div>${pie(i)}</section>`;
+  } else if (l.tipo === "portada" && !["tuit", "nota"].includes(tema) && portadaDe(l) === "noticia") {
+    return `<section class="lamina portada-noticia t-portada" id="l${i}">
+      <div class="cinta"><span class="punto-vivo"></span>${l.etiqueta} · IMPORTANTE</div>
+      <div class="contenido"><h1 class="portada-titulo">${l.titulo}</h1><p class="sub">${l.subtitulo}</p>
+      <div class="desliza">Sigue leyendo <span>→</span></div></div>${pie(i)}</section>`;
+  } else if (l.tipo === "portada" && !["tuit", "nota"].includes(tema) && portadaDe(l) === "centro") {
     return `<section class="lamina portada-centro t-portada" id="l${i}"><div class="contenido">
       <div class="comillas">“</div>
       <div class="etiqueta">${l.etiqueta}</div>
       <h1 class="portada-titulo">${l.titulo}</h1>
       <p class="sub">${l.subtitulo}</p>
       <div class="desliza">Desliza <span>→</span></div></div>${pie(i)}</section>`;
-  } else if (l.tipo === "portada" && tema !== "tuit" && visualDe(l) !== "texto") {
+  } else if (l.tipo === "portada" && !["tuit", "nota"].includes(tema) && visualDe(l) !== "texto") {
     return `<section class="lamina portada-visual t-portada" id="l${i}"><div class="contenido">
       <div class="etiqueta">${l.etiqueta}</div>
       <h1 class="portada-titulo">${l.titulo}</h1>
@@ -150,7 +161,7 @@ function lamina(l, i) {
 
 const html = `<!doctype html><html lang="es"><head><meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Caveat:wght@500;700&family=Anton&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${pathToFileURL(join(RAIZ, "plantilla", "estilos.css")).href}">
 </head><body class="tema-${tema} interior-${interior}">${datos.laminas.map(lamina).join("")}</body></html>`;
 

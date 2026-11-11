@@ -1,0 +1,54 @@
+{
+  "id": "122-ia-no-hace",
+  "usuario": "@matirhayett",
+  "fecha": "2026-11-26",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "IA",
+      "titulo": "Lo que la IA <mark>todavía no puede hacer</mark> por tus anuncios",
+      "subtitulo": "(y por eso te sigue necesitando a ti)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La IA hace mucho. Pero no todo.",
+      "cuerpo": "Si delegas esto, tus resultados lo van a notar 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CLAVE",
+      "titulo": "Conocer a tu cliente de verdad",
+      "cuerpo": "Las conversaciones reales con clientes <b>no se reemplazan con un prompt</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CLAVE",
+      "titulo": "Decidir tu oferta",
+      "cuerpo": "Qué vendes, a qué precio y con qué garantía <b>es una decisión de negocio</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CLAVE",
+      "titulo": "Responder con empatía",
+      "cuerpo": "Un cliente molesto o indeciso <b>necesita a una persona</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CLAVE",
+      "titulo": "Asumir la responsabilidad",
+      "cuerpo": "Si un anuncio promete algo falso, <b>la responsabilidad es tuya</b>, no de la IA."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Usa la IA como <mark>ayudante</mark>, no como reemplazo.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "⚠️ Lo que la IA todavía no puede hacer por tus anuncios\n\nLa IA ayuda, pero las decisiones importantes siguen siendo tuyas.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#claudecode #inteligenciaartificial #metaads #marketingdigital #emprendedores #automatizacion",
+  "portada": "noticia"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "115-automatice-carruseles",
+  "usuario": "@matirhayett",
+  "fecha": "2026-11-11",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "CLAUDE CODE",
+      "titulo": "Automaticé mis carruseles de Instagram con <mark>Claude Code</mark>.",
+      "subtitulo": "Esto es lo que hace solo, todos los días:"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Este carrusel no lo diseñé a mano.",
+      "cuerpo": "Lo generó y lo publicó un sistema que armé con Claude Code. Te cuento cómo funciona 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Escribe el contenido",
+      "cuerpo": "Le doy el tema y el tono de mi marca. <b>Arma los textos de cada lámina</b> y el texto de la publicación."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Diseña las láminas",
+      "cuerpo": "Usa una plantilla con mis colores y <b>va cambiando el diseño</b> para que el feed no se vea repetido."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Revisa que todo quepa",
+      "cuerpo": "Si un título es muy largo, <b>achica la letra sola</b> antes de publicar."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Publica a la hora exacta",
+      "cuerpo": "Dos publicaciones al día, <b>sin que yo toque nada</b>."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Lo mejor?",
+      "cuerpo": "No sé programar. <b>Le expliqué lo que quería en español</b> y Claude Code construyó el sistema conmigo."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "La IA no reemplaza tu criterio: <mark>multiplica</mark> tu tiempo.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🤖 Automaticé mis carruseles con Claude Code\n\nEste mismo post lo publicó el sistema. ¿Quieres saber cómo?\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#claudecode #inteligenciaartificial #metaads #marketingdigital #emprendedores #automatizacion",
+  "tema": "tuit"
+}

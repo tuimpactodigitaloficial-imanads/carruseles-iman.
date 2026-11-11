@@ -1,0 +1,54 @@
+{
+  "id": "116-que-es-claude-code",
+  "usuario": "@matirhayett",
+  "fecha": "2026-11-13",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "IA",
+      "titulo": "Qué es Claude Code <mark>explicado para marketers</mark>",
+      "subtitulo": "(sin tecnicismos)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "No es solo un chat de IA.",
+      "cuerpo": "Claude Code es una herramienta de Anthropic que no solo responde: <b>hace tareas en tu computador</b>. Así funciona 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "CLAVE",
+      "titulo": "Le hablas en español",
+      "cuerpo": "Le explicas lo que quieres como se lo dirías a un asistente. <b>No necesitas saber programar.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "CLAVE",
+      "titulo": "Trabaja con tus archivos",
+      "cuerpo": "Puede <b>crear, leer y ordenar archivos</b>: textos, planillas, imágenes y más."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "CLAVE",
+      "titulo": "Ejecuta tareas completas",
+      "cuerpo": "No te da una respuesta para copiar: <b>hace el trabajo de principio a fin</b> y te muestra el resultado."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "CLAVE",
+      "titulo": "Se conecta con tus herramientas",
+      "cuerpo": "Con conectores puede trabajar con <b>Drive, Figma y otras apps</b> que ya usas."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Menos copiar y pegar, más <mark>resultados</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🧠 Qué es Claude Code, explicado para marketers\n\nLa herramienta de IA que hace tareas, no solo responde.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#claudecode #inteligenciaartificial #metaads #marketingdigital #emprendedores #automatizacion",
+  "portada": "diagrama"
+}

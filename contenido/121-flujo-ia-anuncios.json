@@ -1,0 +1,54 @@
+{
+  "id": "121-flujo-ia-anuncios",
+  "usuario": "@matirhayett",
+  "fecha": "2026-11-24",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "IA",
+      "titulo": "De la idea al anuncio en <mark>1 hora</mark> con IA",
+      "subtitulo": "(mi flujo de trabajo)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Antes un anuncio me tomaba días.",
+      "cuerpo": "Ahora sigo este flujo, y la IA hace la parte pesada 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "PASO",
+      "titulo": "Investigación",
+      "cuerpo": "La IA resume <b>las dudas y quejas más comunes</b> de tus clientes."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "PASO",
+      "titulo": "Ángulos y ganchos",
+      "cuerpo": "Con esas dudas, propone <b>varios ángulos</b> para el anuncio."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "PASO",
+      "titulo": "Guion y textos",
+      "cuerpo": "Escribe el guion del video y <b>el texto del anuncio</b> con tu tono."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "PASO",
+      "titulo": "Revisión humana",
+      "cuerpo": "Tú eliges, corriges y <b>agregas tu experiencia</b>. Este paso no se salta."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "La IA acelera. El criterio sigue siendo <mark>tuyo</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🔁 De la idea al anuncio en 1 hora con IA\n\nGuarda este flujo y pruébalo esta semana.\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#claudecode #inteligenciaartificial #metaads #marketingdigital #emprendedores #automatizacion",
+  "portada": "diagrama"
+}

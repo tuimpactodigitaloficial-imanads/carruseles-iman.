@@ -1,0 +1,61 @@
+{
+  "id": "117-tareas-marketing-claude",
+  "usuario": "@matirhayett",
+  "fecha": "2026-11-15",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "IA",
+      "titulo": "5 tareas de marketing que <mark>Claude Code</mark> hace por ti",
+      "subtitulo": "(y te ahorran horas)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Si haces todo esto a mano, estás perdiendo tiempo.",
+      "cuerpo": "Estas son tareas que puedes delegarle hoy 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "TAREA",
+      "titulo": "Escribir variaciones de anuncios",
+      "cuerpo": "<b>20 ganchos y textos distintos</b> para probar, en minutos."
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "TAREA",
+      "titulo": "Ordenar tus métricas",
+      "cuerpo": "Le pasas un reporte exportado y te arma <b>un resumen claro</b> de qué funcionó."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "TAREA",
+      "titulo": "Crear tu calendario de contenido",
+      "cuerpo": "Un mes de ideas organizadas <b>por día, formato y objetivo</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "TAREA",
+      "titulo": "Diseñar carruseles y piezas",
+      "cuerpo": "Con plantillas de tu marca, <b>genera las imágenes</b> listas para subir."
+    },
+    {
+      "tipo": "punto",
+      "numero": "05",
+      "etiqueta": "TAREA",
+      "titulo": "Responder preguntas frecuentes",
+      "cuerpo": "Arma <b>respuestas rápidas</b> para tu WhatsApp con el tono de tu negocio."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Delega lo repetitivo y enfócate en <mark>vender</mark>.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "⚡ 5 tareas de marketing que Claude Code hace por ti\n\n¿Cuál le delegarías primero?\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#claudecode #inteligenciaartificial #metaads #marketingdigital #emprendedores #automatizacion",
+  "tema": "nota"
+}

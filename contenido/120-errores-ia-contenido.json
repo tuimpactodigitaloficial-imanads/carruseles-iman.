@@ -1,0 +1,54 @@
+{
+  "id": "120-errores-ia-contenido",
+  "usuario": "@matirhayett",
+  "fecha": "2026-11-21",
+  "laminas": [
+    {
+      "tipo": "portada",
+      "etiqueta": "IA",
+      "titulo": "4 errores al crear contenido con IA que <mark>se notan</mark>",
+      "subtitulo": "(y cómo evitarlos)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La gente ya reconoce el contenido hecho con IA.",
+      "cuerpo": "Y lo ignora. Estos errores son los que más lo delatan 👇"
+    },
+    {
+      "tipo": "punto",
+      "numero": "01",
+      "etiqueta": "ERROR",
+      "titulo": "Copiar y pegar sin editar",
+      "cuerpo": "Frases como “en el mundo actual” o “descubre el poder de…”. <b>Suenan a robot.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "02",
+      "etiqueta": "ERROR",
+      "titulo": "No dar contexto",
+      "cuerpo": "Sin datos de tu negocio, <b>la IA escribe para cualquiera</b>."
+    },
+    {
+      "tipo": "punto",
+      "numero": "03",
+      "etiqueta": "ERROR",
+      "titulo": "Inventar datos",
+      "cuerpo": "La IA puede equivocarse con cifras. <b>Revisa todo número antes de publicar.</b>"
+    },
+    {
+      "tipo": "punto",
+      "numero": "04",
+      "etiqueta": "ERROR",
+      "titulo": "Perder tu opinión",
+      "cuerpo": "Lo que te diferencia es tu experiencia. <b>Agrégala siempre.</b>"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "La IA escribe rápido. <mark>Tú</mark> le das el alma.",
+      "cuerpo": "Comenta <b>CLIENTES</b> y te envío el acceso a mi comunidad, donde te enseño paso a paso.",
+      "extra": "Guarda este post para tenerlo a mano 📌"
+    }
+  ],
+  "caption": "🚫 4 errores al crear contenido con IA\n\n¿Cuál ves más seguido en redes?\n\n💬 Comenta CLIENTES y te envío el acceso a mi comunidad.\n📌 Guárdalo para cuando lo necesites.\n\n#claudecode #inteligenciaartificial #metaads #marketingdigital #emprendedores #automatizacion",
+  "tema": "nota"
+}
