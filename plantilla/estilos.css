@@ -421,3 +421,4 @@ footer { display: flex; justify-content: space-between; align-items: center; fon
 .tema-tuit .marca-agua, .tema-nota .marca-agua { display: none; }
 .tema-tuit.interior-marca .t-punto .numero, .tema-nota.interior-marca .t-punto .numero { display: block; }
 .tema-tuit.interior-marca .t-punto .contenido, .tema-nota.interior-marca .t-punto .contenido { justify-content: center; }
+.tema-nota .lamina.oscura .cuerpo b { background: none; color: var(--rojo); }
