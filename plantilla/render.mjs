@@ -109,6 +109,16 @@ function caminoPop(i) {
 }
 function laminaPop(l, i) {
   const piePop = `<footer class="pop-pie">${firma()}<span class="pop-flecha">${i < total - 1 ? "→" : ""}</span></footer>`;
+  // Portada con imagen generada con IA ("imagen": ruta relativa a la carpeta del proyecto)
+  if (l.tipo === "portada" && l.imagen) {
+    return `<section class="lamina pop pop-foto" id="l${i}" style="--acento:${acento}">
+      <img class="foto-full" src="${pathToFileURL(join(RAIZ, l.imagen)).href}">
+      <div class="foto-sombra"></div>
+      <div class="pop-arriba foto-firma">${firma()}</div>
+      <div class="foto-texto"><div class="foto-pildora">${l.etiqueta}</div>
+      <h1 class="foto-titulo">${l.titulo}</h1>
+      <p class="foto-sub">${l.subtitulo.replace(/^\(|\)$/g, "")} →</p></div></section>`;
+  }
   if (l.tipo === "portada") {
     const m = l.titulo.match(/^(.*?)<mark>(.*?)<\/mark>(.*)$/s) || [null, "", plano(l.titulo), ""];
     const emoji = datos.emoji || EMOJI_POR_ETIQUETA[l.etiqueta] || "🧲";

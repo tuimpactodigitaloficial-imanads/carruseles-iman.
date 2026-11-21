@@ -553,3 +553,15 @@ footer { display: flex; justify-content: space-between; align-items: center; fon
 .sentado { font-size: 290px; } .sentado.b { font-size: 250px; }
 .camino { bottom: 130px; height: 220px; }
 .viajero { margin-top: 14px; }
+
+/* --- POP: portada con imagen de IA a pantalla completa --- */
+.lamina.pop.pop-foto { padding: 0; background: #0E0E0E; color: #fff; }
+.foto-full { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+.foto-sombra { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,0,0,.35) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 45%, rgba(0,0,0,.88) 78%, #000 100%); }
+.foto-firma { position: absolute; top: 60px; left: 0; right: 0; z-index: 2; color: #fff; }
+.foto-firma .pop-logo { background: var(--rojo); } .foto-firma .pop-logo .iman { color: #fff; } .foto-firma .pop-logo .iman rect { fill: var(--rojo); }
+.foto-texto { position: absolute; left: 80px; right: 80px; bottom: 80px; z-index: 2; text-align: center; display: flex; flex-direction: column; align-items: center; }
+.foto-pildora { background: #E11D2A; font: 800 34px "Inter Tight", sans-serif; letter-spacing: .06em; padding: 12px 40px; border-radius: 14px; margin-bottom: 26px; }
+.foto-titulo { font: 800 86px/1.06 "Inter Tight", sans-serif; letter-spacing: -0.03em; text-shadow: 0 6px 30px rgba(0,0,0,.6); }
+.foto-titulo mark { background: none; color: #FFE500; }
+.foto-sub { font: 600 32px "Inter Tight", sans-serif; opacity: .85; margin-top: 26px; }
