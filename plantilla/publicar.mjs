@@ -15,6 +15,8 @@ if (existsSync(ENV_LOCAL)) process.loadEnvFile(ENV_LOCAL); // en la nube las cla
 const env = process.env;
 const PRUEBA = process.argv.includes("--prueba");
 const DIARIO = process.argv.includes("--diario");
+// --archivo NNN-nombre.json publica ese carrusel puntual, sin mirar la cola ni el horario
+const ARCHIVO = process.argv.includes("--archivo") ? process.argv[process.argv.indexOf("--archivo") + 1] : null;
 const ZONA = env.ZONA_HORARIA || "America/Santiago";
 const API = "https://graph.instagram.com/v23.0";
 const REGISTRO = join(RAIZ, "publicados.json");
@@ -89,7 +91,13 @@ const candidatos = readdirSync(join(RAIZ, "contenido"))
   .filter((f) => f.endsWith(".json") && !publicados.some((p) => p.archivo === f))
   .sort()
   .map((f) => ({ archivo: f, fecha: JSON.parse(readFileSync(join(RAIZ, "contenido", f), "utf8")).fecha }));
-const pendiente = (candidatos.find((c) => c.fecha && c.fecha <= hoy) || candidatos.find((c) => !c.fecha))?.archivo;
+const pendiente = ARCHIVO
+  ? candidatos.find((c) => c.archivo === ARCHIVO)?.archivo
+  : (candidatos.find((c) => c.fecha && c.fecha <= hoy) || candidatos.find((c) => !c.fecha))?.archivo;
+if (ARCHIVO && !pendiente) {
+  log(`${ARCHIVO} no existe o ya fue publicado. No se publica nada.`);
+  process.exit(0);
+}
 if (!pendiente) {
   log("No hay carruseles pendientes para hoy en contenido/");
   process.exit(1);
