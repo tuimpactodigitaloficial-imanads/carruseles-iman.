@@ -565,3 +565,6 @@ footer { display: flex; justify-content: space-between; align-items: center; fon
 .foto-titulo { font: 800 86px/1.06 "Inter Tight", sans-serif; letter-spacing: -0.03em; text-shadow: 0 6px 30px rgba(0,0,0,.6); }
 .foto-titulo mark { background: none; color: #FFE500; }
 .foto-sub { font: 600 32px "Inter Tight", sans-serif; opacity: .85; margin-top: 26px; }
+/* Sin insignia arriba en las portadas con foto, y sin check azul de verificado (la cuenta no está verificada) */
+.foto-firma { display: none; }
+.pop-firma i, .tuit-cabecera .verificado { display: none; }
