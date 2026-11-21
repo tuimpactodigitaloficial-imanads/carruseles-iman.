@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight:wght@500;600;700;800;900&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<style>
+:root { --naranja: #FF4A1C; --negro: #0E0E0E; --crema: #F6F0E4; --gris: #8A857C; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #333; font-family: "Inter Tight", sans-serif; }
+.lamina { width: 1080px; height: 1350px; position: relative; overflow: hidden; padding: 92px 90px 84px; display: flex; flex-direction: column; }
+.oscura { background: radial-gradient(ellipse 90% 60% at 50% 105%, rgba(255, 74, 28, .28), transparent 70%), radial-gradient(circle at 15% 0%, #222 0%, var(--negro) 55%); color: var(--crema); }
+.clara { background: var(--crema); color: var(--negro); }
+.naranja { background: radial-gradient(circle at 80% 10%, #FF6A3D, var(--naranja) 60%); color: #fff; }
+/* grano sutil */
+.lamina::after { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .07; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+
+/* cabecera y pie comunes */
+.cab { display: flex; justify-content: space-between; align-items: center; font: 700 26px "Inter Tight"; letter-spacing: .02em; margin-bottom: 40px; position: relative; z-index: 2; }
+.marca { display: flex; align-items: center; gap: 14px; }
+.logo { width: 54px; height: 54px; border-radius: 50%; background: var(--naranja); display: grid; place-items: center; }
+.logo svg { width: 30px; height: 30px; }
+.cont { font: 800 24px "Inter Tight"; opacity: .55; letter-spacing: .1em; }
+.pie { margin-top: auto; display: flex; justify-content: space-between; align-items: center; font: 700 26px "Inter Tight"; position: relative; z-index: 2; }
+.desliza { display: flex; align-items: center; gap: 12px; opacity: .75; }
+.flecha { width: 64px; height: 64px; border-radius: 50%; border: 3px solid currentColor; display: grid; place-items: center; font-size: 34px; }
+.nota { font: 700 54px "Caveat"; color: var(--naranja); }
+
+/* 1 · portada */
+.p1 .kicker { align-self: flex-start; background: var(--naranja); color: #fff; font: 800 28px "Inter Tight"; letter-spacing: .14em; padding: 12px 26px; border-radius: 40px; margin-bottom: 30px; }
+.p1 h1 { font: 400 210px/0.86 "Anton"; text-transform: uppercase; letter-spacing: -0.01em; }
+.p1 h1 span { color: var(--naranja); display: block; }
+.p1 .bajada { font: 800 58px/1.05 "Inter Tight"; letter-spacing: -0.03em; margin-top: 14px; }
+.abanico { position: absolute; left: 0; right: 0; bottom: 150px; height: 560px; }
+.hoja { position: absolute; width: 330px; border-radius: 10px; box-shadow: 0 40px 80px rgba(0, 0, 0, .6), 0 0 0 1px rgba(255, 255, 255, .08); }
+.h1 { left: 440px; top: 70px; transform: rotate(-11deg); filter: brightness(.75); }
+.h2 { left: 560px; top: 30px; transform: rotate(-2deg); filter: brightness(.88); }
+.h3 { left: 680px; top: 60px; transform: rotate(9deg); }
+.p1 .nota { position: absolute; left: 110px; bottom: 470px; transform: rotate(-6deg); line-height: .95; }
+.p1 .nota svg { display: block; margin: 10px 0 0 120px; }
+.cta-mini { position: relative; z-index: 2; display: inline-flex; align-items: center; gap: 16px; background: var(--crema); color: var(--negro); font: 800 36px "Inter Tight"; padding: 22px 34px; border-radius: 22px; box-shadow: 8px 8px 0 var(--naranja); }
+.cta-mini b { font: 400 44px "Anton"; color: var(--naranja); letter-spacing: .02em; }
+
+/* 2 · 3 segundos */
+.p2 .tres { font: 400 470px/0.8 "Anton"; color: var(--naranja); letter-spacing: -0.03em; }
+.p2 .tres small { font-size: 150px; }
+.p2 h2 { font: 800 76px/1.02 "Inter Tight"; letter-spacing: -0.035em; margin-top: 20px; }
+.p2 p { font: 600 42px/1.35 "Inter Tight"; margin-top: 30px; max-width: 860px; color: #3A3630; }
+.p2 p b { background: linear-gradient(transparent 60%, rgba(255, 74, 28, .3) 60%); }
+.reloj { position: absolute; right: 90px; top: 210px; width: 300px; height: 300px; }
+
+/* 3 · débil vs fuerte */
+.p3 h2 { font: 800 82px/1 "Inter Tight"; letter-spacing: -0.04em; margin-bottom: 50px; }
+.p3 h2 em { font-style: normal; color: var(--naranja); }
+.tarjeta { border-radius: 30px; padding: 38px 42px; position: relative; margin-bottom: 34px; }
+.tarjeta .tag { position: absolute; top: -22px; left: 36px; font: 800 24px "Inter Tight"; letter-spacing: .12em; padding: 8px 18px; border-radius: 30px; }
+.debil { background: #E7E0D2; color: #7C766C; }
+.debil .tag { background: #7C766C; color: #fff; }
+.debil p { font: 600 44px/1.3 "Inter Tight"; text-decoration: line-through; text-decoration-thickness: 4px; text-decoration-color: rgba(124, 118, 108, .6); }
+.fuerte { background: #fff; border: 5px solid var(--naranja); box-shadow: 0 30px 60px rgba(14, 14, 14, .12); transform: rotate(-1deg); }
+.fuerte .tag { background: var(--naranja); color: #fff; }
+.fuerte p { font: 800 54px/1.15 "Inter Tight"; letter-spacing: -0.02em; }
+.p3 .remate { font: 700 44px/1.3 "Inter Tight"; margin-top: 16px; }
+.p3 .remate b { color: var(--naranja); }
+
+/* 4-6 · ganchos de muestra */
+.gancho-num { font: 800 30px "Inter Tight"; letter-spacing: .16em; color: var(--naranja); margin-bottom: 14px; }
+.gancho-cat { font: 400 110px/0.9 "Anton"; text-transform: uppercase; margin-bottom: 50px; }
+.cita { position: relative; font: 800 72px/1.08 "Inter Tight"; letter-spacing: -0.035em; padding-left: 40px; border-left: 12px solid var(--naranja); }
+.plantilla { margin-top: 60px; border-radius: 26px; padding: 34px 38px; font: 600 40px/1.55 "Inter Tight"; }
+.oscura .plantilla { background: rgba(255, 255, 255, .06); border: 2px solid rgba(255, 255, 255, .12); }
+.clara .plantilla { background: #fff; box-shadow: 0 20px 50px rgba(14, 14, 14, .08); }
+.plantilla .lbl { display: block; font: 800 24px "Inter Tight"; letter-spacing: .16em; color: var(--naranja); margin-bottom: 10px; }
+.var { background: var(--naranja); color: #fff; padding: 2px 14px; border-radius: 12px; font-weight: 800; white-space: nowrap; }
+.cuando { margin-top: 34px; font: 600 36px/1.4 "Inter Tight"; opacity: .7; }
+
+/* 7 · adentro del PDF */
+.p7 h2 { font: 400 130px/0.9 "Anton"; text-transform: uppercase; }
+.p7 h2 span { color: var(--naranja); }
+.mesa { position: relative; height: 560px; margin: 40px 0 30px; }
+.mesa img { position: absolute; width: 300px; border-radius: 10px; box-shadow: 0 30px 70px rgba(0, 0, 0, .55); }
+.m1 { left: 0; top: 60px; transform: rotate(-8deg); }
+.m2 { left: 230px; top: 10px; transform: rotate(-2deg); }
+.m3 { left: 460px; top: 40px; transform: rotate(4deg); }
+.m4 { left: 670px; top: 90px; transform: rotate(10deg); }
+.lista { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 40px; font: 700 38px/1.25 "Inter Tight"; }
+.lista div { display: flex; gap: 16px; align-items: flex-start; }
+.lista i { font-style: normal; color: var(--naranja); font-weight: 900; }
+
+/* 8 · CTA */
+.p8 { justify-content: flex-start; }
+.p8 .grande { font: 400 120px/0.92 "Anton"; text-transform: uppercase; margin-top: 10px; }
+.p8 .grande b { display: block; font-size: 230px; color: var(--negro); }
+.p8 .sub { font: 700 46px/1.3 "Inter Tight"; margin-top: 24px; }
+.chat { margin-top: 60px; background: #fff; color: var(--negro); border-radius: 34px; padding: 34px 38px; box-shadow: 14px 14px 0 var(--negro); transform: rotate(-1.5deg); }
+.fila { display: flex; gap: 20px; align-items: center; font: 600 34px "Inter Tight"; padding: 14px 0; }
+.av { width: 72px; height: 72px; border-radius: 50%; background: #D9D2C4; display: grid; place-items: center; font: 800 30px "Inter Tight"; flex: none; }
+.fila b { margin-right: 8px; }
+.kw { color: var(--naranja); font-weight: 900; }
+.dm { margin: 18px 0 4px 92px; background: #EFEAE0; border-radius: 26px 26px 26px 8px; padding: 22px 26px; font: 600 32px/1.35 "Inter Tight"; }
+.dm .pdf { display: flex; align-items: center; gap: 14px; margin-top: 14px; background: #fff; border-radius: 16px; padding: 14px 18px; font: 800 28px "Inter Tight"; }
+.dm .pdf span { background: #E11D2A; color: #fff; font: 900 20px "Inter Tight"; padding: 8px 10px; border-radius: 8px; }
+
+/* ajustes */
+.p1 h1 { font-size: 172px; white-space: nowrap; }
+.p1 .bajada { font-size: 62px; }
+.abanico { top: 700px; bottom: auto; height: 470px; }
+.hoja { width: 300px; }
+.h1 { left: 470px; top: 40px; } .h2 { left: 590px; top: 0; } .h3 { left: 710px; top: 30px; }
+.p1 .nota { left: 100px; top: 760px; bottom: auto; }
+.p8 .grande { line-height: 1; }
+.p8 .grande b { margin-top: 18px; line-height: .9; }
+</style></head><body>
+
+<!-- 1 · PORTADA -->
+<section id="l0" class="lamina oscura p1">
+  <div class="cab"><div class="marca"><span class="logo">{{IMAN}}</span>@matirhayett</div><span class="cont">01 / 08</span></div>
+  <div class="kicker">GUÍA GRATIS · PDF</div>
+  <h1><span>50 ganchos</span></h1>
+  <div class="bajada">que frenan el scroll<br>en tus anuncios.</div>
+  <div class="abanico">
+    <img class="hoja h1" src="{{BASE}}/pdf-intro.png">
+    <img class="hoja h2" src="{{BASE}}/pdf-dolor.png">
+    <img class="hoja h3" src="{{BASE}}/pdf-portada.png">
+  </div>
+  <div class="nota">con plantillas<br>para copiar
+    <svg width="160" height="90" viewBox="0 0 160 90"><path d="M5 10 C 60 10, 100 30, 140 75" stroke="#FF4A1C" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M118 72 L142 78 L140 52" stroke="#FF4A1C" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+  <div class="pie"><div class="cta-mini">Comenta <b>GANCHOS</b> y te lo envío</div><div class="desliza"><span class="flecha">→</span></div></div>
+</section>
+
+<!-- 2 · EL PROBLEMA -->
+<section id="l1" class="lamina clara p2">
+  <div class="cab"><div class="marca"><span class="logo">{{IMAN}}</span>@matirhayett</div><span class="cont">02 / 08</span></div>
+  <div class="tres">3<small>seg.</small></div>
+  <svg class="reloj" viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="none" stroke="#E2DACB" stroke-width="8"/><circle cx="50" cy="50" r="44" fill="none" stroke="#FF4A1C" stroke-width="8" stroke-linecap="round" stroke-dasharray="276" stroke-dashoffset="207" transform="rotate(-90 50 50)"/><text x="50" y="58" text-anchor="middle" font-family="Anton" font-size="26" fill="#0E0E0E">0:03</text></svg>
+  <h2>Es todo lo que tienes antes de que deslicen.</h2>
+  <p>Si tu primera frase no engancha, nadie ve <b>tu oferta, tu precio ni tu botón</b>. No importa cuánto inviertas: el anuncio ya perdió.</p>
+  <div class="pie"><span style="opacity:.6">El gancho decide si tu anuncio existe.</span><div class="desliza"><span class="flecha">→</span></div></div>
+</section>
+
+<!-- 3 · DÉBIL VS FUERTE -->
+<section id="l2" class="lamina clara p3">
+  <div class="cab"><div class="marca"><span class="logo">{{IMAN}}</span>@matirhayett</div><span class="cont">03 / 08</span></div>
+  <h2>La diferencia entre un gancho <em>débil</em> y uno <em>fuerte</em>:</h2>
+  <div class="tarjeta debil"><span class="tag">✕ DÉBIL</span><p>Hola 👋 Somos una agencia con 10 años de experiencia y ofrecemos soluciones de marketing.</p></div>
+  <div class="tarjeta fuerte"><span class="tag">✓ FUERTE</span><p>Si pagaste anuncios y no te escribió ni un cliente, mira esto.</p></div>
+  <p class="remate">Uno habla de ti. <b>El otro habla del problema de tu cliente.</b></p>
+  <div class="pie"><span style="opacity:.6">Te dejo 3 del PDF 👉</span><div class="desliza"><span class="flecha">→</span></div></div>
+</section>
+
+<!-- 4 · GANCHO 1 -->
+<section id="l3" class="lamina oscura">
+  <div class="cab"><div class="marca"><span class="logo">{{IMAN}}</span>@matirhayett</div><span class="cont">04 / 08</span></div>
+  <div class="gancho-num">GANCHO #01 DE 50</div>
+  <div class="gancho-cat">Dolor directo</div>
+  <div class="cita">Si pagaste anuncios y no te escribió ni un cliente, mira esto.</div>
+  <div class="plantilla"><span class="lbl">PLANTILLA PARA TU NEGOCIO</span>Si <span class="var">hiciste X</span> y no conseguiste <span class="var">resultado</span>, mira esto.</div>
+  <p class="cuando">Úsalo con gente que ya probó algo y le salió mal.</p>
+  <div class="pie"><span></span><div class="desliza"><span class="flecha">→</span></div></div>
+</section>
+
+<!-- 5 · GANCHO 2 -->
+<section id="l4" class="lamina clara">
+  <div class="cab"><div class="marca"><span class="logo">{{IMAN}}</span>@matirhayett</div><span class="cont">05 / 08</span></div>
+  <div class="gancho-num">GANCHO #17 DE 50</div>
+  <div class="gancho-cat">Contraintuitivo</div>
+  <div class="cita">Más presupuesto no arregla un mal anuncio. Solo te hace perder más rápido.</div>
+  <div class="plantilla"><span class="lbl">PLANTILLA PARA TU NEGOCIO</span>Más <span class="var">recurso</span> no arregla un mal <span class="var">X</span>. Solo <span class="var">consecuencia</span>.</div>
+  <p class="cuando">Contradice una creencia popular. Genera debate y comentarios.</p>
+  <div class="pie"><span></span><div class="desliza"><span class="flecha">→</span></div></div>
+</section>
+
+<!-- 6 · GANCHO 3 -->
+<section id="l5" class="lamina oscura">
+  <div class="cab"><div class="marca"><span class="logo">{{IMAN}}</span>@matirhayett</div><span class="cont">06 / 08</span></div>
+  <div class="gancho-num">GANCHO #07 DE 50</div>
+  <div class="gancho-cat">Curiosidad</div>
+  <div class="cita">Esto es lo primero que reviso cuando alguien me dice que sus anuncios no venden.</div>
+  <div class="plantilla"><span class="lbl">PLANTILLA PARA TU NEGOCIO</span>Esto es lo primero que reviso cuando <span class="var">problema típico</span>.</div>
+  <p class="cuando">Abre una pregunta que solo se cierra viendo el anuncio completo.</p>
+  <div class="pie"><span></span><div class="desliza"><span class="flecha">→</span></div></div>
+</section>
+
+<!-- 7 · ADENTRO DEL PDF -->
+<section id="l6" class="lamina oscura p7">
+  <div class="cab"><div class="marca"><span class="logo">{{IMAN}}</span>@matirhayett</div><span class="cont">07 / 08</span></div>
+  <h2>Y hay <span>47 más</span><br>adentro del PDF.</h2>
+  <div class="mesa">
+    <img class="m1" src="{{BASE}}/pdf-portada.png"><img class="m2" src="{{BASE}}/pdf-dolor.png">
+    <img class="m3" src="{{BASE}}/pdf-contraintuitivo.png"><img class="m4" src="{{BASE}}/pdf-polemica.png">
+  </div>
+  <div class="lista">
+    <div><i>✓</i>10 tipos de gancho</div><div><i>✓</i>Plantilla en cada uno</div>
+    <div><i>✓</i>Para cualquier rubro</div><div><i>✓</i>Método para probarlos</div>
+  </div>
+  <div class="pie"><span></span><div class="desliza"><span class="flecha">→</span></div></div>
+</section>
+
+<!-- 8 · CTA -->
+<section id="l7" class="lamina naranja p8">
+  <div class="cab"><div class="marca"><span class="logo" style="background:#0E0E0E">{{IMAN}}</span>@matirhayett</div><span class="cont" style="opacity:.8">08 / 08</span></div>
+  <div class="grande">¿Lo quieres?<br>Comenta<b>GANCHOS</b></div>
+  <p class="sub">y te envío el PDF completo por mensaje directo. Gratis.</p>
+  <div class="chat">
+    <div class="fila"><span class="av">TÚ</span><div><b>tu_usuario</b><span class="kw">GANCHOS</span></div></div>
+    <div class="dm">¡Hola! Acá tienes tu guía 🧲
+      <div class="pdf"><span>PDF</span>50 ganchos para anuncios de Meta</div></div>
+  </div>
+  <div class="pie" style="color:#fff"><span>📌 Guarda este post para tu próxima campaña</span></div>
+</section>
+
+</body></html>

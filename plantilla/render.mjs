@@ -11,7 +11,8 @@ const CHROME = process.env.CHROME_PATH || "C:/Program Files/Google/Chrome/Applic
 const archivo = process.argv[2];
 if (!archivo) throw new Error("Falta el JSON del carrusel");
 const datos = JSON.parse(readFileSync(join(RAIZ, archivo), "utf8"));
-const total = datos.laminas.length;
+// Un carrusel puede traer su propio diseño a medida ("html": ruta a un archivo con una <section class="lamina"> por lámina)
+const total = datos.html ? (readFileSync(join(RAIZ, datos.html), "utf8").match(/<section id="l\d+" class="lamina/g) || []).length : datos.laminas.length;
 
 // El diseño se turna solo según el número del carrusel (001, 002…), salvo que el JSON pida un "tema"
 const TEMAS = ["pop"]; // estilo principal; siguen existiendo "crema", "noche", "editorial", "tuit" y "nota" (campo "tema" del JSON) // también existen "tuit" y "naranja" (se pueden pedir con "tema" en el JSON)
@@ -246,7 +247,12 @@ const html = `<!doctype html><html lang="es"><head><meta charset="utf-8">
 const salida = join(RAIZ, "salida", datos.id);
 mkdirSync(salida, { recursive: true });
 const htmlPath = join(salida, "carrusel.html");
-writeFileSync(htmlPath, html);
+writeFileSync(htmlPath, datos.html
+  ? readFileSync(join(RAIZ, datos.html), "utf8")
+      .replaceAll("{{BASE}}", pathToFileURL(join(RAIZ, dirname(datos.html), "assets")).href)
+      .replaceAll("{{IMAN}}", iman.replace('class="iman"', 'class="iman" style="color:#fff"').replaceAll('var(--blanco)', '#FF4A1C'))
+      .replace(/<section class="lamina([^"]*)"/g, (m, c, k) => m)
+  : html);
 writeFileSync(join(salida, "caption.txt"), datos.caption);
 
 const nav = await puppeteer.launch({
@@ -280,4 +286,4 @@ for (let i = 0; i < total; i++) {
   await el.screenshot({ path: join(salida, `lamina-${String(i + 1).padStart(2, "0")}.png`) });
 }
 await nav.close();
-console.log(`OK: ${total} láminas (diseño ${tema}, portada ${portadaDe(datos.laminas[0])}, interior ${interior}) en ${salida}`);
+console.log(`OK: ${total} láminas (diseño ${tema}, portada ${datos.html ? "a medida" : portadaDe(datos.laminas[0])}, interior ${interior}) en ${salida}`);
