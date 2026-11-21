@@ -14,7 +14,7 @@ const datos = JSON.parse(readFileSync(join(RAIZ, archivo), "utf8"));
 const total = datos.laminas.length;
 
 // El diseño se turna solo según el número del carrusel (001, 002…), salvo que el JSON pida un "tema"
-const TEMAS = ["crema", "noche", "editorial", "tuit", "nota"]; // también existen "tuit" y "naranja" (se pueden pedir con "tema" en el JSON)
+const TEMAS = ["pop"]; // estilo principal; siguen existiendo "crema", "noche", "editorial", "tuit" y "nota" (campo "tema" del JSON) // también existen "tuit" y "naranja" (se pueden pedir con "tema" en el JSON)
 const numero = parseInt(datos.id, 10) || 1;
 const tema = datos.tema || TEMAS[(numero - 1) % TEMAS.length];
 // Portadas con imagen: se elige según la etiqueta del carrusel y, si no calza, se turna por número
@@ -76,7 +76,85 @@ const pie = (i, oscuro) => `
     <div class="pag">${i + 1}/${total}${i < total - 1 ? ' <span class="flecha">→</span>' : ""}</div>
   </footer>`;
 
+// ---------- Estilo POP: portada con palabra gigante + objeto ilustrado, e ícono que avanza de lámina en lámina ----------
+const EMOJI_POR_ETIQUETA = {
+  "META ADS": "📣", "CLAUDE CODE": "🤖", IA: "🤖", PROMPTS: "💬", WHATSAPP: "💬", VENTAS: "🤝", LEADS: "📇", CLIENTES: "🤝",
+  PRESUPUESTO: "💸", "NÚMEROS": "🧮", "MÉTRICAS": "📊", "MEDICIÓN": "📊", "DIAGNÓSTICO": "🩺", "OPTIMIZACIÓN": "🎛️", ESCALAR: "🚀",
+  TESTEO: "🧪", CREATIVOS: "🎨", GANCHOS: "🪝", COPY: "✍️", VIDEO: "🎬", REELS: "🎬", FORMATOS: "🖼️", OFERTA: "🎁",
+  "BLACK FRIDAY": "🛍️", SEGURIDAD: "🔐", CUENTA: "⚠️", "POLÍTICAS": "🚫", MITOS: "🙅", PRINCIPIANTES: "🐣", FREELANCERS: "💼",
+  AGENCIAS: "🕵️", COMPETENCIA: "🔍", HERRAMIENTAS: "🧰", RUBROS: "🏪", LOCAL: "📍", "E-COMMERCE": "🛒", WEB: "🌐",
+  PLAN: "🗓️", CHECKLIST: "✅", ESTRATEGIA: "♟️", EMBUDO: "🌡️", PERFIL: "👀", HISTORIAS: "📲", IDEAS: "💡", "PÍXEL": "🧩",
+  REMARKETING: "🔁", "SEGMENTACIÓN": "🎯", "PÚBLICOS": "👥", UGC: "🤳", GLOSARIO: "📖", ORDEN: "🗂️", EXPECTATIVAS: "⏳",
+  "AUTOMATIZACIÓN": "⚙️", CRECIMIENTO: "📈", COMUNIDAD: "💬", CONTENIDO: "🏆", UBICACIONES: "📲", SERVICIOS: "🩺",
+  "PRUEBA SOCIAL": "⭐", ESTRUCTURA: "🏗️", META: "🏢", RESUMEN: "🧲", "CONTENIDO ": "🏆",
+};
+const ACENTOS = ["#5B3A1E", "#FF4A1C", "#1F3BD6", "#0E7C4A", "#B4122B"];
+const acento = datos.acento || ACENTOS[numero % ACENTOS.length];
+const firma = () => `<div class="pop-firma"><span class="pop-logo">${iman}</span><b>${datos.usuario}</b><i>✓</i></div>`;
+function heroPop(emoji) {
+  const v = datos.hero || ["monitor", "cielo", "celular", "urgente", "stickers"][numero % 5];
+  if (v === "celular") return `<div class="hero hero-cel"><div class="cel"><span class="cel-barra"></span><div class="pantalla">${emoji}</div></div><span class="flota f1">✨</span><span class="flota f2">👆</span></div>`;
+  if (v === "stickers") return `<div class="hero hero-stk"><span class="stk s1">${emoji}</span><span class="stk s2">🧲</span><span class="stk s3">💰</span></div>`;
+  return `<div class="hero hero-mon"><div class="mon"><div class="pantalla">${emoji}</div></div><div class="mon-pie"></div><div class="teclado">${"<i></i>".repeat(30)}</div><span class="flota f1">💭</span></div>`;
+}
+// Línea punteada continua entre láminas: en cada lámina se ve un tramo y el imán avanza
+function caminoPop(i) {
+  const t = total > 1 ? i / (total - 1) : 0;
+  const fase = i * Math.PI, y = (x) => 110 + 60 * Math.sin((x / 1080) * Math.PI + fase);
+  let d = `M0 ${y(0).toFixed(1)}`;
+  for (let x = 30; x <= 1080; x += 30) d += ` L${x} ${y(x).toFixed(1)}`;
+  const px = 130 + t * 820;
+  return `<div class="camino"><svg viewBox="0 0 1080 220" preserveAspectRatio="none"><path d="${d}"/></svg><span class="viajero" style="left:${px}px; top:${y(px) - 62}px">${iman}</span></div>`;
+}
+function laminaPop(l, i) {
+  const piePop = `<footer class="pop-pie">${firma()}<span class="pop-flecha">${i < total - 1 ? "→" : ""}</span></footer>`;
+  if (l.tipo === "portada") {
+    const m = l.titulo.match(/^(.*?)<mark>(.*?)<\/mark>(.*)$/s) || [null, "", plano(l.titulo), ""];
+    const emoji = datos.emoji || EMOJI_POR_ETIQUETA[l.etiqueta] || "🧲";
+    if ((datos.hero || ["monitor", "cielo", "celular", "urgente", "stickers"][numero % 5]) === "urgente") {
+      return `<section class="lamina pop pop-urgente" id="l${i}" style="--acento:${acento}">
+        <div class="urg-fichas"><span class="ficha-xl x1">${emoji}</span><span class="ficha-xl x2">${iman}</span><span class="urg-nota">${l.etiqueta.toLowerCase()} ⤵</span></div>
+        <div class="urg-pildora">${l.etiqueta === "BLACK FRIDAY" ? "BLACK FRIDAY" : "IMPORTANTE"}</div>
+        <h1 class="urg-titulo">${l.titulo}</h1>
+        <p class="sub urg-sub">Desliza para conocer más →</p></section>`;
+    }
+    if ((datos.hero || ["monitor", "cielo", "celular", "urgente", "stickers"][numero % 5]) === "cielo") {
+      return `<section class="lamina pop pop-cielo" id="l${i}">
+        <span class="nube n1"></span><span class="nube n2"></span><span class="nube n3"></span>
+        <div class="cielo-texto"><div class="cielo-kicker">${l.etiqueta}</div>
+        <h1 class="cielo-titulo">${l.titulo}</h1><p class="sub cielo-sub">${l.subtitulo.replace(/^\(|\)$/g, "")}</p></div>
+        <div class="muro"><span class="sentado a">${emoji}</span><span class="sentado b">🧲</span></div>
+        <div class="cielo-pie"><span>IMAN ADS ACADEMY · ${datos.usuario}</span><span>01 / ${String(total).padStart(2, "0")}</span></div></section>`;
+    }
+    return `<section class="lamina pop pop-portada" id="l${i}" style="--acento:${acento}">
+      <div class="pop-arriba">${firma()}</div>
+      <h1 class="pop-titulo">${m[1] ? `<span>${m[1].trim()}</span>` : ""}<strong class="gigante">${m[2].trim()}</strong>${/[\p{L}\p{N}]/u.test(m[3]) ? `<span>${m[3].trim()}</span>` : ""}</h1>
+      ${heroPop(emoji)}
+      <p class="sub pop-bajada">${l.subtitulo.replace(/^\(|\)$/g, "").replace(/[.:…]+$/, "")}…</p></section>`;
+  }
+  if (l.tipo === "cta") {
+    return `<section class="lamina pop pop-cta" id="l${i}" style="--acento:${acento}">
+      <div class="contenido"><h2 class="pop-h2">${l.titulo}</h2>
+      <div class="pop-comenta">Comenta <strong>CLIENTES</strong> ⤵️</div>
+      <p class="cuerpo">y te envío el acceso a mi comunidad, donde te enseño paso a paso.</p>
+      <p class="pop-extra">${l.extra}</p></div>${piePop}</section>`;
+  }
+  const n = l.tipo === "punto" ? `<div class="pop-num">${parseInt(l.numero, 10)}</div>` : "";
+  const emoji = datos.emoji || EMOJI_POR_ETIQUETA[datos.laminas[0].etiqueta] || "🧲";
+  const clave = plano((l.cuerpo.match(/<b>(.*?)<\/b>/s) || [null, l.titulo])[1]).replace(/[.:]$/, "");
+  const FICHAS = ["✅", "💡", "🎯", "⚡", "📌", "🔥", "💬", "📈"];
+  const ventana = `<div class="ventana-zona"><div class="ventana ${i % 2 ? "izq" : "der"}">
+      <div class="ventana-barra"><i></i><i></i><i></i><span>${l.tipo === "punto" ? `${l.etiqueta || "Punto"} ${parseInt(l.numero, 10)} de ${puntos.length}` : "IMAN ADS ACADEMY"}</span></div>
+      <div class="ventana-cuerpo"><div class="ventana-clave">${clave}</div><div class="lineas"><i></i><i></i><i style="width:55%"></i></div></div></div>
+      <span class="ficha fa">${emoji}</span><span class="ficha fb">${FICHAS[(numero + i) % FICHAS.length]}</span></div>`;
+  return `<section class="lamina pop pop-${l.tipo}" id="l${i}" style="--acento:${acento}">
+    <div class="pop-arriba">${firma()}</div>
+    <div class="contenido">${n}<h2 class="pop-h2">${l.titulo}</h2><p class="cuerpo">${l.cuerpo}</p></div>
+    ${ventana}${caminoPop(i)}${piePop}</section>`;
+}
+
 function lamina(l, i) {
+  if (tema === "pop") return laminaPop(l, i);
   const clase = l.tipo === "cta" ? "lamina oscura" : "lamina";
   let cuerpo = "";
   if (l.tipo === "portada" && l.foto) {
@@ -161,7 +239,7 @@ function lamina(l, i) {
 
 const html = `<!doctype html><html lang="es"><head><meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Caveat:wght@500;700&family=Anton&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Caveat:wght@500;700&family=Anton&family=Inter+Tight:wght@500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${pathToFileURL(join(RAIZ, "plantilla", "estilos.css")).href}">
 </head><body class="tema-${tema} interior-${interior}">${datos.laminas.map(lamina).join("")}</body></html>`;
 
@@ -180,6 +258,13 @@ await pag.setViewport({ width: 1080, height: 1350, deviceScaleFactor: 1 });
 await pag.goto(pathToFileURL(htmlPath).href, { waitUntil: "networkidle0" });
 await pag.evaluate(() => document.fonts.ready);
 // Si un título largo no cabe, achica de a poco la letra de títulos y cuerpo (hasta un 65%)
+await pag.evaluate(() => {
+  for (const g of document.querySelectorAll(".gigante")) {
+    let px = 250; g.style.fontSize = px + "px";
+    while (g.scrollWidth > g.clientWidth && px > 110) g.style.fontSize = (px -= 6) + "px";
+    if (g.scrollWidth > g.clientWidth) g.style.whiteSpace = "normal";
+  }
+});
 const desbordes = await pag.evaluate(() =>
   [...document.querySelectorAll(".lamina")].map((s, i) => {
     const textos = [...s.querySelectorAll("h1, h2, .cuerpo, .sub")];

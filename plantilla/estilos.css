@@ -422,3 +422,134 @@ footer { display: flex; justify-content: space-between; align-items: center; fon
 .tema-tuit.interior-marca .t-punto .numero, .tema-nota.interior-marca .t-punto .numero { display: block; }
 .tema-tuit.interior-marca .t-punto .contenido, .tema-nota.interior-marca .t-punto .contenido { justify-content: center; }
 .tema-nota .lamina.oscura .cuerpo b { background: none; color: var(--rojo); }
+
+
+/* ================== ESTILO POP (principal) ================== */
+.lamina.pop {
+  background-color: #FBF6E9; color: #1A1A1A; padding: 70px 80px 64px; font-family: "Inter Tight", "Inter", sans-serif;
+  background-image: linear-gradient(rgba(26, 26, 26, .045) 2px, transparent 2px), linear-gradient(90deg, rgba(26, 26, 26, .045) 2px, transparent 2px);
+  background-size: 54px 54px;
+}
+.pop-firma { display: flex; align-items: center; gap: 12px; font: 700 28px "Inter Tight", sans-serif; }
+.pop-firma i { width: 30px; height: 30px; border-radius: 50%; background: #1D9BF0; color: #fff; font: 700 18px sans-serif; display: grid; place-items: center; }
+.pop-logo { width: 52px; height: 52px; border-radius: 50%; background: #1A1A1A; display: grid; place-items: center; }
+.pop-logo .iman { width: 30px; height: 30px; color: var(--rojo); } .pop-logo .iman rect { fill: #1A1A1A; }
+.pop-arriba { display: flex; justify-content: center; margin-bottom: 36px; }
+
+/* Portada */
+.pop-portada { align-items: center; text-align: center; }
+.pop-titulo { font: 800 70px/1.05 "Inter Tight", sans-serif; letter-spacing: -0.03em; width: 100%; display: flex; flex-direction: column; align-items: center; }
+.gigante { display: block; width: 100%; font: 400 250px/0.95 "Anton", sans-serif; letter-spacing: 0; text-transform: uppercase; color: var(--acento); white-space: nowrap; overflow: hidden; padding: 6px 0; }
+.hero { flex: 1; width: 100%; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 380px; }
+.pantalla { display: grid; place-items: center; font-size: 190px; line-height: 1; }
+.mon { width: 430px; height: 340px; background: #E9DFC8; border: 8px solid #1A1A1A; border-radius: 36px; padding: 30px; box-shadow: 14px 14px 0 var(--acento); }
+.mon .pantalla { width: 100%; height: 100%; background: #1A1A1A; border-radius: 20px; }
+.mon-pie { width: 150px; height: 26px; background: #1A1A1A; }
+.teclado { width: 520px; padding: 12px; background: #fff; border: 8px solid #1A1A1A; border-radius: 18px; display: grid; grid-template-columns: repeat(10, 1fr); gap: 8px; }
+.teclado i { height: 16px; background: #E9DFC8; border-radius: 4px; }
+.cel { width: 330px; height: 520px; background: #fff; border: 10px solid #1A1A1A; border-radius: 56px; padding: 22px; box-shadow: 14px 14px 0 var(--acento); transform: rotate(-5deg); display: flex; flex-direction: column; gap: 16px; }
+.cel-barra { width: 110px; height: 16px; border-radius: 10px; background: #1A1A1A; align-self: center; }
+.cel .pantalla { flex: 1; background: #F1EAD8; border-radius: 30px; }
+.flota { position: absolute; font-size: 110px; }
+.f1 { right: 110px; top: 10px; transform: rotate(12deg); } .f2 { left: 130px; bottom: 30px; transform: rotate(-14deg); }
+.stk { position: absolute; font-size: 250px; filter: drop-shadow(10px 10px 0 rgba(26, 26, 26, .12)); }
+.s1 { transform: rotate(-8deg); font-size: 300px; } .s2 { left: 90px; top: 20px; font-size: 150px; transform: rotate(-22deg); } .s3 { right: 90px; bottom: 10px; font-size: 160px; transform: rotate(16deg); }
+.pop-bajada { font: 800 50px/1.15 "Inter Tight", sans-serif; letter-spacing: -0.02em; color: #1A1A1A; margin: 20px 0 0; }
+
+/* Interiores */
+.pop .contenido { justify-content: flex-start; align-items: center; text-align: center; padding-top: 30px; }
+.pop-num { font: 800 64px "Inter Tight", sans-serif; color: var(--acento); margin-bottom: 10px; }
+.pop-h2 { font: 800 96px/1.02 "Inter Tight", sans-serif; letter-spacing: -0.035em; margin-bottom: 36px; }
+.pop-h2 mark { color: var(--acento); }
+.pop .cuerpo { font: 500 50px/1.3 "Inter Tight", sans-serif; max-width: 860px; }
+.pop .cuerpo b { font-weight: 800; background: linear-gradient(transparent 62%, color-mix(in srgb, var(--acento) 28%, transparent) 62%); }
+.camino { position: absolute; left: 0; right: 0; bottom: 190px; height: 220px; }
+.camino svg { width: 100%; height: 100%; } .camino path { fill: none; stroke: var(--acento); stroke-width: 6; stroke-dasharray: 4 20; stroke-linecap: round; }
+.viajero { position: absolute; width: 124px; height: 124px; margin-left: -62px; border-radius: 50%; background: #fff; border: 6px solid #1A1A1A; display: grid; place-items: center; box-shadow: 8px 8px 0 var(--acento); }
+.viajero .iman { width: 70px; height: 70px; color: var(--rojo); } .viajero .iman rect { fill: #fff; }
+.pop-pie { font: inherit; letter-spacing: 0; } .pop-flecha { font: 800 56px "Inter Tight", sans-serif; }
+
+/* Cierre */
+.lamina.pop.pop-cta { background-color: var(--acento); background-image: none; color: #fff; }
+.pop-cta .contenido { justify-content: center; padding-top: 0; }
+.pop-cta .pop-h2 mark { color: #FBF6E9; text-decoration: underline 8px; text-underline-offset: 12px; }
+.pop-comenta { background: #FBF6E9; color: #1A1A1A; font: 800 60px "Inter Tight", sans-serif; padding: 26px 46px; border-radius: 28px; box-shadow: 10px 10px 0 #1A1A1A; margin-bottom: 30px; transform: rotate(-2deg); }
+.pop-comenta strong { font: 400 76px "Anton", sans-serif; letter-spacing: .02em; color: var(--acento); }
+.pop-cta .cuerpo b { background: none; }
+.pop-extra { margin-top: 40px; font: 500 34px "Inter Tight", sans-serif; opacity: .85; }
+.pop-cta .pop-logo { background: #FBF6E9; } .pop-cta .pop-logo .iman rect { fill: #FBF6E9; }
+
+
+/* --- POP: ventana ilustrada en los interiores --- */
+.pop:not(.pop-portada) .pop-arriba { margin-bottom: 10px; }
+.pop .contenido { flex: none; padding-top: 16px; }
+.pop-num { width: 84px; height: 84px; border: 5px solid var(--acento); border-radius: 50%; display: grid; place-items: center; font: 800 44px "Inter Tight", sans-serif; margin-bottom: 22px; }
+.pop-h2 { font-size: 84px; margin-bottom: 26px; }
+.pop-punto .pop-h2 { color: var(--acento); }
+.pop .cuerpo { font-size: 44px; font-weight: 700; }
+.ventana-zona { flex: 1; position: relative; display: flex; align-items: center; justify-content: center; min-height: 330px; margin: 24px 0 150px; }
+.ventana { width: 780px; background: #fff; border-radius: 28px; overflow: hidden; box-shadow: 0 30px 70px rgba(26, 26, 26, .18), 0 0 0 3px rgba(26, 26, 26, .06); }
+.ventana.izq { transform: rotate(-1.5deg); } .ventana.der { transform: rotate(1.5deg); }
+.ventana-barra { display: flex; align-items: center; gap: 10px; padding: 18px 24px; background: #F1EFEA; font: 700 22px "Inter Tight", sans-serif; color: #8A8A8A; text-transform: uppercase; letter-spacing: .08em; }
+.ventana-barra i { width: 16px; height: 16px; border-radius: 50%; background: #FF5F57; } .ventana-barra i:nth-child(2) { background: #FEBC2E; } .ventana-barra i:nth-child(3) { background: #28C840; margin-right: 14px; }
+.ventana-cuerpo { padding: 36px 40px 40px; text-align: left; }
+.ventana-clave { font: 800 46px/1.15 "Inter Tight", sans-serif; letter-spacing: -0.02em; color: #1A1A1A; border-left: 10px solid var(--acento); padding-left: 24px; margin-bottom: 28px; }
+.lineas { display: flex; flex-direction: column; gap: 14px; } .lineas i { height: 16px; border-radius: 8px; background: #ECE9E2; width: 100%; } .lineas i:nth-child(2) { width: 82%; }
+.ficha { position: absolute; width: 170px; height: 170px; border-radius: 38px; display: grid; place-items: center; font-size: 96px; background: #fff; box-shadow: 0 18px 40px rgba(26, 26, 26, .22), inset 0 -10px 0 rgba(26, 26, 26, .06); }
+.fa { left: 30px; bottom: -40px; transform: rotate(-10deg); background: var(--acento); } .fb { right: 30px; top: -30px; transform: rotate(9deg); width: 140px; height: 140px; font-size: 78px; }
+.camino { bottom: 120px; height: 160px; opacity: .9; } .viajero { width: 96px; height: 96px; margin-left: -48px; margin-top: 20px; } .viajero .iman { width: 54px; height: 54px; }
+
+/* --- POP: portada urgente (oscura) --- */
+.lamina.pop.pop-urgente { background: radial-gradient(circle at 50% 28%, #3A3A3A 0%, #121212 62%); color: #fff; align-items: center; text-align: center; justify-content: flex-end; padding-bottom: 90px; }
+.urg-fichas { position: relative; flex: 1; width: 100%; }
+.ficha-xl { position: absolute; width: 330px; height: 330px; border-radius: 50%; display: grid; place-items: center; font-size: 190px; box-shadow: 0 30px 80px rgba(0, 0, 0, .6); }
+.x1 { left: 150px; top: 150px; background: #fff; } .x2 { left: 420px; top: 330px; background: var(--rojo); }
+.x2 .iman { width: 190px; height: 190px; color: #fff; } .x2 .iman rect { fill: var(--rojo); }
+.urg-nota { position: absolute; right: 90px; top: 120px; font: 700 60px "Caveat", cursive; transform: rotate(6deg); }
+.urg-pildora { background: #E11D2A; font: 800 40px "Inter Tight", sans-serif; letter-spacing: .04em; padding: 16px 60px; border-radius: 16px; margin-bottom: 34px; }
+.urg-titulo { font: 800 92px/1.08 "Inter Tight", sans-serif; letter-spacing: -0.03em; }
+.urg-titulo mark { color: #FFE500; background: none; }
+.urg-sub { color: rgba(255, 255, 255, .8); font: 500 34px "Inter Tight", sans-serif; margin-top: 40px; }
+/* POP: correcciones de posición */
+.camino svg { width: auto; height: auto; }
+.camino > svg { width: 100%; height: 100%; }
+.camino { bottom: 150px; height: 150px; }
+.viajero { margin-top: 34px; }
+.ventana-zona { margin: 24px 0 200px; }
+.pop-cta .contenido { flex: 1; }
+.urg-fichas { min-height: 520px; }
+.x1 { top: 70px; } .x2 { top: 220px; }
+.urg-nota { top: 60px; }
+
+
+/* POP: el imán del camino no hereda el punteado */
+.camino path { stroke: none; stroke-dasharray: none; }
+.camino > svg > path { fill: none; stroke: var(--acento); stroke-width: 6; stroke-dasharray: 4 20; stroke-linecap: round; }
+.camino { bottom: 170px; }
+
+/* --- POP: portada cielo (escena con objetos sentados en un muro) --- */
+.lamina.pop.pop-cielo { background: linear-gradient(#3F8FE0 0%, #8CC4F2 55%, #CFE8FA 100%); color: #fff; padding: 80px 80px 0; }
+.cielo-texto { position: relative; z-index: 2; }
+.cielo-kicker { font: 800 34px "Inter Tight", sans-serif; letter-spacing: .22em; margin-bottom: 18px; }
+.cielo-titulo { font: 800 118px/0.98 "Inter Tight", sans-serif; letter-spacing: -0.035em; color: #FFF3D6; }
+.cielo-titulo mark { font: italic 400 1.02em "DM Serif Display", serif; color: #FFF3D6; background: none; letter-spacing: -0.01em; }
+.cielo-sub { color: #fff; font: 700 44px "Inter Tight", sans-serif; margin-top: 22px; }
+.nube { position: absolute; background: #fff; border-radius: 200px; opacity: .92; filter: blur(2px); }
+.nube::before, .nube::after { content: ""; position: absolute; background: #fff; border-radius: 50%; }
+.n1 { width: 420px; height: 120px; left: -60px; top: 560px; } .n1::before { width: 190px; height: 190px; left: 70px; top: -90px; } .n1::after { width: 150px; height: 150px; left: 220px; top: -60px; }
+.n2 { width: 360px; height: 100px; right: -40px; top: 430px; opacity: .8; } .n2::before { width: 160px; height: 160px; left: 60px; top: -80px; } .n2::after { width: 120px; height: 120px; left: 190px; top: -50px; }
+.n3 { width: 300px; height: 90px; left: 380px; top: 760px; opacity: .7; } .n3::before { width: 130px; height: 130px; left: 50px; top: -60px; } .n3::after { width: 100px; height: 100px; left: 150px; top: -40px; }
+.muro { position: absolute; left: 0; right: 0; bottom: 0; height: 300px; background: linear-gradient(#D9A871, #C08F5B); box-shadow: inset 0 14px 0 rgba(255, 255, 255, .18); }
+.sentado { position: absolute; bottom: 230px; font-size: 330px; line-height: 1; filter: drop-shadow(0 26px 18px rgba(60, 30, 0, .35)); }
+.sentado.a { left: 150px; transform: rotate(-4deg); } .sentado.b { right: 150px; font-size: 290px; transform: rotate(8deg); }
+.cielo-pie { position: absolute; left: 80px; right: 80px; bottom: 44px; display: flex; justify-content: space-between; font: 700 24px "Inter Tight", sans-serif; letter-spacing: .16em; color: rgba(255, 255, 255, .9); text-transform: uppercase; }
+.viajero .iman path { fill: currentColor; }
+.camino { bottom: 210px; height: 130px; }
+.ventana-zona { margin-bottom: 250px; }
+.cielo-titulo { font-size: 96px; line-height: 1.02; text-shadow: 0 4px 24px rgba(20, 60, 120, .45); }
+.cielo-sub { text-shadow: 0 2px 14px rgba(20, 60, 120, .5); font-size: 40px; }
+.cielo-texto { min-height: 0; }
+.n1 { top: 720px; } .n2 { top: 640px; } .n3 { top: 860px; }
+.sentado { font-size: 290px; } .sentado.b { font-size: 250px; }
+.camino { bottom: 130px; height: 220px; }
+.viajero { margin-top: 14px; }

@@ -263,5 +263,75 @@
     "archivo": "055-intereses.json",
     "id": "17950022064074117",
     "fecha": "2026-11-10T23:01:01.548Z"
+  },
+  {
+    "archivo": "115-automatice-carruseles.json",
+    "id": "18201584515375679",
+    "fecha": "2026-11-11T23:20:20.863Z"
+  },
+  {
+    "archivo": "116-que-es-claude-code.json",
+    "id": "18383300620242023",
+    "fecha": "2026-11-14T01:15:43.369Z"
+  },
+  {
+    "archivo": "058-checklist-mensual.json",
+    "id": "18208981951374519",
+    "fecha": "2026-11-14T21:33:11.971Z"
+  },
+  {
+    "archivo": "060-historias-vender.json",
+    "id": "18122938760070987",
+    "fecha": "2026-11-14T23:00:51.745Z"
+  },
+  {
+    "archivo": "117-tareas-marketing-claude.json",
+    "id": "18156641929546662",
+    "fecha": "2026-11-15T20:50:22.557Z"
+  },
+  {
+    "archivo": "061-anuncios-reels.json",
+    "id": "17936998443142274",
+    "fecha": "2026-11-15T23:00:52.866Z"
+  },
+  {
+    "archivo": "045-preparar-black-friday.json",
+    "id": "17915488977557346",
+    "fecha": "2026-11-16T17:33:51.010Z"
+  },
+  {
+    "archivo": "062-cuantos-anuncios.json",
+    "id": "18053750576622978",
+    "fecha": "2026-11-17T02:12:17.381Z"
+  },
+  {
+    "archivo": "118-claude-md-marca.json",
+    "id": "18099934937645784",
+    "fecha": "2026-11-17T18:41:46.175Z"
+  },
+  {
+    "archivo": "063-estructura-simple.json",
+    "id": "18387614329239691",
+    "fecha": "2026-11-17T23:01:01.198Z"
+  },
+  {
+    "archivo": "064-cuenta-restringida.json",
+    "id": "17917319268518441",
+    "fecha": "2026-11-18T20:01:09.467Z"
+  },
+  {
+    "archivo": "119-prompts-claude-code.json",
+    "id": "18110744312263699",
+    "fecha": "2026-11-19T20:39:54.414Z"
+  },
+  {
+    "archivo": "065-proteger-cuenta.json",
+    "id": "18379419085245966",
+    "fecha": "2026-11-20T18:56:40.353Z"
+  },
+  {
+    "archivo": "066-portfolio-comercial.json",
+    "id": "18150382573577863",
+    "fecha": "2026-11-20T23:00:52.497Z"
   }
 ]
